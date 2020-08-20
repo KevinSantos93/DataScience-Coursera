@@ -14,19 +14,19 @@ The dataset examined has the following dimensions:
 
 # Codebook summary table
 
-|Label  | Variable                                                    |Class    |  # unique values | Missing | Description                                                                                                             
-|:-----:|:-----------------------------------------------------------_|:-------:|:----------------:|:-------:|:------------
-|       |**[subjects]**                                               |integer  |         30       |  0.00 % |               
-|       |**[Activity]**                                               |factor   |          6       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mean...X]**                         |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mean...Y]**                         |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mean...Z]**                         |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.std...X]**                          |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.std...Y]**                          |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.std...Z]**                          |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mad...X]**                          |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mad...Y]**                          |numeric  |        180       |  0.00 % |               
-|       |**[TimeBodyAccelerometer.mad...Z]**                          |numeric  |        180       |  0.00 % |               
+|Label  | Variable                                                     |Class    |  # unique values | Missing | Description                                                                                                             
+|:-----:|:-------------------------------------------------------------|:-------:|:----------------:|:-------:|:------------
+|       | **[subjects]**                                               |integer  |         30       |  0.00 % |               
+|       | **[Activity]**                                               |factor   |          6       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mean...X]**                         |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mean...Y]**                         |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mean...Z]**                         |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.std...X]**                          |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.std...Y]**                          |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.std...Z]**                          |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mad...X]**                          |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mad...Y]**                          |numeric  |        180       |  0.00 % |               
+|       | **[TimeBodyAccelerometer.mad...Z]**                          |numeric  |        180       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.max...X]**                          |numeric  |        180       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.max...Y]**                          |numeric  |        180       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.max...Z]**                          |numeric  |        180       |  0.00 % |               
