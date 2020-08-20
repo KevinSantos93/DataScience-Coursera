@@ -3,7 +3,7 @@ The dataset examined has the following dimensions:
 
 
 
-|Feature                |  Result |
+||Feature                |  Result |
 |:----------------------|:--------|
 |Number of observations |    180  |
 |Number of variables    |    563  |
@@ -618,205 +618,130 @@ The dataset examined has the following dimensions:
 
 ## TimeBodyAccelerometer.mean...Y
 
-----------------------------------------
-Feature                           Result
-------------------------- --------------
-Variable type                    numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
+|Number of missing obs.  |      0 (0 %)
+|Number of unique values |          180
+|Median                  |        -0.02
+|1st and 3rd quartiles   | -0.02; -0.01
+|Min. and max.           |     -0.04; 0
 
-Number of missing obs.           0 (0 %)
-
-Number of unique values              180
-
-Median                             -0.02
-
-1st and 3rd quartiles       -0.02; -0.01
-
-Min. and max.                   -0.04; 0
-
-----------------------------------------
 
 ## TimeBodyAccelerometer.mean...Z
-----------------------------------------
-Feature                           Result
-------------------------- --------------
-Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Feature                 |        Result
+|:-----------------------|:-------------
+||Variable type          |       numeric
+|Number of missing obs.  |       0 (0 %)
+|Number of unique values |           180
+|Median                  |         -0.11
+|1st and 3rd quartiles   |   -0.11; -0.1
+|Min. and max.           |  -0.15; -0.08
 
-Number of unique values              180
-
-Median                             -0.11
-
-1st and 3rd quartiles        -0.11; -0.1
-
-Min. and max.               -0.15; -0.08
-
-----------------------------------------
 
 ## TimeBodyAccelerometer.std...X
----------------------------------------
-Feature                          Result
-------------------------- -------------
-Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
-
-Number of unique values             180
-
-Median                            -0.75
-
-1st and 3rd quartiles       -0.98; -0.2
-
-Min. and max.                  -1; 0.63
-
----------------------------------------
+|Feature                          Result
+|------------------------- -------------
+||Variable type                   numeric
+|Number of missing obs.          0 (0 %)
+|Number of unique values             180
+|Median                            -0.75
+|1st and 3rd quartiles       -0.98; -0.2
+|Min. and max.                  -1; 0.63
 
 ## TimeBodyAccelerometer.std...Y
-----------------------------------------
-Feature                           Result
-------------------------- --------------
-Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
-
-Number of unique values              180
-
-Median                             -0.51
-
-1st and 3rd quartiles       -0.94; -0.03
-
-Min. and max.                -0.99; 0.62
-
-----------------------------------------
+|Feature                           Result
+|------------------------- --------------
+||Variable type                    numeric
+|Number of missing obs.           0 (0 %)
+|Number of unique values              180
+|Median                             -0.51
+|1st and 3rd quartiles       -0.94; -0.03
+|Min. and max.                -0.99; 0.62
 
 ## TimeBodyAccelerometer.std...Z
-----------------------------------------
-Feature                           Result
-------------------------- --------------
-Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
-
-Number of unique values              180
-
-Median                             -0.65
-
-1st and 3rd quartiles       -0.95; -0.23
-
-Min. and max.                -0.99; 0.61
-
-----------------------------------------
+|Feature                           Result
+|------------------------- --------------
+|Variable type                    numeric
+|Number of missing obs.           0 (0 %)
+|Number of unique values              180
+|Median                             -0.65
+|1st and 3rd quartiles       -0.95; -0.23
+|Min. and max.                -0.99; 0.61
 
 ## TimeBodyAccelerometer.mad...X
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.77
+|Median                             -0.77
 
-1st and 3rd quartiles       -0.98; -0.27
+|1st and 3rd quartiles       -0.98; -0.27
 
-Min. and max.                   -1; 0.61
+|Min. and max.                   -1; 0.61
 
-----------------------------------------
 
 ## TimeBodyAccelerometer.mad...Y
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.51
+|Median                             -0.51
 
-1st and 3rd quartiles       -0.94; -0.07
+|1st and 3rd quartiles       -0.94; -0.07
 
-Min. and max.                -0.99; 0.52
+|Min. and max.                -0.99; 0.52
 
 ----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-10-TimeBodyAccelerometer-mad---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-0L, 14L, 41L, 22L, 10L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometer.mad...Y")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeBodyAccelerometer.mad...Z
 
-\bminione
 
-----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.64
+|Median                             -0.64
 
-1st and 3rd quartiles       -0.95; -0.24
+|1st and 3rd quartiles       -0.95; -0.24
 
-Min. and max.                -0.99; 0.54
-----------------------------------------
+|Min. and max.                -0.99; 0.54
 
-
-\emini
-\bminitwo
-```{r 'Var-11-TimeBodyAccelerometer-mad---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-15L, 43L, 20L, 10L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometer.mad...Z")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeBodyAccelerometer.max...X
 
-\bminione
-
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.69
+|Median                            -0.69
 
-1st and 3rd quartiles       -0.92; 0.03
+|1st and 3rd quartiles       -0.92; 0.03
 
-Min. and max.               -0.94; 0.68
+|Min. and max.               -0.94; 0.68
 ---------------------------------------
 
 
@@ -842,19 +767,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.33
+|Median                             -0.33
 
-1st and 3rd quartiles       -0.54; -0.05
+|1st and 3rd quartiles       -0.54; -0.05
 
-Min. and max.                -0.57; 0.27
+|Min. and max.                -0.57; 0.27
 ----------------------------------------
 
 
@@ -880,19 +805,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.59
+|Median                             -0.59
 
-1st and 3rd quartiles       -0.79; -0.34
+|1st and 3rd quartiles       -0.79; -0.34
 
-Min. and max.                -0.82; 0.31
+|Min. and max.                -0.82; 0.31
 ----------------------------------------
 
 
@@ -919,19 +844,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.6
+|Median                              0.6
 
-1st and 3rd quartiles        0.16; 0.83
+|1st and 3rd quartiles        0.16; 0.83
 
-Min. and max.               -0.31; 0.85
+|Min. and max.               -0.31; 0.85
 ---------------------------------------
 
 
@@ -958,19 +883,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.44
+|Median                             0.44
 
-1st and 3rd quartiles        0.07; 0.67
+|1st and 3rd quartiles        0.07; 0.67
 
-Min. and max.               -0.45; 0.69
+|Min. and max.               -0.45; 0.69
 ---------------------------------------
 
 
@@ -997,19 +922,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.7
+|Median                              0.7
 
-1st and 3rd quartiles        0.35; 0.82
+|1st and 3rd quartiles        0.35; 0.82
 
-Min. and max.               -0.28; 0.84
+|Min. and max.               -0.28; 0.84
 ---------------------------------------
 
 
@@ -1036,19 +961,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.49
+|Median                             -0.49
 
-1st and 3rd quartiles       -0.96; -0.09
+|1st and 3rd quartiles       -0.96; -0.09
 
-Min. and max.                 -0.99; 0.6
+|Min. and max.                 -0.99; 0.6
 ----------------------------------------
 
 
@@ -1074,19 +999,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.94
+|Median                          -0.94
 
-1st and 3rd quartiles       -1; -0.67
+|1st and 3rd quartiles       -1; -0.67
 
-Min. and max.                -1; 0.34
+|Min. and max.                -1; 0.34
 -------------------------------------
 
 
@@ -1112,19 +1037,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.91
+|Median                          -0.91
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.49
+|Min. and max.               -1; -0.49
 -------------------------------------
 
 
@@ -1151,19 +1076,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.99; -0.73
+|1st and 3rd quartiles       -0.99; -0.73
 
-Min. and max.                   -1; 0.16
+|Min. and max.                   -1; 0.16
 ----------------------------------------
 
 
@@ -1190,19 +1115,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.99; -0.35
+|1st and 3rd quartiles       -0.99; -0.35
 
-Min. and max.                   -1; 0.56
+|Min. and max.                   -1; 0.56
 ----------------------------------------
 
 
@@ -1228,19 +1153,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.63
+|Median                             -0.63
 
-1st and 3rd quartiles       -0.95; -0.29
+|1st and 3rd quartiles       -0.95; -0.29
 
-Min. and max.                -0.99; 0.18
+|Min. and max.                -0.99; 0.18
 ----------------------------------------
 
 
@@ -1267,19 +1192,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.63
+|Median                            -0.63
 
-1st and 3rd quartiles       -0.95; -0.3
+|1st and 3rd quartiles       -0.95; -0.3
 
-Min. and max.               -0.99; 0.33
+|Min. and max.               -0.99; 0.33
 ---------------------------------------
 
 
@@ -1305,19 +1230,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.06
+|Median                            -0.06
 
-1st and 3rd quartiles       -0.46; 0.34
+|1st and 3rd quartiles       -0.46; 0.34
 
-Min. and max.               -0.69; 0.62
+|Min. and max.               -0.69; 0.62
 ---------------------------------------
 
 
@@ -1343,19 +1268,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.47; 0.29
+|1st and 3rd quartiles       -0.47; 0.29
 
-Min. and max.               -0.69; 0.48
+|Min. and max.               -0.69; 0.48
 ---------------------------------------
 
 
@@ -1382,19 +1307,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.16
+|Median                            -0.16
 
-1st and 3rd quartiles       -0.43; 0.17
+|1st and 3rd quartiles       -0.43; 0.17
 
-Min. and max.               -0.59; 0.46
+|Min. and max.               -0.59; 0.46
 ---------------------------------------
 
 
@@ -1421,19 +1346,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.21
+|Median                            -0.21
 
-1st and 3rd quartiles       -0.37; 0.09
+|1st and 3rd quartiles       -0.37; 0.09
 
-Min. and max.               -0.52; 0.32
+|Min. and max.               -0.52; 0.32
 ---------------------------------------
 
 
@@ -1459,19 +1384,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.11
+|Median                             0.11
 
-1st and 3rd quartiles       -0.03; 0.28
+|1st and 3rd quartiles       -0.03; 0.28
 
-Min. and max.               -0.15; 0.44
+|Min. and max.               -0.15; 0.44
 ---------------------------------------
 
 
@@ -1498,19 +1423,19 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.02
+|Median                            -0.02
 
-1st and 3rd quartiles       -0.15; 0.06
+|1st and 3rd quartiles       -0.15; 0.06
 
-Min. and max.               -0.46; 0.17
+|Min. and max.               -0.46; 0.17
 ---------------------------------------
 
 
@@ -1538,19 +1463,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.11
+|Median                             0.11
 
-1st and 3rd quartiles        0.05; 0.21
+|1st and 3rd quartiles        0.05; 0.21
 
-Min. and max.               -0.16; 0.64
+|Min. and max.               -0.16; 0.64
 ---------------------------------------
 
 
@@ -1576,19 +1501,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.04
+|Median                            -0.04
 
-1st and 3rd quartiles        -0.2; 0.12
+|1st and 3rd quartiles        -0.2; 0.12
 
-Min. and max.               -0.36; 0.36
+|Min. and max.               -0.36; 0.36
 ---------------------------------------
 
 
@@ -1614,19 +1539,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.04
+|Median                             0.04
 
-1st and 3rd quartiles       -0.08; 0.16
+|1st and 3rd quartiles       -0.08; 0.16
 
-Min. and max.               -0.18; 0.33
+|Min. and max.               -0.18; 0.33
 ---------------------------------------
 
 
@@ -1653,19 +1578,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.09; 0.21
+|1st and 3rd quartiles        0.09; 0.21
 
-Min. and max.               -0.13; 0.34
+|Min. and max.               -0.13; 0.34
 ---------------------------------------
 
 
@@ -1691,19 +1616,19 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.01
+|Median                            -0.01
 
-1st and 3rd quartiles       -0.08; 0.05
+|1st and 3rd quartiles       -0.08; 0.05
 
-Min. and max.                -0.27; 0.3
+|Min. and max.                -0.27; 0.3
 ---------------------------------------
 
 
@@ -1730,19 +1655,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.03
+|Median                             0.03
 
-1st and 3rd quartiles       -0.18; 0.16
+|1st and 3rd quartiles       -0.18; 0.16
 
-Min. and max.               -0.47; 0.36
+|Min. and max.               -0.47; 0.36
 ---------------------------------------
 
 
@@ -1768,19 +1693,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.08; 0.16
+|1st and 3rd quartiles       -0.08; 0.16
 
-Min. and max.               -0.16; 0.36
+|Min. and max.               -0.16; 0.36
 ---------------------------------------
 
 
@@ -1807,19 +1732,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.05
+|Median                             0.05
 
-1st and 3rd quartiles        -0.05; 0.1
+|1st and 3rd quartiles        -0.05; 0.1
 
-Min. and max.               -0.26; 0.21
+|Min. and max.               -0.26; 0.21
 ---------------------------------------
 
 
@@ -1846,19 +1771,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.25, -0.2, -0.15,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.08
+|Median                             -0.08
 
-1st and 3rd quartiles       -0.16; -0.01
+|1st and 3rd quartiles       -0.16; -0.01
 
-Min. and max.                -0.31; 0.29
+|Min. and max.                -0.31; 0.29
 ----------------------------------------
 
 
@@ -1885,19 +1810,19 @@ ggAggHist(data = structure(list(xmin = c(-0.35, -0.3, -0.25,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.14
+|Median                            -0.14
 
-1st and 3rd quartiles       -0.31; 0.01
+|1st and 3rd quartiles       -0.31; 0.01
 
-Min. and max.               -0.74; 0.56
+|Min. and max.               -0.74; 0.56
 ---------------------------------------
 
 
@@ -1922,19 +1847,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.2
+|Median                              -0.2
 
-1st and 3rd quartiles       -0.33; -0.05
+|1st and 3rd quartiles       -0.33; -0.05
 
-Min. and max.                -0.77; 0.39
+|Min. and max.                -0.77; 0.39
 ----------------------------------------
 
 
@@ -1961,19 +1886,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.15
+|Median                             0.15
 
-1st and 3rd quartiles       -0.04; 0.29
+|1st and 3rd quartiles       -0.04; 0.29
 
-Min. and max.                -0.63; 0.6
+|Min. and max.                -0.63; 0.6
 ---------------------------------------
 
 
@@ -2000,19 +1925,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.92
+|Median                             0.92
 
-1st and 3rd quartiles        0.84; 0.94
+|1st and 3rd quartiles        0.84; 0.94
 
-Min. and max.               -0.68; 0.97
+|Min. and max.               -0.68; 0.97
 ---------------------------------------
 
 
@@ -2038,19 +1963,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.13
+|Median                            -0.13
 
-1st and 3rd quartiles       -0.23; 0.09
+|1st and 3rd quartiles       -0.23; 0.09
 
-Min. and max.               -0.48; 0.96
+|Min. and max.               -0.48; 0.96
 ---------------------------------------
 
 
@@ -2076,19 +2001,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.12; 0.15
+|1st and 3rd quartiles       -0.12; 0.15
 
-Min. and max.                -0.5; 0.96
+|Min. and max.                -0.5; 0.96
 ---------------------------------------
 
 
@@ -2114,19 +2039,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.97
+|Median                             -0.97
 
-1st and 3rd quartiles       -0.98; -0.95
+|1st and 3rd quartiles       -0.98; -0.95
 
-Min. and max.                  -1; -0.83
+|Min. and max.                  -1; -0.83
 ----------------------------------------
 
 
@@ -2152,19 +2077,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.96
+|Median                             -0.96
 
-1st and 3rd quartiles       -0.97; -0.94
+|1st and 3rd quartiles       -0.97; -0.94
 
-Min. and max.               -0.99; -0.64
+|Min. and max.               -0.99; -0.64
 ----------------------------------------
 
 
@@ -2190,19 +2115,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.95
+|Median                             -0.95
 
-1st and 3rd quartiles       -0.96; -0.92
+|1st and 3rd quartiles       -0.96; -0.92
 
-Min. and max.               -0.99; -0.61
+|Min. and max.               -0.99; -0.61
 ----------------------------------------
 
 
@@ -2228,19 +2153,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.97
+|Median                             -0.97
 
-1st and 3rd quartiles       -0.98; -0.95
+|1st and 3rd quartiles       -0.98; -0.95
 
-Min. and max.                  -1; -0.83
+|Min. and max.                  -1; -0.83
 ----------------------------------------
 
 
@@ -2266,19 +2191,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.96
+|Median                             -0.96
 
-1st and 3rd quartiles       -0.97; -0.94
+|1st and 3rd quartiles       -0.97; -0.94
 
-Min. and max.               -0.99; -0.65
+|Min. and max.               -0.99; -0.65
 ----------------------------------------
 
 
@@ -2304,19 +2229,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.95
+|Median                             -0.95
 
-1st and 3rd quartiles       -0.96; -0.92
+|1st and 3rd quartiles       -0.96; -0.92
 
-Min. and max.               -0.99; -0.62
+|Min. and max.               -0.99; -0.62
 ----------------------------------------
 
 
@@ -2342,19 +2267,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.86
+|Median                             0.86
 
-1st and 3rd quartiles        0.77; 0.88
+|1st and 3rd quartiles        0.77; 0.88
 
-Min. and max.               -0.73; 0.91
+|Min. and max.               -0.73; 0.91
 ---------------------------------------
 
 
@@ -2380,19 +2305,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.14
+|Median                            -0.14
 
-1st and 3rd quartiles       -0.24; 0.07
+|1st and 3rd quartiles       -0.24; 0.07
 
-Min. and max.               -0.47; 0.91
+|Min. and max.               -0.47; 0.91
 ---------------------------------------
 
 
@@ -2418,19 +2343,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.03
+|Median                             0.03
 
-1st and 3rd quartiles       -0.11; 0.16
+|1st and 3rd quartiles       -0.11; 0.16
 
-Min. and max.               -0.47; 0.95
+|Min. and max.               -0.47; 0.95
 ---------------------------------------
 
 
@@ -2456,19 +2381,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.93
+|Median                             0.93
 
-1st and 3rd quartiles        0.84; 0.95
+|1st and 3rd quartiles        0.84; 0.95
 
-Min. and max.               -0.64; 0.99
+|Min. and max.               -0.64; 0.99
 ---------------------------------------
 
 
@@ -2494,19 +2419,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.12
+|Median                            -0.12
 
-1st and 3rd quartiles        -0.22; 0.1
+|1st and 3rd quartiles        -0.22; 0.1
 
-Min. and max.               -0.47; 0.96
+|Min. and max.               -0.47; 0.96
 ---------------------------------------
 
 
@@ -2532,19 +2457,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.13; 0.14
+|1st and 3rd quartiles       -0.13; 0.14
 
-Min. and max.               -0.52; 0.95
+|Min. and max.               -0.52; 0.95
 ---------------------------------------
 
 
@@ -2570,19 +2495,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.17
+|Median                            -0.17
 
-1st and 3rd quartiles       -0.34; 0.15
+|1st and 3rd quartiles       -0.34; 0.15
 
-Min. and max.               -0.81; 0.63
+|Min. and max.               -0.81; 0.63
 ---------------------------------------
 
 
@@ -2608,19 +2533,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.79
+|Median                            0.79
 
-1st and 3rd quartiles       0.59; 0.85
+|1st and 3rd quartiles       0.59; 0.85
 
-Min. and max.                 -1; 0.93
+|Min. and max.                 -1; 0.93
 --------------------------------------
 
 
@@ -2646,19 +2571,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.96; -0.79
+|1st and 3rd quartiles       -0.96; -0.79
 
-Min. and max.                   -1; 0.84
+|Min. and max.                   -1; 0.84
 ----------------------------------------
 
 
@@ -2684,19 +2609,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.94
+|Median                             -0.94
 
-1st and 3rd quartiles       -0.98; -0.83
+|1st and 3rd quartiles       -0.98; -0.83
 
-Min. and max.                   -1; 0.79
+|Min. and max.                   -1; 0.79
 ----------------------------------------
 
 
@@ -2722,19 +2647,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.97
+|Median                             -0.97
 
-1st and 3rd quartiles       -0.98; -0.96
+|1st and 3rd quartiles       -0.98; -0.96
 
-Min. and max.                  -1; -0.84
+|Min. and max.                  -1; -0.84
 ----------------------------------------
 
 
@@ -2760,19 +2685,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.96
+|Median                             -0.96
 
-1st and 3rd quartiles       -0.97; -0.94
+|1st and 3rd quartiles       -0.97; -0.94
 
-Min. and max.               -0.99; -0.67
+|Min. and max.               -0.99; -0.67
 ----------------------------------------
 
 
@@ -2798,19 +2723,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.95
+|Median                             -0.95
 
-1st and 3rd quartiles       -0.96; -0.92
+|1st and 3rd quartiles       -0.96; -0.92
 
-Min. and max.               -0.99; -0.64
+|Min. and max.               -0.99; -0.64
 ----------------------------------------
 
 
@@ -2836,19 +2761,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              173
+|Number of unique values              173
 
-Median                              -0.7
+|Median                              -0.7
 
-1st and 3rd quartiles       -0.88; -0.44
+|1st and 3rd quartiles       -0.88; -0.44
 
-Min. and max.                  -1; -0.02
+|Min. and max.                  -1; -0.02
 ----------------------------------------
 
 
@@ -2875,19 +2800,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values            85
+|Number of unique values            85
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.74
+|1st and 3rd quartiles       -1; -0.74
 
-Min. and max.               -1; -0.18
+|Min. and max.               -1; -0.18
 -------------------------------------
 
 
@@ -2913,19 +2838,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             148
+|Number of unique values             148
 
-Median                            -0.69
+|Median                            -0.69
 
-1st and 3rd quartiles       -0.9; -0.52
+|1st and 3rd quartiles       -0.9; -0.52
 
-Min. and max.                  -1; 0.06
+|Min. and max.                  -1; 0.06
 ---------------------------------------
 
 
@@ -2952,19 +2877,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.51
+|Median                             -0.51
 
-1st and 3rd quartiles       -0.62; -0.41
+|1st and 3rd quartiles       -0.62; -0.41
 
-Min. and max.               -0.79; -0.23
+|Min. and max.               -0.79; -0.23
 ----------------------------------------
 
 
@@ -2991,19 +2916,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.75, -0.7, -0.65,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.56
+|Median                            0.56
 
-1st and 3rd quartiles       0.45; 0.66
+|1st and 3rd quartiles       0.45; 0.66
 
-Min. and max.               0.27; 0.81
+|Min. and max.               0.27; 0.81
 --------------------------------------
 
 
@@ -3030,19 +2955,19 @@ ggAggHist(data = structure(list(xmin = c(0.25, 0.3, 0.35, 0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.6
+|Median                              -0.6
 
-1st and 3rd quartiles       -0.71; -0.48
+|1st and 3rd quartiles       -0.71; -0.48
 
-Min. and max.               -0.84; -0.31
+|Min. and max.               -0.84; -0.31
 ----------------------------------------
 
 
@@ -3069,19 +2994,19 @@ ggAggHist(data = structure(list(xmin = c(-0.85, -0.8, -0.75,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.63
+|Median                            0.63
 
-1st and 3rd quartiles       0.51; 0.75
+|1st and 3rd quartiles       0.51; 0.75
 
-Min. and max.               0.34; 0.91
+|Min. and max.               0.34; 0.91
 --------------------------------------
 
 
@@ -3108,19 +3033,19 @@ ggAggHist(data = structure(list(xmin = c(0.3, 0.35, 0.4, 0.45,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.38
+|Median                             -0.38
 
-1st and 3rd quartiles       -0.48; -0.21
+|1st and 3rd quartiles       -0.48; -0.21
 
-Min. and max.                -0.69; 0.16
+|Min. and max.                -0.69; 0.16
 ----------------------------------------
 
 
@@ -3146,19 +3071,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.35
+|Median                             0.35
 
-1st and 3rd quartiles        0.21; 0.47
+|1st and 3rd quartiles        0.21; 0.47
 
-Min. and max.               -0.19; 0.69
+|Min. and max.               -0.19; 0.69
 ---------------------------------------
 
 
@@ -3184,19 +3109,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.38
+|Median                             -0.38
 
-1st and 3rd quartiles       -0.48; -0.26
+|1st and 3rd quartiles       -0.48; -0.26
 
-Min. and max.                -0.71; 0.14
+|Min. and max.                -0.71; 0.14
 ----------------------------------------
 
 
@@ -3222,19 +3147,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.44
+|Median                             0.44
 
-1st and 3rd quartiles        0.33; 0.52
+|1st and 3rd quartiles        0.33; 0.52
 
-Min. and max.               -0.07; 0.74
+|Min. and max.               -0.07; 0.74
 ---------------------------------------
 
 
@@ -3260,19 +3185,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.44
+|Median                             -0.44
 
-1st and 3rd quartiles       -0.54; -0.29
+|1st and 3rd quartiles       -0.54; -0.29
 
-Min. and max.                 -0.8; 0.01
+|Min. and max.                 -0.8; 0.01
 ----------------------------------------
 
 
@@ -3298,19 +3223,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.46
+|Median                            0.46
 
-1st and 3rd quartiles       0.35; 0.56
+|1st and 3rd quartiles       0.35; 0.56
 
-Min. and max.               0.01; 0.81
+|Min. and max.               0.01; 0.81
 --------------------------------------
 
 
@@ -3336,19 +3261,19 @@ ggAggHist(data = structure(list(xmin = c(0, 0.1, 0.2, 0.3, 0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.48
+|Median                             -0.48
 
-1st and 3rd quartiles       -0.58; -0.37
+|1st and 3rd quartiles       -0.58; -0.37
 
-Min. and max.               -0.83; -0.03
+|Min. and max.               -0.83; -0.03
 ----------------------------------------
 
 
@@ -3374,19 +3299,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                             0.5
+|Median                             0.5
 
-1st and 3rd quartiles        0.4; 0.59
+|1st and 3rd quartiles        0.4; 0.59
 
-Min. and max.               0.04; 0.84
+|Min. and max.               0.04; 0.84
 --------------------------------------
 
 
@@ -3412,19 +3337,19 @@ ggAggHist(data = structure(list(xmin = c(0, 0.1, 0.2, 0.3, 0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.22
+|Median                             0.22
 
-1st and 3rd quartiles       -0.08; 0.45
+|1st and 3rd quartiles       -0.08; 0.45
 
-Min. and max.                -0.76; 0.8
+|Min. and max.                -0.76; 0.8
 ---------------------------------------
 
 
@@ -3450,19 +3375,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.37; 0.17
+|1st and 3rd quartiles       -0.37; 0.17
 
-Min. and max.                -0.94; 0.9
+|Min. and max.                -0.94; 0.9
 ---------------------------------------
 
 
@@ -3488,19 +3413,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.13
+|Median                             0.13
 
-1st and 3rd quartiles       -0.07; 0.36
+|1st and 3rd quartiles       -0.07; 0.36
 
-Min. and max.               -0.93; 0.73
+|Min. and max.               -0.93; 0.73
 ---------------------------------------
 
 
@@ -3526,19 +3451,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.08
+|Median                            0.08
 
-1st and 3rd quartiles       0.07; 0.08
+|1st and 3rd quartiles       0.07; 0.08
 
-Min. and max.               0.04; 0.13
+|Min. and max.               0.04; 0.13
 --------------------------------------
 
 
@@ -3564,19 +3489,19 @@ ggAggHist(data = structure(list(xmin = c(0.04, 0.05, 0.06, 0.07,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles           0; 0.01
+|1st and 3rd quartiles           0; 0.01
 
-Min. and max.               -0.04; 0.06
+|Min. and max.               -0.04; 0.06
 ---------------------------------------
 
 
@@ -3603,19 +3528,19 @@ ggAggHist(data = structure(list(xmin = c(-0.04, -0.03, -0.02,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles          -0.01; 0
+|1st and 3rd quartiles          -0.01; 0
 
-Min. and max.               -0.07; 0.04
+|Min. and max.               -0.07; 0.04
 ---------------------------------------
 
 
@@ -3642,19 +3567,19 @@ ggAggHist(data = structure(list(xmin = c(-0.07, -0.06, -0.05,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.98; -0.22
+|1st and 3rd quartiles       -0.98; -0.22
 
-Min. and max.                -0.99; 0.54
+|Min. and max.                -0.99; 0.54
 ----------------------------------------
 
 
@@ -3680,19 +3605,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.78
+|Median                             -0.78
 
-1st and 3rd quartiles       -0.97; -0.15
+|1st and 3rd quartiles       -0.97; -0.15
 
-Min. and max.                -0.99; 0.36
+|Min. and max.                -0.99; 0.36
 ----------------------------------------
 
 
@@ -3718,19 +3643,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.51
+|1st and 3rd quartiles       -0.98; -0.51
 
-Min. and max.                -0.99; 0.03
+|Min. and max.                -0.99; 0.03
 ----------------------------------------
 
 
@@ -3757,19 +3682,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.81
+|Median                            -0.81
 
-1st and 3rd quartiles       -0.98; -0.2
+|1st and 3rd quartiles       -0.98; -0.2
 
-Min. and max.                  -1; 0.55
+|Min. and max.                  -1; 0.55
 ---------------------------------------
 
 
@@ -3795,19 +3720,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.76
+|Median                             -0.76
 
-1st and 3rd quartiles       -0.97; -0.12
+|1st and 3rd quartiles       -0.97; -0.12
 
-Min. and max.                -0.99; 0.47
+|Min. and max.                -0.99; 0.47
 ----------------------------------------
 
 
@@ -3833,19 +3758,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.51
+|1st and 3rd quartiles       -0.98; -0.51
 
-Min. and max.                -0.99; 0.04
+|Min. and max.                -0.99; 0.04
 ----------------------------------------
 
 
@@ -3872,19 +3797,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.82
+|Median                            -0.82
 
-1st and 3rd quartiles       -0.98; -0.4
+|1st and 3rd quartiles       -0.98; -0.4
 
-Min. and max.               -0.99; 0.38
+|Min. and max.               -0.99; 0.38
 ---------------------------------------
 
 
@@ -3910,19 +3835,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.47
+|1st and 3rd quartiles       -0.98; -0.47
 
-Min. and max.                -0.99; 0.01
+|Min. and max.                -0.99; 0.01
 ----------------------------------------
 
 
@@ -3949,19 +3874,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.98; -0.64
+|1st and 3rd quartiles       -0.98; -0.64
 
-Min. and max.               -0.99; -0.09
+|Min. and max.               -0.99; -0.09
 ----------------------------------------
 
 
@@ -3988,19 +3913,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.79
+|Median                             0.79
 
-1st and 3rd quartiles        0.17; 0.98
+|1st and 3rd quartiles        0.17; 0.98
 
-Min. and max.               -0.42; 0.99
+|Min. and max.               -0.42; 0.99
 ---------------------------------------
 
 
@@ -4026,19 +3951,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.83
+|Median                             0.83
 
-1st and 3rd quartiles        0.34; 0.98
+|1st and 3rd quartiles        0.34; 0.98
 
-Min. and max.               -0.23; 0.99
+|Min. and max.               -0.23; 0.99
 ---------------------------------------
 
 
@@ -4065,19 +3990,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.85
+|Median                             0.85
 
-1st and 3rd quartiles        0.45; 0.98
+|1st and 3rd quartiles        0.45; 0.98
 
-Min. and max.               -0.09; 0.99
+|Min. and max.               -0.09; 0.99
 ---------------------------------------
 
 
@@ -4103,19 +4028,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                -0.99; 0.44
+|Min. and max.                -0.99; 0.44
 ----------------------------------------
 
 
@@ -4141,19 +4066,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.69
+|1st and 3rd quartiles       -1; -0.69
 
-Min. and max.                -1; 0.21
+|Min. and max.                -1; 0.21
 -------------------------------------
 
 
@@ -4180,19 +4105,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.62
+|1st and 3rd quartiles       -1; -0.62
 
-Min. and max.               -1; -0.06
+|Min. and max.               -1; -0.06
 -------------------------------------
 
 
@@ -4219,19 +4144,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.87
+|1st and 3rd quartiles       -1; -0.87
 
-Min. and max.               -1; -0.43
+|Min. and max.               -1; -0.43
 -------------------------------------
 
 
@@ -4258,19 +4183,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.21
+|1st and 3rd quartiles       -0.98; -0.21
 
-Min. and max.                -0.99; 0.53
+|Min. and max.                -0.99; 0.53
 ----------------------------------------
 
 
@@ -4296,19 +4221,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.29
+|1st and 3rd quartiles       -0.98; -0.29
 
-Min. and max.                -0.99; 0.33
+|Min. and max.                -0.99; 0.33
 ----------------------------------------
 
 
@@ -4334,19 +4259,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.54
+|1st and 3rd quartiles       -0.98; -0.54
 
-Min. and max.                -0.99; 0.02
+|Min. and max.                -0.99; 0.02
 ----------------------------------------
 
 
@@ -4373,19 +4298,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                           -0.03
+|Median                           -0.03
 
-1st and 3rd quartiles       -0.66; 0.6
+|1st and 3rd quartiles       -0.66; 0.6
 
-Min. and max.               -0.84; 0.8
+|Min. and max.               -0.84; 0.8
 --------------------------------------
 
 
@@ -4411,19 +4336,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.66; 0.59
+|1st and 3rd quartiles       -0.66; 0.59
 
-Min. and max.               -0.82; 0.76
+|Min. and max.               -0.82; 0.76
 ---------------------------------------
 
 
@@ -4449,19 +4374,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.14
+|Median                            -0.14
 
-1st and 3rd quartiles       -0.67; 0.51
+|1st and 3rd quartiles       -0.67; 0.51
 
-Min. and max.               -0.79; 0.84
+|Min. and max.               -0.79; 0.84
 ---------------------------------------
 
 
@@ -4487,19 +4412,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.15
+|Median                            -0.15
 
-1st and 3rd quartiles       -0.37; 0.11
+|1st and 3rd quartiles       -0.37; 0.11
 
-Min. and max.               -0.51; 0.27
+|Min. and max.               -0.51; 0.27
 ---------------------------------------
 
 
@@ -4525,19 +4450,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.12; 0.22
+|1st and 3rd quartiles        0.12; 0.22
 
-Min. and max.               -0.02; 0.37
+|Min. and max.               -0.02; 0.37
 ---------------------------------------
 
 
@@ -4563,19 +4488,19 @@ ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.05
+|Median                             0.05
 
-1st and 3rd quartiles       -0.06; 0.18
+|1st and 3rd quartiles       -0.06; 0.18
 
-Min. and max.                -0.31; 0.3
+|Min. and max.                -0.31; 0.3
 ---------------------------------------
 
 
@@ -4603,19 +4528,19 @@ ggAggHist(data = structure(list(xmin = c(-0.35, -0.3, -0.25,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.14
+|Median                            0.14
 
-1st and 3rd quartiles       0.03; 0.22
+|1st and 3rd quartiles       0.03; 0.22
 
-Min. and max.               -0.23; 0.3
+|Min. and max.               -0.23; 0.3
 --------------------------------------
 
 
@@ -4642,19 +4567,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.1
+|Median                             -0.1
 
-1st and 3rd quartiles       -0.26; 0.09
+|1st and 3rd quartiles       -0.26; 0.09
 
-Min. and max.               -0.41; 0.28
+|Min. and max.               -0.41; 0.28
 ---------------------------------------
 
 
@@ -4680,19 +4605,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.06
+|Median                             0.06
 
-1st and 3rd quartiles        0.01; 0.15
+|1st and 3rd quartiles        0.01; 0.15
 
-Min. and max.               -0.19; 0.43
+|Min. and max.               -0.19; 0.43
 ---------------------------------------
 
 
@@ -4719,19 +4644,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles         0.1; 0.23
+|1st and 3rd quartiles         0.1; 0.23
 
-Min. and max.               -0.07; 0.45
+|Min. and max.               -0.07; 0.45
 ---------------------------------------
 
 
@@ -4758,19 +4683,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.32
+|Median                            0.32
 
-1st and 3rd quartiles       0.25; 0.38
+|1st and 3rd quartiles       0.25; 0.38
 
-Min. and max.               0.05; 0.54
+|Min. and max.               0.05; 0.54
 --------------------------------------
 
 
@@ -4796,19 +4721,19 @@ ggAggHist(data = structure(list(xmin = c(0.05, 0.1, 0.15, 0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles       -0.23; 0.13
+|1st and 3rd quartiles       -0.23; 0.13
 
-Min. and max.               -0.46; 0.31
+|Min. and max.               -0.46; 0.31
 ---------------------------------------
 
 
@@ -4834,19 +4759,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.08
+|Median                            0.08
 
-1st and 3rd quartiles       0.03; 0.16
+|1st and 3rd quartiles       0.03; 0.16
 
-Min. and max.               -0.1; 0.31
+|Min. and max.               -0.1; 0.31
 --------------------------------------
 
 
@@ -4872,19 +4797,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.07; 0.07
+|1st and 3rd quartiles       -0.07; 0.07
 
-Min. and max.               -0.38; 0.21
+|Min. and max.               -0.38; 0.21
 ---------------------------------------
 
 
@@ -4911,19 +4836,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.35, -0.3, -0.25,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.16
+|Median                             0.16
 
-1st and 3rd quartiles        0.05; 0.22
+|1st and 3rd quartiles        0.05; 0.22
 
-Min. and max.               -0.31; 0.45
+|Min. and max.               -0.31; 0.45
 ---------------------------------------
 
 
@@ -4949,19 +4874,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.12
+|Median                             -0.12
 
-1st and 3rd quartiles       -0.27; -0.03
+|1st and 3rd quartiles       -0.27; -0.03
 
-Min. and max.                -0.73; 0.35
+|Min. and max.                -0.73; 0.35
 ----------------------------------------
 
 
@@ -4988,19 +4913,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.13; 0.13
+|1st and 3rd quartiles       -0.13; 0.13
 
-Min. and max.               -0.47; 0.62
+|Min. and max.               -0.47; 0.62
 ---------------------------------------
 
 
@@ -5027,19 +4952,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.05
+|Median                             0.05
 
-1st and 3rd quartiles       -0.04; 0.18
+|1st and 3rd quartiles       -0.04; 0.18
 
-Min. and max.               -0.31; 0.61
+|Min. and max.               -0.31; 0.61
 ---------------------------------------
 
 
@@ -5066,19 +4991,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.03
+|Median                             -0.03
 
-1st and 3rd quartiles       -0.05; -0.02
+|1st and 3rd quartiles       -0.05; -0.02
 
-Min. and max.                -0.21; 0.19
+|Min. and max.                -0.21; 0.19
 ----------------------------------------
 
 
@@ -5104,19 +5029,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.07
+|Median                             -0.07
 
-1st and 3rd quartiles       -0.09; -0.06
+|1st and 3rd quartiles       -0.09; -0.06
 
-Min. and max.                 -0.2; 0.03
+|Min. and max.                 -0.2; 0.03
 ----------------------------------------
 
 
@@ -5144,19 +5069,19 @@ ggAggHist(data = structure(list(xmin = c(-0.22, -0.2, -0.18,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.09
+|Median                             0.09
 
-1st and 3rd quartiles         0.07; 0.1
+|1st and 3rd quartiles         0.07; 0.1
 
-Min. and max.               -0.07; 0.18
+|Min. and max.               -0.07; 0.18
 ---------------------------------------
 
 
@@ -5183,19 +5108,19 @@ ggAggHist(data = structure(list(xmin = c(-0.08, -0.06, -0.04,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.97; -0.44
+|1st and 3rd quartiles       -0.97; -0.44
 
-Min. and max.                -0.99; 0.27
+|Min. and max.                -0.99; 0.27
 ----------------------------------------
 
 
@@ -5221,19 +5146,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.96; -0.42
+|1st and 3rd quartiles       -0.96; -0.42
 
-Min. and max.                -0.99; 0.48
+|Min. and max.                -0.99; 0.48
 ----------------------------------------
 
 
@@ -5259,19 +5184,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.96; -0.31
+|1st and 3rd quartiles       -0.96; -0.31
 
-Min. and max.                -0.99; 0.56
+|Min. and max.                -0.99; 0.56
 ----------------------------------------
 
 
@@ -5297,19 +5222,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.98; -0.45
+|1st and 3rd quartiles       -0.98; -0.45
 
-Min. and max.                -0.99; 0.26
+|Min. and max.                -0.99; 0.26
 ----------------------------------------
 
 
@@ -5336,19 +5261,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.97; -0.44
+|1st and 3rd quartiles       -0.97; -0.44
 
-Min. and max.                 -0.99; 0.4
+|Min. and max.                 -0.99; 0.4
 ----------------------------------------
 
 
@@ -5374,19 +5299,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.96; -0.34
+|1st and 3rd quartiles       -0.96; -0.34
 
-Min. and max.                -0.99; 0.57
+|Min. and max.                -0.99; 0.57
 ----------------------------------------
 
 
@@ -5412,19 +5337,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.71
+|Median                             -0.71
 
-1st and 3rd quartiles       -0.86; -0.41
+|1st and 3rd quartiles       -0.86; -0.41
 
-Min. and max.                -0.89; 0.05
+|Min. and max.                -0.89; 0.05
 ----------------------------------------
 
 
@@ -5450,19 +5375,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.83
+|Median                             -0.83
 
-1st and 3rd quartiles       -0.93; -0.56
+|1st and 3rd quartiles       -0.93; -0.56
 
-Min. and max.                -0.95; 0.21
+|Min. and max.                -0.95; 0.21
 ----------------------------------------
 
 
@@ -5489,19 +5414,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.6
+|Median                              -0.6
 
-1st and 3rd quartiles       -0.73; -0.22
+|1st and 3rd quartiles       -0.73; -0.22
 
-Min. and max.                 -0.75; 0.4
+|Min. and max.                 -0.75; 0.4
 ----------------------------------------
 
 
@@ -5528,19 +5453,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.66
+|Median                             0.66
 
-1st and 3rd quartiles        0.42; 0.82
+|1st and 3rd quartiles        0.42; 0.82
 
-Min. and max.               -0.21; 0.84
+|Min. and max.               -0.21; 0.84
 ---------------------------------------
 
 
@@ -5567,19 +5492,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.8
+|Median                              0.8
 
-1st and 3rd quartiles        0.58; 0.89
+|1st and 3rd quartiles        0.58; 0.89
 
-Min. and max.               -0.01; 0.91
+|Min. and max.               -0.01; 0.91
 ---------------------------------------
 
 
@@ -5605,19 +5530,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.68
+|Median                            0.68
 
-1st and 3rd quartiles        0.28; 0.8
+|1st and 3rd quartiles        0.28; 0.8
 
-Min. and max.               -0.4; 0.84
+|Min. and max.               -0.4; 0.84
 --------------------------------------
 
 
@@ -5644,19 +5569,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.66
+|Median                             -0.66
 
-1st and 3rd quartiles       -0.94; -0.21
+|1st and 3rd quartiles       -0.94; -0.21
 
-Min. and max.                -0.98; 0.41
+|Min. and max.                -0.98; 0.41
 ----------------------------------------
 
 
@@ -5682,19 +5607,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles        -1; -0.8
+|1st and 3rd quartiles        -1; -0.8
 
-Min. and max.               -1; -0.14
+|Min. and max.               -1; -0.14
 -------------------------------------
 
 
@@ -5720,19 +5645,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.82
+|1st and 3rd quartiles       -1; -0.82
 
-Min. and max.                 -1; 0.1
+|Min. and max.                 -1; 0.1
 -------------------------------------
 
 
@@ -5759,19 +5684,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.96
+|Median                             -0.96
 
-1st and 3rd quartiles       -0.99; -0.77
+|1st and 3rd quartiles       -0.99; -0.77
 
-Min. and max.                   -1; 0.23
+|Min. and max.                   -1; 0.23
 ----------------------------------------
 
 
@@ -5798,19 +5723,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.45
+|1st and 3rd quartiles       -0.98; -0.45
 
-Min. and max.                -0.99; 0.27
+|Min. and max.                -0.99; 0.27
 ----------------------------------------
 
 
@@ -5836,19 +5761,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.97; -0.49
+|1st and 3rd quartiles       -0.97; -0.49
 
-Min. and max.                   -1; 0.25
+|Min. and max.                   -1; 0.25
 ----------------------------------------
 
 
@@ -5875,19 +5800,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.97; -0.44
+|1st and 3rd quartiles       -0.97; -0.44
 
-Min. and max.                -0.99; 0.44
+|Min. and max.                -0.99; 0.44
 ----------------------------------------
 
 
@@ -5913,19 +5838,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.1
+|Median                             -0.1
 
-1st and 3rd quartiles       -0.35; 0.12
+|1st and 3rd quartiles       -0.35; 0.12
 
-Min. and max.                -0.72; 0.3
+|Min. and max.                -0.72; 0.3
 ---------------------------------------
 
 
@@ -5952,19 +5877,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.13
+|Median                            -0.13
 
-1st and 3rd quartiles        -0.3; 0.18
+|1st and 3rd quartiles        -0.3; 0.18
 
-Min. and max.               -0.58; 0.34
+|Min. and max.               -0.58; 0.34
 ---------------------------------------
 
 
@@ -5990,19 +5915,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.01
+|Median                            -0.01
 
-1st and 3rd quartiles       -0.34; 0.29
+|1st and 3rd quartiles       -0.34; 0.29
 
-Min. and max.               -0.51; 0.49
+|Min. and max.               -0.51; 0.49
 ---------------------------------------
 
 
@@ -6029,19 +5954,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.26
+|Median                             -0.26
 
-1st and 3rd quartiles       -0.36; -0.08
+|1st and 3rd quartiles       -0.36; -0.08
 
-Min. and max.                -0.65; 0.22
+|Min. and max.                -0.65; 0.22
 ----------------------------------------
 
 
@@ -6067,19 +5992,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.04; 0.27
+|1st and 3rd quartiles        0.04; 0.27
 
-Min. and max.               -0.15; 0.56
+|Min. and max.               -0.15; 0.56
 ---------------------------------------
 
 
@@ -6105,19 +6030,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.14
+|Median                             0.14
 
-1st and 3rd quartiles        0.05; 0.22
+|1st and 3rd quartiles        0.05; 0.22
 
-Min. and max.               -0.22; 0.36
+|Min. and max.               -0.22; 0.36
 ---------------------------------------
 
 
@@ -6144,19 +6069,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.06
+|Median                            -0.06
 
-1st and 3rd quartiles          -0.17; 0
+|1st and 3rd quartiles          -0.17; 0
 
-Min. and max.               -0.51; 0.31
+|Min. and max.               -0.51; 0.31
 ---------------------------------------
 
 
@@ -6182,19 +6107,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.2
+|Median                             -0.2
 
-1st and 3rd quartiles       -0.3; -0.11
+|1st and 3rd quartiles       -0.3; -0.11
 
-Min. and max.               -0.62; 0.13
+|Min. and max.               -0.62; 0.13
 ---------------------------------------
 
 
@@ -6220,19 +6145,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.09; 0.26
+|1st and 3rd quartiles        0.09; 0.26
 
-Min. and max.               -0.13; 0.48
+|Min. and max.               -0.13; 0.48
 ---------------------------------------
 
 
@@ -6259,19 +6184,19 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.04
+|Median                            -0.04
 
-1st and 3rd quartiles       -0.12; 0.03
+|1st and 3rd quartiles       -0.12; 0.03
 
-Min. and max.               -0.37; 0.26
+|Min. and max.               -0.37; 0.26
 ---------------------------------------
 
 
@@ -6296,19 +6221,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.14
+|Median                             0.14
 
-1st and 3rd quartiles        0.07; 0.21
+|1st and 3rd quartiles        0.07; 0.21
 
-Min. and max.               -0.17; 0.58
+|Min. and max.               -0.17; 0.58
 ---------------------------------------
 
 
@@ -6334,19 +6259,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.31; 0.09
+|1st and 3rd quartiles       -0.31; 0.09
 
-Min. and max.               -0.66; 0.36
+|Min. and max.               -0.66; 0.36
 ---------------------------------------
 
 
@@ -6373,19 +6298,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.07
+|Median                             0.07
 
-1st and 3rd quartiles       -0.13; 0.28
+|1st and 3rd quartiles       -0.13; 0.28
 
-Min. and max.               -0.27; 0.55
+|Min. and max.               -0.27; 0.55
 ---------------------------------------
 
 
@@ -6411,19 +6336,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.16; 0.14
+|1st and 3rd quartiles       -0.16; 0.14
 
-Min. and max.               -0.48; 0.27
+|Min. and max.               -0.48; 0.27
 ---------------------------------------
 
 
@@ -6449,19 +6374,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.12
+|Median                            0.12
 
-1st and 3rd quartiles       0.05; 0.24
+|1st and 3rd quartiles       0.05; 0.24
 
-Min. and max.               -0.18; 0.7
+|Min. and max.               -0.18; 0.7
 --------------------------------------
 
 
@@ -6487,19 +6412,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.15
+|Median                            -0.15
 
-1st and 3rd quartiles       -0.3; -0.02
+|1st and 3rd quartiles       -0.3; -0.02
 
-Min. and max.               -0.73; 0.54
+|Min. and max.               -0.73; 0.54
 ---------------------------------------
 
 
@@ -6524,19 +6449,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles       -0.13; 0.15
+|1st and 3rd quartiles       -0.13; 0.15
 
-Min. and max.               -0.63; 0.56
+|Min. and max.               -0.63; 0.56
 ---------------------------------------
 
 
@@ -6563,19 +6488,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.09
+|Median                            -0.09
 
-1st and 3rd quartiles        -0.3; 0.09
+|1st and 3rd quartiles        -0.3; 0.09
 
-Min. and max.               -0.62; 0.71
+|Min. and max.               -0.62; 0.71
 ---------------------------------------
 
 
@@ -6601,19 +6526,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.1
+|Median                              -0.1
 
-1st and 3rd quartiles        -0.1; -0.09
+|1st and 3rd quartiles        -0.1; -0.09
 
-Min. and max.               -0.16; -0.02
+|Min. and max.               -0.16; -0.02
 ----------------------------------------
 
 
@@ -6639,19 +6564,19 @@ ggAggHist(data = structure(list(xmin = c(-0.16, -0.14, -0.12,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.04
+|Median                             -0.04
 
-1st and 3rd quartiles       -0.05; -0.04
+|1st and 3rd quartiles       -0.05; -0.04
 
-Min. and max.               -0.08; -0.01
+|Min. and max.               -0.08; -0.01
 ----------------------------------------
 
 
@@ -6677,19 +6602,19 @@ ggAggHist(data = structure(list(xmin = c(-0.08, -0.07, -0.06,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.05
+|Median                             -0.05
 
-1st and 3rd quartiles       -0.06; -0.05
+|1st and 3rd quartiles       -0.06; -0.05
 
-Min. and max.               -0.09; -0.01
+|Min. and max.               -0.09; -0.01
 ----------------------------------------
 
 
@@ -6716,19 +6641,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.09, -0.08,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.98; -0.46
+|1st and 3rd quartiles       -0.98; -0.46
 
-Min. and max.                   -1; 0.18
+|Min. and max.                   -1; 0.18
 ----------------------------------------
 
 
@@ -6755,19 +6680,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.98; -0.59
+|1st and 3rd quartiles       -0.98; -0.59
 
-Min. and max.                    -1; 0.3
+|Min. and max.                    -1; 0.3
 ----------------------------------------
 
 
@@ -6793,19 +6718,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.98; -0.47
+|1st and 3rd quartiles       -0.98; -0.47
 
-Min. and max.                   -1; 0.19
+|Min. and max.                   -1; 0.19
 ----------------------------------------
 
 
@@ -6832,19 +6757,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.98; -0.46
+|1st and 3rd quartiles       -0.98; -0.46
 
-Min. and max.                   -1; 0.21
+|Min. and max.                   -1; 0.21
 ----------------------------------------
 
 
@@ -6871,19 +6796,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.9
+|Median                             -0.9
 
-1st and 3rd quartiles       -0.99; -0.6
+|1st and 3rd quartiles       -0.99; -0.6
 
-Min. and max.                  -1; 0.17
+|Min. and max.                  -1; 0.17
 ---------------------------------------
 
 
@@ -6910,19 +6835,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.99; -0.48
+|1st and 3rd quartiles       -0.99; -0.48
 
-Min. and max.                   -1; 0.14
+|Min. and max.                   -1; 0.14
 ----------------------------------------
 
 
@@ -6949,19 +6874,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.83
+|Median                             -0.83
 
-1st and 3rd quartiles       -0.98; -0.47
+|1st and 3rd quartiles       -0.98; -0.47
 
-Min. and max.                   -1; 0.02
+|Min. and max.                   -1; 0.02
 ----------------------------------------
 
 
@@ -6988,19 +6913,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.98; -0.64
+|1st and 3rd quartiles       -0.98; -0.64
 
-Min. and max.                    -1; 0.3
+|Min. and max.                    -1; 0.3
 ----------------------------------------
 
 
@@ -7026,19 +6951,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.85
+|Median                             -0.85
 
-1st and 3rd quartiles       -0.98; -0.47
+|1st and 3rd quartiles       -0.98; -0.47
 
-Min. and max.                -0.99; 0.23
+|Min. and max.                -0.99; 0.23
 ----------------------------------------
 
 
@@ -7065,19 +6990,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.85
+|Median                            0.85
 
-1st and 3rd quartiles       0.53; 0.98
+|1st and 3rd quartiles       0.53; 0.98
 
-Min. and max.                 -0.07; 1
+|Min. and max.                 -0.07; 1
 --------------------------------------
 
 
@@ -7103,19 +7028,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.92
+|Median                            0.92
 
-1st and 3rd quartiles       0.69; 0.98
+|1st and 3rd quartiles       0.69; 0.98
 
-Min. and max.                 -0.06; 1
+|Min. and max.                 -0.06; 1
 --------------------------------------
 
 
@@ -7141,19 +7066,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.91
+|Median                            0.91
 
-1st and 3rd quartiles       0.59; 0.99
+|1st and 3rd quartiles       0.59; 0.99
 
-Min. and max.                  -0.1; 1
+|Min. and max.                  -0.1; 1
 --------------------------------------
 
 
@@ -7180,19 +7105,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.87
+|Median                             -0.87
 
-1st and 3rd quartiles       -0.99; -0.52
+|1st and 3rd quartiles       -0.99; -0.52
 
-Min. and max.                   -1; 0.07
+|Min. and max.                   -1; 0.07
 ----------------------------------------
 
 
@@ -7219,19 +7144,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.27
+|Min. and max.               -1; -0.27
 -------------------------------------
 
 
@@ -7257,19 +7182,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.14
+|Min. and max.               -1; -0.14
 -------------------------------------
 
 
@@ -7295,19 +7220,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.86
+|1st and 3rd quartiles       -1; -0.86
 
-Min. and max.               -1; -0.26
+|Min. and max.               -1; -0.26
 -------------------------------------
 
 
@@ -7333,19 +7258,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.99; -0.46
+|1st and 3rd quartiles       -0.99; -0.46
 
-Min. and max.                   -1; 0.23
+|Min. and max.                   -1; 0.23
 ----------------------------------------
 
 
@@ -7372,19 +7297,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.99; -0.62
+|1st and 3rd quartiles       -0.99; -0.62
 
-Min. and max.                  -1; -0.01
+|Min. and max.                  -1; -0.01
 ----------------------------------------
 
 
@@ -7411,19 +7336,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.87
+|Median                            -0.87
 
-1st and 3rd quartiles       -0.99; -0.5
+|1st and 3rd quartiles       -0.99; -0.5
 
-Min. and max.                  -1; 0.17
+|Min. and max.                  -1; 0.17
 ---------------------------------------
 
 
@@ -7450,19 +7375,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.13
+|Median                             0.13
 
-1st and 3rd quartiles       -0.51; 0.56
+|1st and 3rd quartiles       -0.51; 0.56
 
-Min. and max.               -0.77; 0.68
+|Min. and max.               -0.77; 0.68
 ---------------------------------------
 
 
@@ -7488,19 +7413,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles       -0.44; 0.57
+|1st and 3rd quartiles       -0.44; 0.57
 
-Min. and max.               -0.77; 0.71
+|Min. and max.               -0.77; 0.71
 ---------------------------------------
 
 
@@ -7526,19 +7451,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.11
+|Median                             0.11
 
-1st and 3rd quartiles       -0.54; 0.59
+|1st and 3rd quartiles       -0.54; 0.59
 
-Min. and max.               -0.72; 0.79
+|Min. and max.               -0.72; 0.79
 ---------------------------------------
 
 
@@ -7564,19 +7489,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.11
+|Median                            -0.11
 
-1st and 3rd quartiles        -0.2; 0.05
+|1st and 3rd quartiles        -0.2; 0.05
 
-Min. and max.               -0.43; 0.35
+|Min. and max.               -0.43; 0.35
 ---------------------------------------
 
 
@@ -7602,19 +7527,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.05
+|Median                             0.05
 
-1st and 3rd quartiles       -0.04; 0.13
+|1st and 3rd quartiles       -0.04; 0.13
 
-Min. and max.               -0.19; 0.35
+|Min. and max.               -0.19; 0.35
 ---------------------------------------
 
 
@@ -7641,19 +7566,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.16
+|Median                            0.16
 
-1st and 3rd quartiles       0.08; 0.23
+|1st and 3rd quartiles       0.08; 0.23
 
-Min. and max.               -0.1; 0.38
+|Min. and max.               -0.1; 0.38
 --------------------------------------
 
 
@@ -7679,19 +7604,19 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles         0.1; 0.22
+|1st and 3rd quartiles         0.1; 0.22
 
-Min. and max.               -0.17; 0.42
+|Min. and max.               -0.17; 0.42
 ---------------------------------------
 
 
@@ -7718,19 +7643,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.17
+|Median                             -0.17
 
-1st and 3rd quartiles       -0.27; -0.08
+|1st and 3rd quartiles       -0.27; -0.08
 
-Min. and max.                -0.56; 0.17
+|Min. and max.                -0.56; 0.17
 ----------------------------------------
 
 
@@ -7756,19 +7681,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                            0.21
+|Median                            0.21
 
-1st and 3rd quartiles       0.14; 0.27
+|1st and 3rd quartiles       0.14; 0.27
 
-Min. and max.                  0; 0.43
+|Min. and max.                  0; 0.43
 --------------------------------------
 
 
@@ -7794,19 +7719,19 @@ ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.08
+|Median                             0.08
 
-1st and 3rd quartiles        0.02; 0.14
+|1st and 3rd quartiles        0.02; 0.14
 
-Min. and max.               -0.21; 0.35
+|Min. and max.               -0.21; 0.35
 ---------------------------------------
 
 
@@ -7833,19 +7758,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.09
+|Median                             0.09
 
-1st and 3rd quartiles        0.02; 0.16
+|1st and 3rd quartiles        0.02; 0.16
 
-Min. and max.               -0.34; 0.44
+|Min. and max.               -0.34; 0.44
 ---------------------------------------
 
 
@@ -7871,19 +7796,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.03
+|Median                            -0.03
 
-1st and 3rd quartiles       -0.28; 0.19
+|1st and 3rd quartiles       -0.28; 0.19
 
-Min. and max.               -0.61; 0.44
+|Min. and max.               -0.61; 0.44
 ---------------------------------------
 
 
@@ -7910,19 +7835,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.08
+|Median                             0.08
 
-1st and 3rd quartiles       -0.08; 0.21
+|1st and 3rd quartiles       -0.08; 0.21
 
-Min. and max.                -0.2; 0.38
+|Min. and max.                -0.2; 0.38
 ---------------------------------------
 
 
@@ -7949,19 +7874,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.11
+|Median                             0.11
 
-1st and 3rd quartiles       -0.03; 0.18
+|1st and 3rd quartiles       -0.03; 0.18
 
-Min. and max.               -0.34; 0.38
+|Min. and max.               -0.34; 0.38
 ---------------------------------------
 
 
@@ -7987,19 +7912,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.04
+|Median                             0.04
 
-1st and 3rd quartiles       -0.05; 0.11
+|1st and 3rd quartiles       -0.05; 0.11
 
-Min. and max.               -0.42; 0.36
+|Min. and max.               -0.42; 0.36
 ---------------------------------------
 
 
@@ -8025,19 +7950,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.04
+|Median                             0.04
 
-1st and 3rd quartiles       -0.11; 0.15
+|1st and 3rd quartiles       -0.11; 0.15
 
-Min. and max.               -0.37; 0.61
+|Min. and max.               -0.37; 0.61
 ---------------------------------------
 
 
@@ -8064,19 +7989,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.04
+|Median                             0.04
 
-1st and 3rd quartiles       -0.06; 0.14
+|1st and 3rd quartiles       -0.06; 0.14
 
-Min. and max.               -0.35; 0.52
+|Min. and max.               -0.35; 0.52
 ---------------------------------------
 
 
@@ -8102,19 +8027,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                           -0.11
+|Median                           -0.11
 
-1st and 3rd quartiles         -0.23; 0
+|1st and 3rd quartiles         -0.23; 0
 
-Min. and max.               -0.5; 0.29
+|Min. and max.               -0.5; 0.29
 --------------------------------------
 
 
@@ -8140,19 +8065,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.48
+|Median                             -0.48
 
-1st and 3rd quartiles       -0.96; -0.09
+|1st and 3rd quartiles       -0.96; -0.09
 
-Min. and max.                -0.99; 0.64
+|Min. and max.                -0.99; 0.64
 ----------------------------------------
 
 
@@ -8178,19 +8103,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.61
+|Median                             -0.61
 
-1st and 3rd quartiles       -0.94; -0.21
+|1st and 3rd quartiles       -0.94; -0.21
 
-Min. and max.                -0.99; 0.43
+|Min. and max.                -0.99; 0.43
 ----------------------------------------
 
 
@@ -8216,19 +8141,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.64
+|Median                            -0.64
 
-1st and 3rd quartiles       -0.95; -0.3
+|1st and 3rd quartiles       -0.95; -0.3
 
-Min. and max.               -0.99; 0.27
+|Min. and max.               -0.99; 0.27
 ---------------------------------------
 
 
@@ -8254,19 +8179,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.6
+|Median                              -0.6
 
-1st and 3rd quartiles       -0.95; -0.12
+|1st and 3rd quartiles       -0.95; -0.12
 
-Min. and max.                 -0.98; 0.5
+|Min. and max.                 -0.98; 0.5
 ----------------------------------------
 
 
@@ -8292,19 +8217,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.99; -0.66
+|1st and 3rd quartiles       -0.99; -0.66
 
-Min. and max.                -0.99; -0.5
+|Min. and max.                -0.99; -0.5
 ----------------------------------------
 
 
@@ -8331,19 +8256,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.48
+|Median                             -0.48
 
-1st and 3rd quartiles       -0.96; -0.09
+|1st and 3rd quartiles       -0.96; -0.09
 
-Min. and max.                -0.99; 0.64
+|Min. and max.                -0.99; 0.64
 ----------------------------------------
 
 
@@ -8369,19 +8294,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.82
+|Median                          -0.82
 
-1st and 3rd quartiles       -1; -0.57
+|1st and 3rd quartiles       -1; -0.57
 
-Min. and max.                 -1; 0.4
+|Min. and max.                 -1; 0.4
 -------------------------------------
 
 
@@ -8407,19 +8332,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.67
+|Median                             -0.67
 
-1st and 3rd quartiles       -0.96; -0.41
+|1st and 3rd quartiles       -0.96; -0.41
 
-Min. and max.                -0.99; 0.12
+|Min. and max.                -0.99; 0.12
 ----------------------------------------
 
 
@@ -8446,19 +8371,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.43
+|Median                             0.43
 
-1st and 3rd quartiles       -0.43; 0.81
+|1st and 3rd quartiles       -0.43; 0.81
 
-Min. and max.               -0.75; 0.91
+|Min. and max.               -0.75; 0.91
 ---------------------------------------
 
 
@@ -8484,19 +8409,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.22; 0.07
+|1st and 3rd quartiles       -0.22; 0.07
 
-Min. and max.               -0.57; 0.28
+|Min. and max.               -0.57; 0.28
 ---------------------------------------
 
 
@@ -8522,19 +8447,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles       -0.08; 0.15
+|1st and 3rd quartiles       -0.08; 0.15
 
-Min. and max.               -0.24; 0.43
+|Min. and max.               -0.24; 0.43
 ---------------------------------------
 
 
@@ -8560,19 +8485,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.08
+|Median                             0.08
 
-1st and 3rd quartiles       -0.05; 0.15
+|1st and 3rd quartiles       -0.05; 0.15
 
-Min. and max.               -0.24; 0.28
+|Min. and max.               -0.24; 0.28
 ---------------------------------------
 
 
@@ -8599,19 +8524,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.15; 0.06
+|1st and 3rd quartiles       -0.15; 0.06
 
-Min. and max.                -0.36; 0.3
+|Min. and max.                -0.36; 0.3
 ---------------------------------------
 
 
@@ -8637,19 +8562,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.48
+|Median                             -0.48
 
-1st and 3rd quartiles       -0.96; -0.09
+|1st and 3rd quartiles       -0.96; -0.09
 
-Min. and max.                -0.99; 0.64
+|Min. and max.                -0.99; 0.64
 ----------------------------------------
 
 
@@ -8675,19 +8600,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.61
+|Median                             -0.61
 
-1st and 3rd quartiles       -0.94; -0.21
+|1st and 3rd quartiles       -0.94; -0.21
 
-Min. and max.                -0.99; 0.43
+|Min. and max.                -0.99; 0.43
 ----------------------------------------
 
 
@@ -8713,19 +8638,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.64
+|Median                            -0.64
 
-1st and 3rd quartiles       -0.95; -0.3
+|1st and 3rd quartiles       -0.95; -0.3
 
-Min. and max.               -0.99; 0.27
+|Min. and max.               -0.99; 0.27
 ---------------------------------------
 
 
@@ -8751,19 +8676,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.6
+|Median                              -0.6
 
-1st and 3rd quartiles       -0.95; -0.12
+|1st and 3rd quartiles       -0.95; -0.12
 
-Min. and max.                 -0.98; 0.5
+|Min. and max.                 -0.98; 0.5
 ----------------------------------------
 
 
@@ -8789,19 +8714,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.99; -0.66
+|1st and 3rd quartiles       -0.99; -0.66
 
-Min. and max.                -0.99; -0.5
+|Min. and max.                -0.99; -0.5
 ----------------------------------------
 
 
@@ -8828,19 +8753,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.48
+|Median                             -0.48
 
-1st and 3rd quartiles       -0.96; -0.09
+|1st and 3rd quartiles       -0.96; -0.09
 
-Min. and max.                -0.99; 0.64
+|Min. and max.                -0.99; 0.64
 ----------------------------------------
 
 
@@ -8866,19 +8791,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.82
+|Median                          -0.82
 
-1st and 3rd quartiles       -1; -0.57
+|1st and 3rd quartiles       -1; -0.57
 
-Min. and max.                 -1; 0.4
+|Min. and max.                 -1; 0.4
 -------------------------------------
 
 
@@ -8904,19 +8829,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.67
+|Median                             -0.67
 
-1st and 3rd quartiles       -0.96; -0.41
+|1st and 3rd quartiles       -0.96; -0.41
 
-Min. and max.                -0.99; 0.12
+|Min. and max.                -0.99; 0.12
 ----------------------------------------
 
 
@@ -8943,19 +8868,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.43
+|Median                             0.43
 
-1st and 3rd quartiles       -0.43; 0.81
+|1st and 3rd quartiles       -0.43; 0.81
 
-Min. and max.               -0.75; 0.91
+|Min. and max.               -0.75; 0.91
 ---------------------------------------
 
 
@@ -8981,19 +8906,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.22; 0.07
+|1st and 3rd quartiles       -0.22; 0.07
 
-Min. and max.               -0.57; 0.28
+|Min. and max.               -0.57; 0.28
 ---------------------------------------
 
 
@@ -9019,19 +8944,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles       -0.08; 0.15
+|1st and 3rd quartiles       -0.08; 0.15
 
-Min. and max.               -0.24; 0.43
+|Min. and max.               -0.24; 0.43
 ---------------------------------------
 
 
@@ -9057,19 +8982,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.08
+|Median                             0.08
 
-1st and 3rd quartiles       -0.05; 0.15
+|1st and 3rd quartiles       -0.05; 0.15
 
-Min. and max.               -0.24; 0.28
+|Min. and max.               -0.24; 0.28
 ---------------------------------------
 
 
@@ -9096,19 +9021,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.15; 0.06
+|1st and 3rd quartiles       -0.15; 0.06
 
-Min. and max.                -0.36; 0.3
+|Min. and max.                -0.36; 0.3
 ---------------------------------------
 
 
@@ -9134,19 +9059,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                -0.99; 0.43
+|Min. and max.                -0.99; 0.43
 ----------------------------------------
 
 
@@ -9172,19 +9097,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.98; -0.22
+|1st and 3rd quartiles       -0.98; -0.22
 
-Min. and max.                -0.99; 0.45
+|Min. and max.                -0.99; 0.45
 ----------------------------------------
 
 
@@ -9210,19 +9135,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.27
+|1st and 3rd quartiles       -0.98; -0.27
 
-Min. and max.                 -0.99; 0.4
+|Min. and max.                 -0.99; 0.4
 ----------------------------------------
 
 
@@ -9248,19 +9173,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.8
+|Median                             -0.8
 
-1st and 3rd quartiles       -0.97; -0.2
+|1st and 3rd quartiles       -0.97; -0.2
 
-Min. and max.               -0.99; 0.35
+|Min. and max.               -0.99; 0.35
 ---------------------------------------
 
 
@@ -9286,19 +9211,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.55
+|1st and 3rd quartiles       -0.98; -0.55
 
-Min. and max.               -0.99; -0.15
+|Min. and max.               -0.99; -0.15
 ----------------------------------------
 
 
@@ -9324,19 +9249,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                -0.99; 0.43
+|Min. and max.                -0.99; 0.43
 ----------------------------------------
 
 
@@ -9362,19 +9287,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.69
+|1st and 3rd quartiles       -1; -0.69
 
-Min. and max.                -1; 0.09
+|Min. and max.                -1; 0.09
 -------------------------------------
 
 
@@ -9401,19 +9326,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.85
+|Median                             -0.85
 
-1st and 3rd quartiles       -0.98; -0.35
+|1st and 3rd quartiles       -0.98; -0.35
 
-Min. and max.                -0.99; 0.24
+|Min. and max.                -0.99; 0.24
 ----------------------------------------
 
 
@@ -9440,19 +9365,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.03
+|Median                            -0.03
 
-1st and 3rd quartiles       -0.71; 0.73
+|1st and 3rd quartiles       -0.71; 0.73
 
-Min. and max.                -0.88; 0.9
+|Min. and max.                -0.88; 0.9
 ---------------------------------------
 
 
@@ -9478,19 +9403,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.1
+|Median                              0.1
 
-1st and 3rd quartiles       -0.09; 0.22
+|1st and 3rd quartiles       -0.09; 0.22
 
-Min. and max.               -0.37; 0.34
+|Min. and max.               -0.37; 0.34
 ---------------------------------------
 
 
@@ -9516,19 +9441,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.07
+|Median                            -0.07
 
-1st and 3rd quartiles       -0.17; 0.13
+|1st and 3rd quartiles       -0.17; 0.13
 
-Min. and max.               -0.29; 0.42
+|Min. and max.               -0.29; 0.42
 ---------------------------------------
 
 
@@ -9554,19 +9479,19 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.08
+|Median                             -0.08
 
-1st and 3rd quartiles       -0.14; -0.04
+|1st and 3rd quartiles       -0.14; -0.04
 
-Min. and max.                -0.49; 0.14
+|Min. and max.                -0.49; 0.14
 ----------------------------------------
 
 
@@ -9594,19 +9519,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.06
+|Median                            -0.06
 
-1st and 3rd quartiles       -0.11; 0.03
+|1st and 3rd quartiles       -0.11; 0.03
 
-Min. and max.               -0.39; 0.38
+|Min. and max.               -0.39; 0.38
 ---------------------------------------
 
 
@@ -9632,19 +9557,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.66
+|Median                             -0.66
 
-1st and 3rd quartiles       -0.95; -0.22
+|1st and 3rd quartiles       -0.95; -0.22
 
-Min. and max.                -0.98; 0.42
+|Min. and max.                -0.98; 0.42
 ----------------------------------------
 
 
@@ -9670,19 +9595,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.74
+|Median                             -0.74
 
-1st and 3rd quartiles       -0.95; -0.36
+|1st and 3rd quartiles       -0.95; -0.36
 
-Min. and max.                 -0.98; 0.3
+|Min. and max.                 -0.98; 0.3
 ----------------------------------------
 
 
@@ -9708,19 +9633,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.73
+|Median                             -0.73
 
-1st and 3rd quartiles       -0.94; -0.29
+|1st and 3rd quartiles       -0.94; -0.29
 
-Min. and max.                -0.98; 0.38
+|Min. and max.                -0.98; 0.38
 ----------------------------------------
 
 
@@ -9746,19 +9671,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.76
+|Median                             -0.76
 
-1st and 3rd quartiles       -0.96; -0.41
+|1st and 3rd quartiles       -0.96; -0.41
 
-Min. and max.                -0.98; 0.22
+|Min. and max.                -0.98; 0.22
 ----------------------------------------
 
 
@@ -9785,19 +9710,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.73
+|Median                             -0.73
 
-1st and 3rd quartiles       -0.95; -0.48
+|1st and 3rd quartiles       -0.95; -0.48
 
-Min. and max.               -0.99; -0.03
+|Min. and max.               -0.99; -0.03
 ----------------------------------------
 
 
@@ -9824,19 +9749,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.66
+|Median                             -0.66
 
-1st and 3rd quartiles       -0.95; -0.22
+|1st and 3rd quartiles       -0.95; -0.22
 
-Min. and max.                -0.98; 0.42
+|Min. and max.                -0.98; 0.42
 ----------------------------------------
 
 
@@ -9862,19 +9787,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.92
+|Median                          -0.92
 
-1st and 3rd quartiles       -1; -0.68
+|1st and 3rd quartiles       -1; -0.68
 
-Min. and max.                 -1; 0.1
+|Min. and max.                 -1; 0.1
 -------------------------------------
 
 
@@ -9901,19 +9826,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.73
+|Median                             -0.73
 
-1st and 3rd quartiles       -0.95; -0.33
+|1st and 3rd quartiles       -0.95; -0.33
 
-Min. and max.                -0.98; 0.35
+|Min. and max.                -0.98; 0.35
 ----------------------------------------
 
 
@@ -9939,19 +9864,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.2
+|Median                              0.2
 
-1st and 3rd quartiles       -0.05; 0.61
+|1st and 3rd quartiles       -0.05; 0.61
 
-Min. and max.               -0.51; 0.91
+|Min. and max.               -0.51; 0.91
 ---------------------------------------
 
 
@@ -9977,19 +9902,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.03
+|Median                            -0.03
 
-1st and 3rd quartiles       -0.14; 0.09
+|1st and 3rd quartiles       -0.14; 0.09
 
-Min. and max.               -0.62; 0.44
+|Min. and max.               -0.62; 0.44
 ---------------------------------------
 
 
@@ -10016,19 +9941,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.18; 0.02
+|1st and 3rd quartiles       -0.18; 0.02
 
-Min. and max.               -0.45; 0.52
+|Min. and max.               -0.45; 0.52
 ---------------------------------------
 
 
@@ -10055,19 +9980,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.12
+|Median                             0.12
 
-1st and 3rd quartiles        0.04; 0.18
+|1st and 3rd quartiles        0.04; 0.18
 
-Min. and max.               -0.34; 0.42
+|Min. and max.               -0.34; 0.42
 ---------------------------------------
 
 
@@ -10093,19 +10018,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.12; 0.01
+|1st and 3rd quartiles       -0.12; 0.01
 
-Min. and max.               -0.36; 0.32
+|Min. and max.               -0.36; 0.32
 ---------------------------------------
 
 
@@ -10131,19 +10056,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.99; -0.51
+|1st and 3rd quartiles       -0.99; -0.51
 
-Min. and max.                   -1; 0.09
+|Min. and max.                   -1; 0.09
 ----------------------------------------
 
 
@@ -10170,19 +10095,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.58
+|1st and 3rd quartiles       -0.98; -0.58
 
-Min. and max.                   -1; 0.25
+|Min. and max.                   -1; 0.25
 ----------------------------------------
 
 
@@ -10209,19 +10134,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.98; -0.59
+|1st and 3rd quartiles       -0.98; -0.59
 
-Min. and max.                   -1; 0.11
+|Min. and max.                   -1; 0.11
 ----------------------------------------
 
 
@@ -10248,19 +10173,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.88
+|Median                            -0.88
 
-1st and 3rd quartiles       -0.98; -0.6
+|1st and 3rd quartiles       -0.98; -0.6
 
-Min. and max.                  -1; 0.18
+|Min. and max.                  -1; 0.18
 ---------------------------------------
 
 
@@ -10287,19 +10212,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.99; -0.59
+|1st and 3rd quartiles       -0.99; -0.59
 
-Min. and max.               -0.99; -0.08
+|Min. and max.               -0.99; -0.08
 ----------------------------------------
 
 
@@ -10326,19 +10251,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.99; -0.51
+|1st and 3rd quartiles       -0.99; -0.51
 
-Min. and max.                   -1; 0.09
+|Min. and max.                   -1; 0.09
 ----------------------------------------
 
 
@@ -10365,19 +10290,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.35
+|Min. and max.               -1; -0.35
 -------------------------------------
 
 
@@ -10403,19 +10328,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.99; -0.61
+|1st and 3rd quartiles       -0.99; -0.61
 
-Min. and max.                  -1; -0.11
+|Min. and max.                  -1; -0.11
 ----------------------------------------
 
 
@@ -10441,19 +10366,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.3
+|Median                              0.3
 
-1st and 3rd quartiles       -0.47; 0.86
+|1st and 3rd quartiles       -0.47; 0.86
 
-Min. and max.               -0.84; 0.92
+|Min. and max.               -0.84; 0.92
 ---------------------------------------
 
 
@@ -10479,19 +10404,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                              0.3
+|Median                              0.3
 
-1st and 3rd quartiles         0.2; 0.38
+|1st and 3rd quartiles         0.2; 0.38
 
-Min. and max.               -0.14; 0.52
+|Min. and max.               -0.14; 0.52
 ---------------------------------------
 
 
@@ -10517,19 +10442,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.23
+|Median                             -0.23
 
-1st and 3rd quartiles       -0.31; -0.15
+|1st and 3rd quartiles       -0.31; -0.15
 
-Min. and max.                 -0.6; 0.12
+|Min. and max.                 -0.6; 0.12
 ----------------------------------------
 
 
@@ -10555,19 +10480,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.04
+|Median                            -0.04
 
-1st and 3rd quartiles          -0.12; 0
+|1st and 3rd quartiles          -0.12; 0
 
-Min. and max.               -0.63; 0.35
+|Min. and max.               -0.63; 0.35
 ---------------------------------------
 
 
@@ -10594,19 +10519,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.13
+|Median                            -0.13
 
-1st and 3rd quartiles       -0.2; -0.01
+|1st and 3rd quartiles       -0.2; -0.01
 
-Min. and max.               -0.45; 0.48
+|Min. and max.               -0.45; 0.48
 ---------------------------------------
 
 
@@ -10632,19 +10557,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.77
+|Median                             -0.77
 
-1st and 3rd quartiles       -0.98; -0.22
+|1st and 3rd quartiles       -0.98; -0.22
 
-Min. and max.                   -1; 0.54
+|Min. and max.                   -1; 0.54
 ----------------------------------------
 
 
@@ -10670,19 +10595,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.59
+|Median                             -0.59
 
-1st and 3rd quartiles       -0.95; -0.06
+|1st and 3rd quartiles       -0.95; -0.06
 
-Min. and max.                -0.99; 0.52
+|Min. and max.                -0.99; 0.52
 ----------------------------------------
 
 
@@ -10708,19 +10633,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.72
+|Median                             -0.72
 
-1st and 3rd quartiles       -0.96; -0.32
+|1st and 3rd quartiles       -0.96; -0.32
 
-Min. and max.                -0.99; 0.28
+|Min. and max.                -0.99; 0.28
 ----------------------------------------
 
 
@@ -10746,19 +10671,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.75
+|Median                            -0.75
 
-1st and 3rd quartiles       -0.98; -0.2
+|1st and 3rd quartiles       -0.98; -0.2
 
-Min. and max.                  -1; 0.66
+|Min. and max.                  -1; 0.66
 ---------------------------------------
 
 
@@ -10784,19 +10709,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.51
+|Median                             -0.51
 
-1st and 3rd quartiles       -0.94; -0.08
+|1st and 3rd quartiles       -0.94; -0.08
 
-Min. and max.                -0.99; 0.56
+|Min. and max.                -0.99; 0.56
 ----------------------------------------
 
 
@@ -10822,19 +10747,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.64
+|Median                             -0.64
 
-1st and 3rd quartiles       -0.95; -0.27
+|1st and 3rd quartiles       -0.95; -0.27
 
-Min. and max.                -0.99; 0.69
+|Min. and max.                -0.99; 0.69
 ----------------------------------------
 
 
@@ -10860,19 +10785,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.75
+|Median                             -0.75
 
-1st and 3rd quartiles       -0.98; -0.17
+|1st and 3rd quartiles       -0.98; -0.17
 
-Min. and max.                   -1; 0.63
+|Min. and max.                   -1; 0.63
 ----------------------------------------
 
 
@@ -10898,19 +10823,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.56
+|Median                             -0.56
 
-1st and 3rd quartiles       -0.95; -0.03
+|1st and 3rd quartiles       -0.95; -0.03
 
-Min. and max.                -0.99; 0.63
+|Min. and max.                -0.99; 0.63
 ----------------------------------------
 
 
@@ -10936,19 +10861,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.7
+|Median                              -0.7
 
-1st and 3rd quartiles       -0.96; -0.27
+|1st and 3rd quartiles       -0.96; -0.27
 
-Min. and max.                -0.99; 0.48
+|Min. and max.                -0.99; 0.48
 ----------------------------------------
 
 
@@ -10974,19 +10899,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.76
+|Median                             -0.76
 
-1st and 3rd quartiles       -0.99; -0.29
+|1st and 3rd quartiles       -0.99; -0.29
 
-Min. and max.                   -1; 0.48
+|Min. and max.                   -1; 0.48
 ----------------------------------------
 
 
@@ -11012,19 +10937,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.64
+|Median                             -0.64
 
-1st and 3rd quartiles       -0.95; -0.33
+|1st and 3rd quartiles       -0.95; -0.33
 
-Min. and max.                -0.99; 0.12
+|Min. and max.                -0.99; 0.12
 ----------------------------------------
 
 
@@ -11051,19 +10976,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.65
+|Median                             -0.65
 
-1st and 3rd quartiles       -0.94; -0.33
+|1st and 3rd quartiles       -0.94; -0.33
 
-Min. and max.                -0.99; 0.65
+|Min. and max.                -0.99; 0.65
 ----------------------------------------
 
 
@@ -11089,19 +11014,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.99; -0.72
+|1st and 3rd quartiles       -0.99; -0.72
 
-Min. and max.                  -1; -0.37
+|Min. and max.                  -1; -0.37
 ----------------------------------------
 
 
@@ -11129,19 +11054,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.87
+|Median                             -0.87
 
-1st and 3rd quartiles       -0.98; -0.77
+|1st and 3rd quartiles       -0.98; -0.77
 
-Min. and max.               -0.99; -0.61
+|Min. and max.               -0.99; -0.61
 ----------------------------------------
 
 
@@ -11167,19 +11092,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.98; -0.84
+|1st and 3rd quartiles       -0.98; -0.84
 
-Min. and max.               -0.99; -0.71
+|Min. and max.               -0.99; -0.71
 ----------------------------------------
 
 
@@ -11205,19 +11130,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.63
+|Median                             -0.63
 
-1st and 3rd quartiles       -0.96; -0.06
+|1st and 3rd quartiles       -0.96; -0.06
 
-Min. and max.                -0.99; 0.62
+|Min. and max.                -0.99; 0.62
 ----------------------------------------
 
 
@@ -11243,19 +11168,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.67
+|1st and 3rd quartiles       -1; -0.67
 
-Min. and max.                -1; 0.34
+|Min. and max.                -1; 0.34
 -------------------------------------
 
 
@@ -11281,19 +11206,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.99; -0.51
+|1st and 3rd quartiles       -0.99; -0.51
 
-Min. and max.                   -1; 0.33
+|Min. and max.                   -1; 0.33
 ----------------------------------------
 
 
@@ -11319,19 +11244,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.91
+|Median                          -0.91
 
-1st and 3rd quartiles       -1; -0.69
+|1st and 3rd quartiles       -1; -0.69
 
-Min. and max.                -1; 0.31
+|Min. and max.                -1; 0.31
 -------------------------------------
 
 
@@ -11357,19 +11282,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                -0.99; 0.34
+|Min. and max.                -0.99; 0.34
 ----------------------------------------
 
 
@@ -11395,19 +11320,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.97; -0.25
+|1st and 3rd quartiles       -0.97; -0.25
 
-Min. and max.                -0.99; 0.21
+|Min. and max.                -0.99; 0.21
 ----------------------------------------
 
 
@@ -11434,19 +11359,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.97; -0.47
+|1st and 3rd quartiles       -0.97; -0.47
 
-Min. and max.                -0.99; 0.14
+|Min. and max.                -0.99; 0.14
 ----------------------------------------
 
 
@@ -11473,19 +11398,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.14
+|Median                            -0.14
 
-1st and 3rd quartiles       -0.83; 0.57
+|1st and 3rd quartiles       -0.83; 0.57
 
-Min. and max.               -0.99; 0.85
+|Min. and max.               -0.99; 0.85
 ---------------------------------------
 
 
@@ -11511,19 +11436,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.11
+|Median                            -0.11
 
-1st and 3rd quartiles       -0.78; 0.54
+|1st and 3rd quartiles       -0.78; 0.54
 
-Min. and max.               -0.97; 0.73
+|Min. and max.               -0.97; 0.73
 ---------------------------------------
 
 
@@ -11549,19 +11474,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.16
+|Median                            -0.16
 
-1st and 3rd quartiles       -0.75; 0.45
+|1st and 3rd quartiles       -0.75; 0.45
 
-Min. and max.                -0.9; 0.81
+|Min. and max.                -0.9; 0.81
 ---------------------------------------
 
 
@@ -11587,19 +11512,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              165
+|Number of unique values              165
 
-Median                             -0.76
+|Median                             -0.76
 
-1st and 3rd quartiles       -0.81; -0.72
+|1st and 3rd quartiles       -0.81; -0.72
 
-Min. and max.                  -1; -0.41
+|Min. and max.                  -1; -0.41
 ----------------------------------------
 
 
@@ -11626,19 +11551,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              174
+|Number of unique values              174
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.89; -0.72
+|1st and 3rd quartiles       -0.89; -0.72
 
-Min. and max.                  -1; -0.35
+|Min. and max.                  -1; -0.35
 ----------------------------------------
 
 
@@ -11664,19 +11589,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              171
+|Number of unique values              171
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.92; -0.77
+|1st and 3rd quartiles       -0.92; -0.77
 
-Min. and max.                  -1; -0.34
+|Min. and max.                  -1; -0.34
 ----------------------------------------
 
 
@@ -11702,19 +11627,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.26
+|Median                             -0.26
 
-1st and 3rd quartiles       -0.39; -0.06
+|1st and 3rd quartiles       -0.39; -0.06
 
-Min. and max.                -0.64; 0.16
+|Min. and max.                -0.64; 0.16
 ----------------------------------------
 
 
@@ -11740,19 +11665,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.08; 0.09
+|1st and 3rd quartiles       -0.08; 0.09
 
-Min. and max.               -0.38; 0.47
+|Min. and max.               -0.38; 0.47
 ---------------------------------------
 
 
@@ -11778,19 +11703,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.07
+|Median                             0.07
 
-1st and 3rd quartiles       -0.04; 0.18
+|1st and 3rd quartiles       -0.04; 0.18
 
-Min. and max.                -0.52; 0.4
+|Min. and max.                -0.52; 0.4
 ---------------------------------------
 
 
@@ -11817,19 +11742,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             -0.1
+|Median                             -0.1
 
-1st and 3rd quartiles       -0.39; 0.09
+|1st and 3rd quartiles       -0.39; 0.09
 
-Min. and max.               -0.59; 0.65
+|Min. and max.               -0.59; 0.65
 ---------------------------------------
 
 
@@ -11856,19 +11781,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.45
+|Median                             -0.45
 
-1st and 3rd quartiles       -0.72; -0.25
+|1st and 3rd quartiles       -0.72; -0.25
 
-Min. and max.                 -0.89; 0.5
+|Min. and max.                 -0.89; 0.5
 ----------------------------------------
 
 
@@ -11894,19 +11819,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.28
+|Median                             -0.28
 
-1st and 3rd quartiles       -0.42; -0.17
+|1st and 3rd quartiles       -0.42; -0.17
 
-Min. and max.                -0.65; 0.46
+|Min. and max.                -0.65; 0.46
 ----------------------------------------
 
 
@@ -11933,19 +11858,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.62
+|Median                             -0.62
 
-1st and 3rd quartiles       -0.76; -0.48
+|1st and 3rd quartiles       -0.76; -0.48
 
-Min. and max.                -0.92; 0.29
+|Min. and max.                -0.92; 0.29
 ----------------------------------------
 
 
@@ -11972,19 +11897,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.25
+|Median                            -0.25
 
-1st and 3rd quartiles       -0.43; -0.1
+|1st and 3rd quartiles       -0.43; -0.1
 
-Min. and max.               -0.72; 0.55
+|Min. and max.               -0.72; 0.55
 ---------------------------------------
 
 
@@ -12009,19 +11934,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.5
+|Median                              -0.5
 
-1st and 3rd quartiles       -0.67; -0.35
+|1st and 3rd quartiles       -0.67; -0.35
 
-Min. and max.                -0.91; 0.39
+|Min. and max.                -0.91; 0.39
 ----------------------------------------
 
 
@@ -12047,19 +11972,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.94
+|Median                          -0.94
 
-1st and 3rd quartiles       -1; -0.65
+|1st and 3rd quartiles       -1; -0.65
 
-Min. and max.                -1; 0.37
+|Min. and max.                -1; 0.37
 -------------------------------------
 
 
@@ -12085,19 +12010,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.78
+|1st and 3rd quartiles       -1; -0.78
 
-Min. and max.                   -1; 0
+|Min. and max.                   -1; 0
 -------------------------------------
 
 
@@ -12124,19 +12049,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.73
+|1st and 3rd quartiles       -1; -0.73
 
-Min. and max.                -1; 0.08
+|Min. and max.                -1; 0.08
 -------------------------------------
 
 
@@ -12163,19 +12088,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.18
+|Min. and max.               -1; -0.18
 -------------------------------------
 
 
@@ -12201,19 +12126,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.37
+|Min. and max.               -1; -0.37
 -------------------------------------
 
 
@@ -12241,19 +12166,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.23
+|Min. and max.               -1; -0.23
 -------------------------------------
 
 
@@ -12279,19 +12204,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles        -1; -0.9
+|1st and 3rd quartiles        -1; -0.9
 
-Min. and max.               -1; -0.53
+|Min. and max.               -1; -0.53
 -------------------------------------
 
 
@@ -12318,19 +12243,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.92
+|1st and 3rd quartiles       -1; -0.92
 
-Min. and max.               -1; -0.67
+|Min. and max.               -1; -0.67
 -------------------------------------
 
 
@@ -12356,19 +12281,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.66
+|1st and 3rd quartiles       -1; -0.66
 
-Min. and max.                -1; 0.39
+|Min. and max.                -1; 0.39
 -------------------------------------
 
 
@@ -12394,19 +12319,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.71
+|1st and 3rd quartiles       -1; -0.71
 
-Min. and max.                -1; 0.17
+|Min. and max.                -1; 0.17
 -------------------------------------
 
 
@@ -12433,19 +12358,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.32
+|Min. and max.               -1; -0.32
 -------------------------------------
 
 
@@ -12471,19 +12396,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.58
+|Min. and max.               -1; -0.58
 -------------------------------------
 
 
@@ -12509,19 +12434,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.67
+|1st and 3rd quartiles       -1; -0.67
 
-Min. and max.                -1; 0.35
+|Min. and max.                -1; 0.35
 -------------------------------------
 
 
@@ -12547,19 +12472,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ------------------------------------
-Feature                       Result
+|Feature                       Result
 ------------------------- ----------
-Variable type                numeric
+|Variable type                numeric
 
-Number of missing obs.       0 (0 %)
+|Number of missing obs.       0 (0 %)
 
-Number of unique values          180
+|Number of unique values          180
 
-Median                         -0.97
+|Median                         -0.97
 
-1st and 3rd quartiles       -1; -0.8
+|1st and 3rd quartiles       -1; -0.8
 
-Min. and max.               -1; -0.1
+|Min. and max.               -1; -0.1
 ------------------------------------
 
 
@@ -12585,19 +12510,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.83
+|Median                             -0.83
 
-1st and 3rd quartiles       -0.99; -0.59
+|1st and 3rd quartiles       -0.99; -0.59
 
-Min. and max.                   -1; 0.15
+|Min. and max.                   -1; 0.15
 ----------------------------------------
 
 
@@ -12624,19 +12549,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.73
+|1st and 3rd quartiles       -1; -0.73
 
-Min. and max.                -1; 0.07
+|Min. and max.                -1; 0.07
 -------------------------------------
 
 
@@ -12663,19 +12588,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.73
+|1st and 3rd quartiles       -1; -0.73
 
-Min. and max.               -1; -0.26
+|Min. and max.               -1; -0.26
 -------------------------------------
 
 
@@ -12701,19 +12626,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.82
+|1st and 3rd quartiles       -1; -0.82
 
-Min. and max.               -1; -0.08
+|Min. and max.               -1; -0.08
 -------------------------------------
 
 
@@ -12740,19 +12665,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles        -1; -0.8
+|1st and 3rd quartiles        -1; -0.8
 
-Min. and max.               -1; -0.11
+|Min. and max.               -1; -0.11
 -------------------------------------
 
 
@@ -12778,19 +12703,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.76
+|1st and 3rd quartiles       -1; -0.76
 
-Min. and max.               -1; -0.33
+|Min. and max.               -1; -0.33
 -------------------------------------
 
 
@@ -12816,19 +12741,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles        -1; -0.8
+|1st and 3rd quartiles        -1; -0.8
 
-Min. and max.               -1; -0.47
+|Min. and max.               -1; -0.47
 -------------------------------------
 
 
@@ -12855,19 +12780,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.67
+|Min. and max.               -1; -0.67
 -------------------------------------
 
 
@@ -12893,19 +12818,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.99; -0.53
+|1st and 3rd quartiles       -0.99; -0.53
 
-Min. and max.                   -1; 0.33
+|Min. and max.                   -1; 0.33
 ----------------------------------------
 
 
@@ -12931,19 +12856,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.67
+|1st and 3rd quartiles       -1; -0.67
 
-Min. and max.               -1; -0.06
+|Min. and max.               -1; -0.06
 -------------------------------------
 
 
@@ -12970,19 +12895,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.76
+|1st and 3rd quartiles       -1; -0.76
 
-Min. and max.               -1; -0.17
+|Min. and max.               -1; -0.17
 -------------------------------------
 
 
@@ -13008,19 +12933,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.94
+|Median                          -0.94
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.54
+|Min. and max.               -1; -0.54
 -------------------------------------
 
 
@@ -13047,19 +12972,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.99; -0.52
+|1st and 3rd quartiles       -0.99; -0.52
 
-Min. and max.                   -1; 0.33
+|Min. and max.                   -1; 0.33
 ----------------------------------------
 
 
@@ -13085,19 +13010,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.79
+|1st and 3rd quartiles       -1; -0.79
 
-Min. and max.               -1; -0.06
+|Min. and max.               -1; -0.06
 -------------------------------------
 
 
@@ -13124,19 +13049,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.99; -0.75
+|1st and 3rd quartiles       -0.99; -0.75
 
-Min. and max.                   -1; 0.46
+|Min. and max.                   -1; 0.46
 ----------------------------------------
 
 
@@ -13162,19 +13087,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.17
+|Min. and max.               -1; -0.17
 -------------------------------------
 
 
@@ -13200,19 +13125,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.14
+|Min. and max.               -1; -0.14
 -------------------------------------
 
 
@@ -13238,19 +13163,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -13276,19 +13201,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.94
+|1st and 3rd quartiles       -1; -0.94
 
-Min. and max.               -1; -0.63
+|Min. and max.               -1; -0.63
 -------------------------------------
 
 
@@ -13314,19 +13239,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.89
+|1st and 3rd quartiles       -1; -0.89
 
-Min. and max.               -1; -0.46
+|Min. and max.               -1; -0.46
 -------------------------------------
 
 
@@ -13353,19 +13278,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.89
+|1st and 3rd quartiles       -1; -0.89
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -13391,19 +13316,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.92
+|1st and 3rd quartiles       -1; -0.92
 
-Min. and max.               -1; -0.76
+|Min. and max.               -1; -0.76
 -------------------------------------
 
 
@@ -13431,19 +13356,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.91
+|Median                          -0.91
 
-1st and 3rd quartiles       -1; -0.73
+|1st and 3rd quartiles       -1; -0.73
 
-Min. and max.                -1; 0.34
+|Min. and max.                -1; 0.34
 -------------------------------------
 
 
@@ -13469,19 +13394,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.89
+|1st and 3rd quartiles       -1; -0.89
 
-Min. and max.               -1; -0.39
+|Min. and max.               -1; -0.39
 -------------------------------------
 
 
@@ -13509,19 +13434,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.92
+|1st and 3rd quartiles       -1; -0.92
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -13547,19 +13472,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles        -1; -0.9
+|1st and 3rd quartiles        -1; -0.9
 
-Min. and max.               -1; -0.62
+|Min. and max.               -1; -0.62
 -------------------------------------
 
 
@@ -13585,19 +13510,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ------------------------------------
-Feature                       Result
+|Feature                       Result
 ------------------------- ----------
-Variable type                numeric
+|Variable type                numeric
 
-Number of missing obs.       0 (0 %)
+|Number of missing obs.       0 (0 %)
 
-Number of unique values          180
+|Number of unique values          180
 
-Median                         -0.91
+|Median                         -0.91
 
-1st and 3rd quartiles       -1; -0.7
+|1st and 3rd quartiles       -1; -0.7
 
-Min. and max.               -1; 0.32
+|Min. and max.               -1; 0.32
 ------------------------------------
 
 
@@ -13623,19 +13548,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -13661,19 +13586,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.98; -0.28
+|1st and 3rd quartiles       -0.98; -0.28
 
-Min. and max.                -0.99; 0.47
+|Min. and max.                -0.99; 0.47
 ----------------------------------------
 
 
@@ -13699,19 +13624,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.78
+|Median                            -0.78
 
-1st and 3rd quartiles       -0.97; -0.2
+|1st and 3rd quartiles       -0.97; -0.2
 
-Min. and max.               -0.99; 0.28
+|Min. and max.               -0.99; 0.28
 ---------------------------------------
 
 
@@ -13737,19 +13662,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.87
+|Median                             -0.87
 
-1st and 3rd quartiles       -0.98; -0.47
+|1st and 3rd quartiles       -0.98; -0.47
 
-Min. and max.                -0.99; 0.16
+|Min. and max.                -0.99; 0.16
 ----------------------------------------
 
 
@@ -13776,19 +13701,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.83
+|Median                             -0.83
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                   -1; 0.48
+|Min. and max.                   -1; 0.48
 ----------------------------------------
 
 
@@ -13814,19 +13739,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.97; -0.17
+|1st and 3rd quartiles       -0.97; -0.17
 
-Min. and max.                -0.99; 0.35
+|Min. and max.                -0.99; 0.35
 ----------------------------------------
 
 
@@ -13852,19 +13777,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.98; -0.54
+|1st and 3rd quartiles       -0.98; -0.54
 
-Min. and max.               -0.99; -0.01
+|Min. and max.               -0.99; -0.01
 ----------------------------------------
 
 
@@ -13891,19 +13816,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.13
+|1st and 3rd quartiles       -0.98; -0.13
 
-Min. and max.                -0.99; 0.66
+|Min. and max.                -0.99; 0.66
 ----------------------------------------
 
 
@@ -13929,19 +13854,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.97; -0.18
+|1st and 3rd quartiles       -0.97; -0.18
 
-Min. and max.                -0.99; 0.29
+|Min. and max.                -0.99; 0.29
 ----------------------------------------
 
 
@@ -13967,19 +13892,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.98; -0.52
+|1st and 3rd quartiles       -0.98; -0.52
 
-Min. and max.                -0.99; 0.01
+|Min. and max.                -0.99; 0.01
 ----------------------------------------
 
 
@@ -14006,19 +13931,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.99; -0.39
+|1st and 3rd quartiles       -0.99; -0.39
 
-Min. and max.                    -1; 0.3
+|Min. and max.                    -1; 0.3
 ----------------------------------------
 
 
@@ -14044,19 +13969,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.83
+|Median                             -0.83
 
-1st and 3rd quartiles       -0.98; -0.34
+|1st and 3rd quartiles       -0.98; -0.34
 
-Min. and max.                -0.99; 0.35
+|Min. and max.                -0.99; 0.35
 ----------------------------------------
 
 
@@ -14082,19 +14007,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.91
+|Median                            -0.91
 
-1st and 3rd quartiles       -0.98; -0.6
+|1st and 3rd quartiles       -0.98; -0.6
 
-Min. and max.               -0.99; 0.18
+|Min. and max.               -0.99; 0.18
 ---------------------------------------
 
 
@@ -14121,19 +14046,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.94
+|Median                             -0.94
 
-1st and 3rd quartiles       -0.99; -0.76
+|1st and 3rd quartiles       -0.99; -0.76
 
-Min. and max.                  -1; -0.36
+|Min. and max.                  -1; -0.36
 ----------------------------------------
 
 
@@ -14159,19 +14084,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.92
+|Median                             -0.92
 
-1st and 3rd quartiles       -0.98; -0.72
+|1st and 3rd quartiles       -0.98; -0.72
 
-Min. and max.               -0.99; -0.52
+|Min. and max.               -0.99; -0.52
 ----------------------------------------
 
 
@@ -14198,19 +14123,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.93
+|Median                             -0.93
 
-1st and 3rd quartiles       -0.98; -0.78
+|1st and 3rd quartiles       -0.98; -0.78
 
-Min. and max.               -0.99; -0.45
+|Min. and max.               -0.99; -0.45
 ----------------------------------------
 
 
@@ -14237,19 +14162,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.19
+|1st and 3rd quartiles       -0.98; -0.19
 
-Min. and max.                -0.99; 0.52
+|Min. and max.                -0.99; 0.52
 ----------------------------------------
 
 
@@ -14275,19 +14200,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.69
+|1st and 3rd quartiles       -1; -0.69
 
-Min. and max.                -1; 0.22
+|Min. and max.                -1; 0.22
 -------------------------------------
 
 
@@ -14314,19 +14239,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.62
+|1st and 3rd quartiles       -1; -0.62
 
-Min. and max.               -1; -0.06
+|Min. and max.               -1; -0.06
 -------------------------------------
 
 
@@ -14353,19 +14278,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.87
+|1st and 3rd quartiles       -1; -0.87
 
-Min. and max.               -1; -0.43
+|Min. and max.               -1; -0.43
 -------------------------------------
 
 
@@ -14392,19 +14317,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.25
+|1st and 3rd quartiles       -0.98; -0.25
 
-Min. and max.                -0.99; 0.48
+|Min. and max.                -0.99; 0.48
 ----------------------------------------
 
 
@@ -14430,19 +14355,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles        -0.98; -0.4
+|1st and 3rd quartiles        -0.98; -0.4
 
-Min. and max.               -0.99; -0.02
+|Min. and max.               -0.99; -0.02
 ----------------------------------------
 
 
@@ -14468,19 +14393,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.53
+|1st and 3rd quartiles       -0.98; -0.53
 
-Min. and max.                -0.99; 0.05
+|Min. and max.                -0.99; 0.05
 ----------------------------------------
 
 
@@ -14507,19 +14432,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.32
+|Median                            -0.32
 
-1st and 3rd quartiles       -0.95; 0.55
+|1st and 3rd quartiles       -0.95; 0.55
 
-Min. and max.                  -1; 0.87
+|Min. and max.                  -1; 0.87
 ---------------------------------------
 
 
@@ -14545,19 +14470,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.31
+|Median                            -0.31
 
-1st and 3rd quartiles       -0.93; 0.55
+|1st and 3rd quartiles       -0.93; 0.55
 
-Min. and max.                  -1; 0.81
+|Min. and max.                  -1; 0.81
 ---------------------------------------
 
 
@@ -14583,19 +14508,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.47
+|Median                            -0.47
 
-1st and 3rd quartiles       -0.94; 0.33
+|1st and 3rd quartiles       -0.94; 0.33
 
-Min. and max.                  -1; 0.73
+|Min. and max.                  -1; 0.73
 ---------------------------------------
 
 
@@ -14621,19 +14546,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              179
+|Number of unique values              179
 
-Median                             -0.37
+|Median                             -0.37
 
-1st and 3rd quartiles       -0.64; -0.22
+|1st and 3rd quartiles       -0.64; -0.22
 
-Min. and max.               -0.86; -0.09
+|Min. and max.               -0.86; -0.09
 ----------------------------------------
 
 
@@ -14659,19 +14584,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              177
+|Number of unique values              177
 
-Median                              -0.4
+|Median                              -0.4
 
-1st and 3rd quartiles        -0.49; -0.3
+|1st and 3rd quartiles        -0.49; -0.3
 
-Min. and max.               -0.75; -0.08
+|Min. and max.               -0.75; -0.08
 ----------------------------------------
 
 
@@ -14697,19 +14622,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              177
+|Number of unique values              177
 
-Median                              -0.3
+|Median                              -0.3
 
-1st and 3rd quartiles       -0.41; -0.21
+|1st and 3rd quartiles       -0.41; -0.21
 
-Min. and max.               -0.93; -0.04
+|Min. and max.               -0.93; -0.04
 ----------------------------------------
 
 
@@ -14735,19 +14660,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.06
+|Median                            -0.06
 
-1st and 3rd quartiles       -0.29; 0.18
+|1st and 3rd quartiles       -0.29; 0.18
 
-Min. and max.               -0.58; 0.33
+|Min. and max.               -0.58; 0.33
 ---------------------------------------
 
 
@@ -14773,19 +14698,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.23
+|Median                            -0.23
 
-1st and 3rd quartiles       -0.4; -0.05
+|1st and 3rd quartiles       -0.4; -0.05
 
-Min. and max.                 -0.6; 0.2
+|Min. and max.                 -0.6; 0.2
 ---------------------------------------
 
 
@@ -14811,19 +14736,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.09
+|Median                            -0.09
 
-1st and 3rd quartiles       -0.31; 0.04
+|1st and 3rd quartiles       -0.31; 0.04
 
-Min. and max.               -0.63; 0.23
+|Min. and max.               -0.63; 0.23
 ---------------------------------------
 
 
@@ -14849,19 +14774,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.36
+|Median                             -0.36
 
-1st and 3rd quartiles       -0.46; -0.15
+|1st and 3rd quartiles       -0.46; -0.15
 
-Min. and max.                -0.54; 0.23
+|Min. and max.                -0.54; 0.23
 ----------------------------------------
 
 
@@ -14887,19 +14812,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.76
+|Median                             -0.76
 
-1st and 3rd quartiles       -0.81; -0.61
+|1st and 3rd quartiles       -0.81; -0.61
 
-Min. and max.               -0.86; -0.14
+|Min. and max.               -0.86; -0.14
 ----------------------------------------
 
 
@@ -14925,19 +14850,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.42
+|Median                             -0.42
 
-1st and 3rd quartiles       -0.48; -0.32
+|1st and 3rd quartiles       -0.48; -0.32
 
-Min. and max.                -0.57; 0.14
+|Min. and max.                -0.57; 0.14
 ----------------------------------------
 
 
@@ -14963,19 +14888,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.87; -0.79
+|1st and 3rd quartiles       -0.87; -0.79
 
-Min. and max.               -0.91; -0.31
+|Min. and max.               -0.91; -0.31
 ----------------------------------------
 
 
@@ -15003,19 +14928,19 @@ ggAggHist(data = structure(list(xmin = c(-0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.52
+|Median                             -0.52
 
-1st and 3rd quartiles       -0.57; -0.42
+|1st and 3rd quartiles       -0.57; -0.42
 
-Min. and max.                -0.65; 0.19
+|Min. and max.                -0.65; 0.19
 ----------------------------------------
 
 
@@ -15041,19 +14966,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.87; -0.79
+|1st and 3rd quartiles       -0.87; -0.79
 
-Min. and max.               -0.91; -0.13
+|Min. and max.               -0.91; -0.13
 ----------------------------------------
 
 
@@ -15079,19 +15004,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.78
+|1st and 3rd quartiles       -1; -0.78
 
-Min. and max.                -1; 0.29
+|Min. and max.                -1; 0.29
 -------------------------------------
 
 
@@ -15117,19 +15042,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.77
+|1st and 3rd quartiles       -1; -0.77
 
-Min. and max.               -1; -0.08
+|Min. and max.               -1; -0.08
 -------------------------------------
 
 
@@ -15155,19 +15080,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.77
+|1st and 3rd quartiles       -1; -0.77
 
-Min. and max.                -1; 0.03
+|Min. and max.                -1; 0.03
 -------------------------------------
 
 
@@ -15194,19 +15119,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.17
+|Min. and max.               -1; -0.17
 -------------------------------------
 
 
@@ -15232,19 +15157,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.86
+|1st and 3rd quartiles       -1; -0.86
 
-Min. and max.                -1; -0.4
+|Min. and max.                -1; -0.4
 -------------------------------------
 
 
@@ -15271,19 +15196,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.82
+|1st and 3rd quartiles       -1; -0.82
 
-Min. and max.               -1; -0.08
+|Min. and max.               -1; -0.08
 -------------------------------------
 
 
@@ -15310,19 +15235,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles        -1; -0.9
+|1st and 3rd quartiles        -1; -0.9
 
-Min. and max.               -1; -0.44
+|Min. and max.               -1; -0.44
 -------------------------------------
 
 
@@ -15349,19 +15274,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.97
+|1st and 3rd quartiles       -1; -0.97
 
-Min. and max.                -1; -0.8
+|Min. and max.                -1; -0.8
 -------------------------------------
 
 
@@ -15388,19 +15313,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.75
+|1st and 3rd quartiles       -1; -0.75
 
-Min. and max.                -1; 0.17
+|Min. and max.                -1; 0.17
 -------------------------------------
 
 
@@ -15427,19 +15352,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.74
+|1st and 3rd quartiles       -1; -0.74
 
-Min. and max.                -1; 0.18
+|Min. and max.                -1; 0.18
 -------------------------------------
 
 
@@ -15466,19 +15391,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.22
+|Min. and max.               -1; -0.22
 -------------------------------------
 
 
@@ -15504,19 +15429,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.89
+|1st and 3rd quartiles       -1; -0.89
 
-Min. and max.               -1; -0.43
+|Min. and max.               -1; -0.43
 -------------------------------------
 
 
@@ -15543,19 +15468,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.68
+|1st and 3rd quartiles       -1; -0.68
 
-Min. and max.                -1; 0.24
+|Min. and max.                -1; 0.24
 -------------------------------------
 
 
@@ -15582,19 +15507,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.76
+|1st and 3rd quartiles       -1; -0.76
 
-Min. and max.                -1; 0.13
+|Min. and max.                -1; 0.13
 -------------------------------------
 
 
@@ -15621,19 +15546,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.93
+|Median                          -0.93
 
-1st and 3rd quartiles       -1; -0.65
+|1st and 3rd quartiles       -1; -0.65
 
-Min. and max.                 -1; 0.2
+|Min. and max.                 -1; 0.2
 -------------------------------------
 
 
@@ -15660,19 +15585,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.77
+|1st and 3rd quartiles       -1; -0.77
 
-Min. and max.               -1; -0.05
+|Min. and max.               -1; -0.05
 -------------------------------------
 
 
@@ -15698,19 +15623,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.68
+|1st and 3rd quartiles       -1; -0.68
 
-Min. and max.               -1; -0.11
+|Min. and max.               -1; -0.11
 -------------------------------------
 
 
@@ -15736,19 +15661,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.83
+|1st and 3rd quartiles       -1; -0.83
 
-Min. and max.               -1; -0.08
+|Min. and max.               -1; -0.08
 -------------------------------------
 
 
@@ -15775,19 +15700,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.22
+|Min. and max.               -1; -0.22
 -------------------------------------
 
 
@@ -15813,19 +15738,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.75
+|1st and 3rd quartiles       -1; -0.75
 
-Min. and max.               -1; -0.22
+|Min. and max.               -1; -0.22
 -------------------------------------
 
 
@@ -15851,19 +15776,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.58
+|Min. and max.               -1; -0.58
 -------------------------------------
 
 
@@ -15889,19 +15814,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.82
+|Min. and max.               -1; -0.82
 -------------------------------------
 
 
@@ -15928,19 +15853,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.94
+|Median                          -0.94
 
-1st and 3rd quartiles       -1; -0.72
+|1st and 3rd quartiles       -1; -0.72
 
-Min. and max.               -1; -0.04
+|Min. and max.               -1; -0.04
 -------------------------------------
 
 
@@ -15966,19 +15891,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.67
+|1st and 3rd quartiles       -1; -0.67
 
-Min. and max.                -1; 0.08
+|Min. and max.                -1; 0.08
 -------------------------------------
 
 
@@ -16005,19 +15930,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.75
+|1st and 3rd quartiles       -1; -0.75
 
-Min. and max.               -1; -0.14
+|Min. and max.               -1; -0.14
 -------------------------------------
 
 
@@ -16043,19 +15968,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.86
+|1st and 3rd quartiles       -1; -0.86
 
-Min. and max.               -1; -0.61
+|Min. and max.               -1; -0.61
 -------------------------------------
 
 
@@ -16081,19 +16006,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.95
+|Median                          -0.95
 
-1st and 3rd quartiles       -1; -0.62
+|1st and 3rd quartiles       -1; -0.62
 
-Min. and max.                -1; 0.05
+|Min. and max.                -1; 0.05
 -------------------------------------
 
 
@@ -16120,19 +16045,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles        -1; -0.8
+|1st and 3rd quartiles        -1; -0.8
 
-Min. and max.               -1; -0.09
+|Min. and max.               -1; -0.09
 -------------------------------------
 
 
@@ -16159,19 +16084,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.83
+|1st and 3rd quartiles       -1; -0.83
 
-Min. and max.               -1; -0.02
+|Min. and max.               -1; -0.02
 -------------------------------------
 
 
@@ -16198,19 +16123,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.16
+|Min. and max.               -1; -0.16
 -------------------------------------
 
 
@@ -16236,19 +16161,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.31
+|Min. and max.               -1; -0.31
 -------------------------------------
 
 
@@ -16274,19 +16199,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.94
+|1st and 3rd quartiles       -1; -0.94
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -16312,19 +16237,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.64
+|Min. and max.               -1; -0.64
 -------------------------------------
 
 
@@ -16350,19 +16275,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles        -1; -0.9
+|1st and 3rd quartiles        -1; -0.9
 
-Min. and max.               -1; -0.46
+|Min. and max.               -1; -0.46
 -------------------------------------
 
 
@@ -16389,19 +16314,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.43
+|Min. and max.               -1; -0.43
 -------------------------------------
 
 
@@ -16428,19 +16353,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.66
+|Min. and max.               -1; -0.66
 -------------------------------------
 
 
@@ -16466,19 +16391,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.77
+|1st and 3rd quartiles       -1; -0.77
 
-Min. and max.               -1; -0.08
+|Min. and max.               -1; -0.08
 -------------------------------------
 
 
@@ -16505,19 +16430,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.47
+|Min. and max.               -1; -0.47
 -------------------------------------
 
 
@@ -16544,19 +16469,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -16582,19 +16507,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.43
+|Min. and max.               -1; -0.43
 -------------------------------------
 
 
@@ -16621,19 +16546,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.               -1; -0.17
+|Min. and max.               -1; -0.17
 -------------------------------------
 
 
@@ -16659,19 +16584,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -16697,19 +16622,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.73
+|Median                             -0.73
 
-1st and 3rd quartiles       -0.97; -0.34
+|1st and 3rd quartiles       -0.97; -0.34
 
-Min. and max.                -0.99; 0.47
+|Min. and max.                -0.99; 0.47
 ----------------------------------------
 
 
@@ -16735,19 +16660,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.97; -0.45
+|1st and 3rd quartiles       -0.97; -0.45
 
-Min. and max.                -0.99; 0.33
+|Min. and max.                -0.99; 0.33
 ----------------------------------------
 
 
@@ -16773,19 +16698,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.96; -0.26
+|1st and 3rd quartiles       -0.96; -0.26
 
-Min. and max.                -0.99; 0.49
+|Min. and max.                -0.99; 0.49
 ----------------------------------------
 
 
@@ -16811,19 +16736,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.98; -0.48
+|1st and 3rd quartiles       -0.98; -0.48
 
-Min. and max.                 -0.99; 0.2
+|Min. and max.                 -0.99; 0.2
 ----------------------------------------
 
 
@@ -16850,19 +16775,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.96; -0.42
+|1st and 3rd quartiles       -0.96; -0.42
 
-Min. and max.                -0.99; 0.65
+|Min. and max.                -0.99; 0.65
 ----------------------------------------
 
 
@@ -16888,19 +16813,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.96; -0.39
+|1st and 3rd quartiles       -0.96; -0.39
 
-Min. and max.                -0.99; 0.52
+|Min. and max.                -0.99; 0.52
 ----------------------------------------
 
 
@@ -16926,19 +16851,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.75
+|Median                             -0.75
 
-1st and 3rd quartiles       -0.97; -0.38
+|1st and 3rd quartiles       -0.97; -0.38
 
-Min. and max.                -0.99; 0.38
+|Min. and max.                -0.99; 0.38
 ----------------------------------------
 
 
@@ -16964,19 +16889,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.97; -0.48
+|1st and 3rd quartiles       -0.97; -0.48
 
-Min. and max.                -0.99; 0.27
+|Min. and max.                -0.99; 0.27
 ----------------------------------------
 
 
@@ -17002,19 +16927,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.78
+|Median                             -0.78
 
-1st and 3rd quartiles       -0.96; -0.26
+|1st and 3rd quartiles       -0.96; -0.26
 
-Min. and max.                -0.99; 0.52
+|Min. and max.                -0.99; 0.52
 ----------------------------------------
 
 
@@ -17040,19 +16965,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.97; -0.46
+|1st and 3rd quartiles       -0.97; -0.46
 
-Min. and max.                -0.99; 0.25
+|Min. and max.                -0.99; 0.25
 ----------------------------------------
 
 
@@ -17079,19 +17004,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.97; -0.53
+|1st and 3rd quartiles       -0.97; -0.53
 
-Min. and max.                   -1; 0.67
+|Min. and max.                   -1; 0.67
 ----------------------------------------
 
 
@@ -17117,19 +17042,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.87
+|Median                             -0.87
 
-1st and 3rd quartiles       -0.97; -0.56
+|1st and 3rd quartiles       -0.97; -0.56
 
-Min. and max.                -0.99; 0.45
+|Min. and max.                -0.99; 0.45
 ----------------------------------------
 
 
@@ -17155,19 +17080,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.93
+|Median                             -0.93
 
-1st and 3rd quartiles       -0.99; -0.87
+|1st and 3rd quartiles       -0.99; -0.87
 
-Min. and max.                  -1; -0.68
+|Min. and max.                  -1; -0.68
 ----------------------------------------
 
 
@@ -17193,19 +17118,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.94
+|Median                             -0.94
 
-1st and 3rd quartiles       -0.98; -0.82
+|1st and 3rd quartiles       -0.98; -0.82
 
-Min. and max.                  -1; -0.59
+|Min. and max.                  -1; -0.59
 ----------------------------------------
 
 
@@ -17231,19 +17156,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.93
+|Median                             -0.93
 
-1st and 3rd quartiles       -0.98; -0.83
+|1st and 3rd quartiles       -0.98; -0.83
 
-Min. and max.               -0.99; -0.59
+|Min. and max.               -0.99; -0.59
 ----------------------------------------
 
 
@@ -17269,19 +17194,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.73
+|Median                            -0.73
 
-1st and 3rd quartiles       -0.97; -0.3
+|1st and 3rd quartiles       -0.97; -0.3
 
-Min. and max.               -0.99; 0.36
+|Min. and max.               -0.99; 0.36
 ---------------------------------------
 
 
@@ -17307,19 +17232,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.83
+|1st and 3rd quartiles       -1; -0.83
 
-Min. and max.               -1; -0.16
+|Min. and max.               -1; -0.16
 -------------------------------------
 
 
@@ -17345,19 +17270,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.82
+|1st and 3rd quartiles       -1; -0.82
 
-Min. and max.                 -1; 0.1
+|Min. and max.                 -1; 0.1
 -------------------------------------
 
 
@@ -17384,19 +17309,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.76
+|1st and 3rd quartiles       -1; -0.76
 
-Min. and max.                -1; 0.25
+|Min. and max.                -1; 0.25
 -------------------------------------
 
 
@@ -17423,19 +17348,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.41
+|1st and 3rd quartiles       -0.98; -0.41
 
-Min. and max.                 -0.99; 0.3
+|Min. and max.                 -0.99; 0.3
 ----------------------------------------
 
 
@@ -17461,19 +17386,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.87
+|Median                             -0.87
 
-1st and 3rd quartiles       -0.98; -0.53
+|1st and 3rd quartiles       -0.98; -0.53
 
-Min. and max.                   -1; 0.39
+|Min. and max.                   -1; 0.39
 ----------------------------------------
 
 
@@ -17499,19 +17424,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.98; -0.39
+|1st and 3rd quartiles       -0.98; -0.39
 
-Min. and max.                -0.99; 0.28
+|Min. and max.                -0.99; 0.28
 ----------------------------------------
 
 
@@ -17537,19 +17462,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.62; 0.54
+|1st and 3rd quartiles       -0.62; 0.54
 
-Min. and max.               -0.91; 0.77
+|Min. and max.               -0.91; 0.77
 ---------------------------------------
 
 
@@ -17575,19 +17500,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.57; 0.58
+|1st and 3rd quartiles       -0.57; 0.58
 
-Min. and max.               -0.88; 0.85
+|Min. and max.               -0.88; 0.85
 ---------------------------------------
 
 
@@ -17613,19 +17538,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.08
+|Median                            -0.08
 
-1st and 3rd quartiles       -0.68; 0.47
+|1st and 3rd quartiles       -0.68; 0.47
 
-Min. and max.               -0.86; 0.75
+|Min. and max.               -0.86; 0.75
 ---------------------------------------
 
 
@@ -17651,19 +17576,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              178
+|Number of unique values              178
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.93; -0.86
+|1st and 3rd quartiles       -0.93; -0.86
 
-Min. and max.               -0.98; -0.37
+|Min. and max.               -0.98; -0.37
 ----------------------------------------
 
 
@@ -17691,19 +17616,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             172
+|Number of unique values             172
 
-Median                            -0.87
+|Median                            -0.87
 
-1st and 3rd quartiles       -0.93; -0.7
+|1st and 3rd quartiles       -0.93; -0.7
 
-Min. and max.               -0.99; 0.05
+|Min. and max.               -0.99; 0.05
 ---------------------------------------
 
 
@@ -17730,19 +17655,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              176
+|Number of unique values              176
 
-Median                             -0.85
+|Median                             -0.85
 
-1st and 3rd quartiles       -0.92; -0.74
+|1st and 3rd quartiles       -0.92; -0.74
 
-Min. and max.               -0.99; -0.06
+|Min. and max.               -0.99; -0.06
 ----------------------------------------
 
 
@@ -17769,19 +17694,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                           -0.12
+|Median                           -0.12
 
-1st and 3rd quartiles         -0.21; 0
+|1st and 3rd quartiles         -0.21; 0
 
-Min. and max.               -0.4; 0.25
+|Min. and max.               -0.4; 0.25
 --------------------------------------
 
 
@@ -17806,19 +17731,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.16
+|Median                             -0.16
 
-1st and 3rd quartiles       -0.29; -0.04
+|1st and 3rd quartiles       -0.29; -0.04
 
-Min. and max.                -0.67; 0.27
+|Min. and max.                -0.67; 0.27
 ----------------------------------------
 
 
@@ -17844,19 +17769,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.15; 0.04
+|1st and 3rd quartiles       -0.15; 0.04
 
-Min. and max.               -0.51; 0.38
+|Min. and max.               -0.51; 0.38
 ---------------------------------------
 
 
@@ -17882,19 +17807,19 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.19
+|Median                             -0.19
 
-1st and 3rd quartiles       -0.29; -0.06
+|1st and 3rd quartiles       -0.29; -0.06
 
-Min. and max.                -0.48; 0.37
+|Min. and max.                -0.48; 0.37
 ----------------------------------------
 
 
@@ -17920,19 +17845,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.52
+|Median                             -0.52
 
-1st and 3rd quartiles       -0.61; -0.39
+|1st and 3rd quartiles       -0.61; -0.39
 
-Min. and max.                -0.76; 0.18
+|Min. and max.                -0.76; 0.18
 ----------------------------------------
 
 
@@ -17958,19 +17883,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.21
+|Median                             -0.21
 
-1st and 3rd quartiles       -0.34; -0.06
+|1st and 3rd quartiles       -0.34; -0.06
 
-Min. and max.                -0.62; 0.64
+|Min. and max.                -0.62; 0.64
 ----------------------------------------
 
 
@@ -17996,19 +17921,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.58
+|Median                             -0.58
 
-1st and 3rd quartiles       -0.71; -0.42
+|1st and 3rd quartiles       -0.71; -0.42
 
-Min. and max.                -0.92; 0.47
+|Min. and max.                -0.92; 0.47
 ----------------------------------------
 
 
@@ -18034,19 +17959,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.25
+|Median                            -0.25
 
-1st and 3rd quartiles       -0.33; -0.1
+|1st and 3rd quartiles       -0.33; -0.1
 
-Min. and max.               -0.65; 0.54
+|Min. and max.               -0.65; 0.54
 ---------------------------------------
 
 
@@ -18073,19 +17998,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.57
+|Median                             -0.57
 
-1st and 3rd quartiles       -0.66; -0.44
+|1st and 3rd quartiles       -0.66; -0.44
 
-Min. and max.                -0.89; 0.35
+|Min. and max.                -0.89; 0.35
 ----------------------------------------
 
 
@@ -18112,19 +18037,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.26
+|Min. and max.               -1; -0.26
 -------------------------------------
 
 
@@ -18150,19 +18075,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.31
+|Min. and max.               -1; -0.31
 -------------------------------------
 
 
@@ -18188,19 +18113,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.85
+|1st and 3rd quartiles       -1; -0.85
 
-Min. and max.               -1; -0.28
+|Min. and max.               -1; -0.28
 -------------------------------------
 
 
@@ -18226,19 +18151,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.63
+|Min. and max.               -1; -0.63
 -------------------------------------
 
 
@@ -18264,19 +18189,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.47
+|Min. and max.               -1; -0.47
 -------------------------------------
 
 
@@ -18303,19 +18228,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.48
+|Min. and max.               -1; -0.48
 -------------------------------------
 
 
@@ -18342,19 +18267,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.61
+|Min. and max.               -1; -0.61
 -------------------------------------
 
 
@@ -18380,19 +18305,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.77
+|Min. and max.               -1; -0.77
 -------------------------------------
 
 
@@ -18419,19 +18344,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.                -1; -0.2
+|Min. and max.                -1; -0.2
 -------------------------------------
 
 
@@ -18457,19 +18382,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.86
+|1st and 3rd quartiles       -1; -0.86
 
-Min. and max.               -1; -0.27
+|Min. and max.               -1; -0.27
 -------------------------------------
 
 
@@ -18495,19 +18420,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles        -1; -0.9
+|1st and 3rd quartiles        -1; -0.9
 
-Min. and max.               -1; -0.44
+|Min. and max.               -1; -0.44
 -------------------------------------
 
 
@@ -18534,19 +18459,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.94
+|1st and 3rd quartiles       -1; -0.94
 
-Min. and max.               -1; -0.68
+|Min. and max.               -1; -0.68
 -------------------------------------
 
 
@@ -18572,19 +18497,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.               -1; -0.18
+|Min. and max.               -1; -0.18
 -------------------------------------
 
 
@@ -18610,19 +18535,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.92
+|1st and 3rd quartiles       -1; -0.92
 
-Min. and max.               -1; -0.57
+|Min. and max.               -1; -0.57
 -------------------------------------
 
 
@@ -18648,19 +18573,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.83
+|1st and 3rd quartiles       -1; -0.83
 
-Min. and max.                -1; 0.55
+|Min. and max.                -1; 0.55
 -------------------------------------
 
 
@@ -18686,19 +18611,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.94
+|1st and 3rd quartiles       -1; -0.94
 
-Min. and max.               -1; -0.45
+|Min. and max.               -1; -0.45
 -------------------------------------
 
 
@@ -18725,19 +18650,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.                -1; 0.04
+|Min. and max.                -1; 0.04
 -------------------------------------
 
 
@@ -18764,19 +18689,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.96
+|1st and 3rd quartiles       -1; -0.96
 
-Min. and max.               -1; -0.46
+|Min. and max.               -1; -0.46
 -------------------------------------
 
 
@@ -18803,19 +18728,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.96
+|1st and 3rd quartiles       -1; -0.96
 
-Min. and max.               -1; -0.61
+|Min. and max.               -1; -0.61
 -------------------------------------
 
 
@@ -18841,19 +18766,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.44
+|Min. and max.               -1; -0.44
 -------------------------------------
 
 
@@ -18880,19 +18805,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.48
+|Min. and max.               -1; -0.48
 -------------------------------------
 
 
@@ -18919,19 +18844,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.96
+|1st and 3rd quartiles       -1; -0.96
 
-Min. and max.               -1; -0.81
+|Min. and max.               -1; -0.81
 -------------------------------------
 
 
@@ -18958,19 +18883,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.84
+|1st and 3rd quartiles       -1; -0.84
 
-Min. and max.                -1; 0.26
+|Min. and max.                -1; 0.26
 -------------------------------------
 
 
@@ -18997,19 +18922,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                             -1
+|Median                             -1
 
-1st and 3rd quartiles       -1; -0.94
+|1st and 3rd quartiles       -1; -0.94
 
-Min. and max.                -1; 0.04
+|Min. and max.                -1; 0.04
 -------------------------------------
 
 
@@ -19036,19 +18961,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.96
+|1st and 3rd quartiles       -1; -0.96
 
-Min. and max.               -1; -0.57
+|Min. and max.               -1; -0.57
 -------------------------------------
 
 
@@ -19074,19 +18999,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.56
+|Min. and max.               -1; -0.56
 -------------------------------------
 
 
@@ -19112,19 +19037,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.82
+|1st and 3rd quartiles       -1; -0.82
 
-Min. and max.                -1; 0.22
+|Min. and max.                -1; 0.22
 -------------------------------------
 
 
@@ -19151,19 +19076,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.46
+|Min. and max.               -1; -0.46
 -------------------------------------
 
 
@@ -19190,19 +19115,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.81
+|1st and 3rd quartiles       -1; -0.81
 
-Min. and max.                -1; 0.19
+|Min. and max.                -1; 0.19
 -------------------------------------
 
 
@@ -19229,19 +19154,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.98
+|Median                          -0.98
 
-1st and 3rd quartiles       -1; -0.89
+|1st and 3rd quartiles       -1; -0.89
 
-Min. and max.                -1; 0.09
+|Min. and max.                -1; 0.09
 -------------------------------------
 
 
@@ -19268,19 +19193,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.88
+|1st and 3rd quartiles       -1; -0.88
 
-Min. and max.               -1; -0.09
+|Min. and max.               -1; -0.09
 -------------------------------------
 
 
@@ -19306,19 +19231,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.55
+|Min. and max.               -1; -0.55
 -------------------------------------
 
 
@@ -19344,19 +19269,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.69
+|Min. and max.               -1; -0.69
 -------------------------------------
 
 
@@ -19382,19 +19307,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.93
+|1st and 3rd quartiles       -1; -0.93
 
-Min. and max.               -1; -0.58
+|Min. and max.               -1; -0.58
 -------------------------------------
 
 
@@ -19420,19 +19345,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.61
+|Min. and max.               -1; -0.61
 -------------------------------------
 
 
@@ -19458,19 +19383,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.63
+|Min. and max.               -1; -0.63
 -------------------------------------
 
 
@@ -19496,19 +19421,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.78
+|1st and 3rd quartiles       -1; -0.78
 
-Min. and max.                -1; 0.24
+|Min. and max.                -1; 0.24
 -------------------------------------
 
 
@@ -19535,19 +19460,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.86
+|1st and 3rd quartiles       -1; -0.86
 
-Min. and max.                -1; 0.02
+|Min. and max.                -1; 0.02
 -------------------------------------
 
 
@@ -19574,19 +19499,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.66
+|Min. and max.               -1; -0.66
 -------------------------------------
 
 
@@ -19612,19 +19537,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.92
+|1st and 3rd quartiles       -1; -0.92
 
-Min. and max.               -1; -0.63
+|Min. and max.               -1; -0.63
 -------------------------------------
 
 
@@ -19650,19 +19575,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.97
+|Median                          -0.97
 
-1st and 3rd quartiles       -1; -0.76
+|1st and 3rd quartiles       -1; -0.76
 
-Min. and max.                -1; 0.24
+|Min. and max.                -1; 0.24
 -------------------------------------
 
 
@@ -19689,19 +19614,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.95
+|1st and 3rd quartiles       -1; -0.95
 
-Min. and max.               -1; -0.58
+|Min. and max.               -1; -0.58
 -------------------------------------
 
 
@@ -19727,19 +19652,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.67
+|Median                             -0.67
 
-1st and 3rd quartiles       -0.96; -0.16
+|1st and 3rd quartiles       -0.96; -0.16
 
-Min. and max.                -0.99; 0.59
+|Min. and max.                -0.99; 0.59
 ----------------------------------------
 
 
@@ -19765,19 +19690,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.65
+|Median                             -0.65
 
-1st and 3rd quartiles       -0.95; -0.37
+|1st and 3rd quartiles       -0.95; -0.37
 
-Min. and max.                -0.99; 0.18
+|Min. and max.                -0.99; 0.18
 ----------------------------------------
 
 
@@ -19804,19 +19729,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.65
+|Median                             -0.65
 
-1st and 3rd quartiles       -0.95; -0.22
+|1st and 3rd quartiles       -0.95; -0.22
 
-Min. and max.                -0.99; 0.49
+|Min. and max.                -0.99; 0.49
 ----------------------------------------
 
 
@@ -19842,19 +19767,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.75
+|Median                             -0.75
 
-1st and 3rd quartiles       -0.95; -0.56
+|1st and 3rd quartiles       -0.95; -0.56
 
-Min. and max.               -0.99; -0.09
+|Min. and max.               -0.99; -0.09
 ----------------------------------------
 
 
@@ -19881,19 +19806,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles        -0.97; -0.8
+|1st and 3rd quartiles        -0.97; -0.8
 
-Min. and max.               -0.99; -0.57
+|Min. and max.               -0.99; -0.57
 ----------------------------------------
 
 
@@ -19919,19 +19844,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.67
+|Median                             -0.67
 
-1st and 3rd quartiles       -0.96; -0.16
+|1st and 3rd quartiles       -0.96; -0.16
 
-Min. and max.                -0.99; 0.59
+|Min. and max.                -0.99; 0.59
 ----------------------------------------
 
 
@@ -19957,19 +19882,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.99; -0.68
+|1st and 3rd quartiles       -0.99; -0.68
 
-Min. and max.                   -1; 0.04
+|Min. and max.                   -1; 0.04
 ----------------------------------------
 
 
@@ -19996,19 +19921,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.97; -0.38
+|1st and 3rd quartiles       -0.97; -0.38
 
-Min. and max.                 -0.99; 0.2
+|Min. and max.                 -0.99; 0.2
 ----------------------------------------
 
 
@@ -20035,19 +19960,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.11
+|Median                            -0.11
 
-1st and 3rd quartiles       -0.79; 0.52
+|1st and 3rd quartiles       -0.79; 0.52
 
-Min. and max.               -0.95; 0.86
+|Min. and max.               -0.95; 0.86
 ---------------------------------------
 
 
@@ -20073,19 +19998,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.78
+|Median                             -0.78
 
-1st and 3rd quartiles       -0.89; -0.59
+|1st and 3rd quartiles       -0.89; -0.59
 
-Min. and max.               -0.96; -0.31
+|Min. and max.               -0.96; -0.31
 ----------------------------------------
 
 
@@ -20111,19 +20036,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.08
+|Median                             0.08
 
-1st and 3rd quartiles       -0.01; 0.17
+|1st and 3rd quartiles       -0.01; 0.17
 
-Min. and max.               -0.31; 0.44
+|Min. and max.               -0.31; 0.44
 ---------------------------------------
 
 
@@ -20149,19 +20074,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.37
+|Median                             -0.37
 
-1st and 3rd quartiles       -0.45; -0.28
+|1st and 3rd quartiles       -0.45; -0.28
 
-Min. and max.                 -0.7; 0.15
+|Min. and max.                 -0.7; 0.15
 ----------------------------------------
 
 
@@ -20187,19 +20112,19 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.65
+|Median                             -0.65
 
-1st and 3rd quartiles       -0.74; -0.56
+|1st and 3rd quartiles       -0.74; -0.56
 
-Min. and max.                 -0.9; -0.1
+|Min. and max.                 -0.9; -0.1
 ----------------------------------------
 
 
@@ -20226,19 +20151,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.19
+|1st and 3rd quartiles       -0.98; -0.19
 
-Min. and max.                -0.99; 0.54
+|Min. and max.                -0.99; 0.54
 ----------------------------------------
 
 
@@ -20264,19 +20189,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.98; -0.27
+|1st and 3rd quartiles       -0.98; -0.27
 
-Min. and max.                -0.99; 0.32
+|Min. and max.                -0.99; 0.32
 ----------------------------------------
 
 
@@ -20302,19 +20227,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.97; -0.18
+|1st and 3rd quartiles       -0.97; -0.18
 
-Min. and max.                -0.99; 0.48
+|Min. and max.                -0.99; 0.48
 ----------------------------------------
 
 
@@ -20340,19 +20265,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.84
+|Median                             -0.84
 
-1st and 3rd quartiles       -0.98; -0.34
+|1st and 3rd quartiles       -0.98; -0.34
 
-Min. and max.                   -1; 0.18
+|Min. and max.                   -1; 0.18
 ----------------------------------------
 
 
@@ -20379,19 +20304,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.98; -0.61
+|1st and 3rd quartiles       -0.98; -0.61
 
-Min. and max.               -0.99; -0.22
+|Min. and max.               -0.99; -0.22
 ----------------------------------------
 
 
@@ -20417,19 +20342,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.79
+|Median                             -0.79
 
-1st and 3rd quartiles       -0.98; -0.19
+|1st and 3rd quartiles       -0.98; -0.19
 
-Min. and max.                -0.99; 0.54
+|Min. and max.                -0.99; 0.54
 ----------------------------------------
 
 
@@ -20455,19 +20380,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.96
+|Median                          -0.96
 
-1st and 3rd quartiles       -1; -0.68
+|1st and 3rd quartiles       -1; -0.68
 
-Min. and max.                -1; 0.08
+|Min. and max.                -1; 0.08
 -------------------------------------
 
 
@@ -20494,19 +20419,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.82
+|Median                             -0.82
 
-1st and 3rd quartiles       -0.98; -0.31
+|1st and 3rd quartiles       -0.98; -0.31
 
-Min. and max.                -0.99; 0.33
+|Min. and max.                -0.99; 0.33
 ----------------------------------------
 
 
@@ -20532,19 +20457,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 --------------------------------------
-Feature                         Result
+|Feature                         Result
 ------------------------- ------------
-Variable type                  numeric
+|Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
+|Number of missing obs.         0 (0 %)
 
-Number of unique values            180
+|Number of unique values            180
 
-Median                           -0.42
+|Median                           -0.42
 
-1st and 3rd quartiles       -0.93; 0.4
+|1st and 3rd quartiles       -0.93; 0.4
 
-Min. and max.                 -1; 0.79
+|Min. and max.                 -1; 0.79
 --------------------------------------
 
 
@@ -20570,19 +20495,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              173
+|Number of unique values              173
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles        -0.9; -0.86
+|1st and 3rd quartiles        -0.9; -0.86
 
-Min. and max.               -0.95; -0.69
+|Min. and max.               -0.95; -0.69
 ----------------------------------------
 
 
@@ -20608,19 +20533,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.05; 0.28
+|1st and 3rd quartiles        0.05; 0.28
 
-Min. and max.               -0.13; 0.49
+|Min. and max.               -0.13; 0.49
 ---------------------------------------
 
 
@@ -20647,19 +20572,19 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.36
+|Median                             -0.36
 
-1st and 3rd quartiles       -0.47; -0.12
+|1st and 3rd quartiles       -0.47; -0.12
 
-Min. and max.                -0.66; 0.52
+|Min. and max.                -0.66; 0.52
 ----------------------------------------
 
 
@@ -20686,19 +20611,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.67
+|Median                             -0.67
 
-1st and 3rd quartiles       -0.76; -0.47
+|1st and 3rd quartiles       -0.76; -0.47
 
-Min. and max.                 -0.9; 0.33
+|Min. and max.                 -0.9; 0.33
 ----------------------------------------
 
 
@@ -20725,19 +20650,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.77
+|Median                             -0.77
 
-1st and 3rd quartiles       -0.96; -0.41
+|1st and 3rd quartiles       -0.96; -0.41
 
-Min. and max.                 -0.99; 0.2
+|Min. and max.                 -0.99; 0.2
 ----------------------------------------
 
 
@@ -20764,19 +20689,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.77
+|Median                             -0.77
 
-1st and 3rd quartiles       -0.95; -0.43
+|1st and 3rd quartiles       -0.95; -0.43
 
-Min. and max.                -0.98; 0.24
+|Min. and max.                -0.98; 0.24
 ----------------------------------------
 
 
@@ -20803,19 +20728,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.75
+|Median                             -0.75
 
-1st and 3rd quartiles       -0.95; -0.38
+|1st and 3rd quartiles       -0.95; -0.38
 
-Min. and max.                -0.98; 0.36
+|Min. and max.                -0.98; 0.36
 ----------------------------------------
 
 
@@ -20841,19 +20766,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.81
+|Median                             -0.81
 
-1st and 3rd quartiles       -0.95; -0.51
+|1st and 3rd quartiles       -0.95; -0.51
 
-Min. and max.                -0.98; 0.08
+|Min. and max.                -0.98; 0.08
 ----------------------------------------
 
 
@@ -20880,19 +20805,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.97; -0.82
+|1st and 3rd quartiles       -0.97; -0.82
 
-Min. and max.               -0.99; -0.44
+|Min. and max.               -0.99; -0.44
 ----------------------------------------
 
 
@@ -20919,19 +20844,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.77
+|Median                             -0.77
 
-1st and 3rd quartiles       -0.96; -0.41
+|1st and 3rd quartiles       -0.96; -0.41
 
-Min. and max.                 -0.99; 0.2
+|Min. and max.                 -0.99; 0.2
 ----------------------------------------
 
 
@@ -20958,19 +20883,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.94
+|Median                          -0.94
 
-1st and 3rd quartiles       -1; -0.79
+|1st and 3rd quartiles       -1; -0.79
 
-Min. and max.               -1; -0.14
+|Min. and max.               -1; -0.14
 -------------------------------------
 
 
@@ -20996,19 +20921,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                              -0.8
+|Median                              -0.8
 
-1st and 3rd quartiles       -0.97; -0.46
+|1st and 3rd quartiles       -0.97; -0.46
 
-Min. and max.                -0.99; 0.09
+|Min. and max.                -0.99; 0.09
 ----------------------------------------
 
 
@@ -21035,19 +20960,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.58; 0.53
+|1st and 3rd quartiles       -0.58; 0.53
 
-Min. and max.               -0.87; 0.83
+|Min. and max.               -0.87; 0.83
 ---------------------------------------
 
 
@@ -21073,19 +20998,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.95; -0.85
+|1st and 3rd quartiles       -0.95; -0.85
 
-Min. and max.               -0.99; -0.51
+|Min. and max.               -0.99; -0.51
 ----------------------------------------
 
 
@@ -21112,19 +21037,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.05
+|Median                            -0.05
 
-1st and 3rd quartiles       -0.17; 0.08
+|1st and 3rd quartiles       -0.17; 0.08
 
-Min. and max.               -0.46; 0.41
+|Min. and max.               -0.46; 0.41
 ---------------------------------------
 
 
@@ -21150,19 +21075,19 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.26
+|Median                             -0.26
 
-1st and 3rd quartiles       -0.38; -0.17
+|1st and 3rd quartiles       -0.38; -0.17
 
-Min. and max.                -0.63; 0.17
+|Min. and max.                -0.63; 0.17
 ----------------------------------------
 
 
@@ -21188,19 +21113,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.59
+|Median                             -0.59
 
-1st and 3rd quartiles        -0.69; -0.5
+|1st and 3rd quartiles        -0.69; -0.5
 
-Min. and max.               -0.85; -0.09
+|Min. and max.               -0.85; -0.09
 ----------------------------------------
 
 
@@ -21226,19 +21151,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.58
+|1st and 3rd quartiles       -0.98; -0.58
 
-Min. and max.                   -1; 0.15
+|Min. and max.                   -1; 0.15
 ----------------------------------------
 
 
@@ -21265,19 +21190,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.89
+|Median                             -0.89
 
-1st and 3rd quartiles       -0.98; -0.61
+|1st and 3rd quartiles       -0.98; -0.61
 
-Min. and max.                   -1; 0.29
+|Min. and max.                   -1; 0.29
 ----------------------------------------
 
 
@@ -21303,19 +21228,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.57
+|1st and 3rd quartiles       -0.98; -0.57
 
-Min. and max.                   -1; 0.35
+|Min. and max.                   -1; 0.35
 ----------------------------------------
 
 
@@ -21341,19 +21266,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.91
+|Median                             -0.91
 
-1st and 3rd quartiles       -0.98; -0.66
+|1st and 3rd quartiles       -0.98; -0.66
 
-Min. and max.                   -1; 0.14
+|Min. and max.                   -1; 0.14
 ----------------------------------------
 
 
@@ -21380,19 +21305,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.93
+|Median                             -0.93
 
-1st and 3rd quartiles       -0.99; -0.74
+|1st and 3rd quartiles       -0.99; -0.74
 
-Min. and max.                  -1; -0.34
+|Min. and max.                  -1; -0.34
 ----------------------------------------
 
 
@@ -21418,19 +21343,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.88
+|Median                             -0.88
 
-1st and 3rd quartiles       -0.98; -0.58
+|1st and 3rd quartiles       -0.98; -0.58
 
-Min. and max.                   -1; 0.15
+|Min. and max.                   -1; 0.15
 ----------------------------------------
 
 
@@ -21457,19 +21382,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 -------------------------------------
-Feature                        Result
+|Feature                        Result
 ------------------------- -----------
-Variable type                 numeric
+|Variable type                 numeric
 
-Number of missing obs.        0 (0 %)
+|Number of missing obs.        0 (0 %)
 
-Number of unique values           180
+|Number of unique values           180
 
-Median                          -0.99
+|Median                          -0.99
 
-1st and 3rd quartiles       -1; -0.91
+|1st and 3rd quartiles       -1; -0.91
 
-Min. and max.               -1; -0.19
+|Min. and max.               -1; -0.19
 -------------------------------------
 
 
@@ -21495,19 +21420,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.86
+|Median                             -0.86
 
-1st and 3rd quartiles       -0.98; -0.58
+|1st and 3rd quartiles       -0.98; -0.58
 
-Min. and max.                   -1; 0.21
+|Min. and max.                   -1; 0.21
 ----------------------------------------
 
 
@@ -21534,19 +21459,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.25
+|Median                            -0.25
 
-1st and 3rd quartiles       -0.81; 0.36
+|1st and 3rd quartiles       -0.81; 0.36
 
-Min. and max.               -0.99; 0.76
+|Min. and max.               -0.99; 0.76
 ---------------------------------------
 
 
@@ -21572,19 +21497,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              179
+|Number of unique values              179
 
-Median                              -0.9
+|Median                              -0.9
 
-1st and 3rd quartiles       -0.92; -0.88
+|1st and 3rd quartiles       -0.92; -0.88
 
-Min. and max.               -0.98; -0.74
+|Min. and max.               -0.98; -0.74
 ----------------------------------------
 
 
@@ -21612,19 +21537,19 @@ ggAggHist(data = structure(list(xmin = c(-0.98, -0.96, -0.94,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.11
+|Median                             0.11
 
-1st and 3rd quartiles        0.05; 0.21
+|1st and 3rd quartiles        0.05; 0.21
 
-Min. and max.               -0.18; 0.43
+|Min. and max.               -0.18; 0.43
 ---------------------------------------
 
 
@@ -21651,19 +21576,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.31
+|Median                             -0.31
 
-1st and 3rd quartiles       -0.43; -0.23
+|1st and 3rd quartiles       -0.43; -0.23
 
-Min. and max.                -0.62; 0.45
+|Min. and max.                -0.62; 0.45
 ----------------------------------------
 
 
@@ -21690,19 +21615,19 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.65
+|Median                             -0.65
 
-1st and 3rd quartiles       -0.73; -0.57
+|1st and 3rd quartiles       -0.73; -0.57
 
-Min. and max.                -0.88; 0.22
+|Min. and max.                -0.88; 0.22
 ----------------------------------------
 
 
@@ -21729,19 +21654,19 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.01; 0.02
+|1st and 3rd quartiles       -0.01; 0.02
 
-Min. and max.               -0.16; 0.13
+|Min. and max.               -0.16; 0.13
 ---------------------------------------
 
 
@@ -21766,19 +21691,19 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                                0
+|Median                                0
 
-1st and 3rd quartiles       -0.02; 0.02
+|1st and 3rd quartiles       -0.02; 0.02
 
-Min. and max.                -0.12; 0.2
+|Min. and max.                -0.12; 0.2
 ---------------------------------------
 
 
@@ -21804,19 +21729,19 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.02
+|Median                             0.02
 
-1st and 3rd quartiles       -0.02; 0.06
+|1st and 3rd quartiles       -0.02; 0.06
 
-Min. and max.               -0.39; 0.44
+|Min. and max.               -0.39; 0.44
 ---------------------------------------
 
 
@@ -21842,19 +21767,19 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                            -0.02
+|Median                            -0.02
 
-1st and 3rd quartiles       -0.06; 0.03
+|1st and 3rd quartiles       -0.06; 0.03
 
-Min. and max.               -0.22; 0.18
+|Min. and max.               -0.22; 0.18
 ---------------------------------------
 
 
@@ -21880,19 +21805,19 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 ----------------------------------------
-Feature                           Result
+|Feature                           Result
 ------------------------- --------------
-Variable type                    numeric
+|Variable type                    numeric
 
-Number of missing obs.           0 (0 %)
+|Number of missing obs.           0 (0 %)
 
-Number of unique values              180
+|Number of unique values              180
 
-Median                             -0.74
+|Median                             -0.74
 
-1st and 3rd quartiles       -0.79; -0.58
+|1st and 3rd quartiles       -0.79; -0.58
 
-Min. and max.                -0.95; 0.74
+|Min. and max.                -0.95; 0.74
 ----------------------------------------
 
 
@@ -21918,19 +21843,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.17
+|Median                             0.17
 
-1st and 3rd quartiles        0.02; 0.24
+|1st and 3rd quartiles        0.02; 0.24
 
-Min. and max.               -0.87; 0.42
+|Min. and max.               -0.87; 0.42
 ---------------------------------------
 
 
@@ -21956,19 +21881,19 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 ---------------------------------------
-Feature                          Result
+|Feature                          Result
 ------------------------- -------------
-Variable type                   numeric
+|Variable type                   numeric
 
-Number of missing obs.          0 (0 %)
+|Number of missing obs.          0 (0 %)
 
-Number of unique values             180
+|Number of unique values             180
 
-Median                             0.01
+|Median                             0.01
 
-1st and 3rd quartiles       -0.08; 0.11
+|1st and 3rd quartiles       -0.08; 0.11
 
-Min. and max.               -0.87; 0.39
+|Min. and max.               -0.87; 0.39
 ---------------------------------------
 
 
