@@ -14,8 +14,7 @@ The dataset examined has the following dimensions:
 
 # Codebook summary table
 
-|Label  | Variable                                                     |Class    |  # unique values | Missing | Description                                                                                                             
-|:-----:|:-------------------------------------------------------------|:-------:|:----------------:|:-------:|:------------
+|Label  | Variable                                                     |Class    |  # unique values | Missing | Description                                                                                                            |:-----:|:-------------------------------------------------------------|:--------|:-----------------|:--------|:------------
 |       | **[subjects]**                                               |integer  |         30       |  0.00 % |               
 |       | **[Activity]**                                               |factor   |          6       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.mean...X]**                         |numeric  |        180       |  0.00 % |               
@@ -45,54 +44,54 @@ The dataset examined has the following dimensions:
 |       | **[TimeBodyAccelerometer.entropy...Z]**                      |numeric  |        180       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.arCoeff...X.1]**                    |numeric  |        180       |  0.00 % |               
 |       | **[TimeBodyAccelerometer.arCoeff...X.2]**                    |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180   |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...X.4]**                    |numeric  |        180     |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.1]**                    |numeric  |        180      |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.2]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.3]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.4]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.1]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.2]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.3]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.4]**                    |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.correlation...X.Y]**                |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.correlation...X.Z]**                |numeric  |        180       |0.00 %|                
-|       | **[TimeBodyAccelerometer.correlation...Y.Z]**                |numeric  |        180       |0.00 %|                
-|       | **[TimeGravityAccelerometer.mean...X]**                      |numeric  |        180       |0.00 %|                
-|       | **[TimeGravityAccelerometer.mean...Y]**                      |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.mean...Z]**                      |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.std...X]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.std...Y]**                       |numeric  |        180  |0.00 %|              
-|       | **[TimeGravityAccelerometer.std...Z]**                       |numeric  |        180  |0.00 %|               
-|       | **[TimeGravityAccelerometer.mad...X]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.mad...Y]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.mad...Z]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.max...X]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.max...Y]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.max...Z]**                       |numeric  |        180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.min...X]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.min...Y]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.min...Z]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.sma..]**                         |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.energy...X]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.energy...Y]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.energy...Z]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.iqr...X]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.iqr...Y]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.iqr...Z]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.entropy...X]**                   |numeric|          173  |0.00 %|                
-|       | **[TimeGravityAccelerometer.entropy...Y]**                   |numeric|           85  |0.00 %|                
-|       | **[TimeGravityAccelerometer.entropy...Z]**                   |numeric|          148  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...X.1]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...X.2]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...X.3]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...X.4]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.1]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.2]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.3]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.4]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.1]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.2]**                 |numeric|          180  |0.00 %|                
+|       | **[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...X.4]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Y.1]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Y.2]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Y.3]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Y.4]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Z.1]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Z.2]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Z.3]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.arCoeff...Z.4]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.correlation...X.Y]**                |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.correlation...X.Z]**                |numeric  |        180       |  0.00 % |                
+|       | **[TimeBodyAccelerometer.correlation...Y.Z]**                |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.mean...X]**                      |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.mean...Y]**                      |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.mean...Z]**                      |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.std...X]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.std...Y]**                       |numeric  |        180       |  0.00 % |              
+|       | **[TimeGravityAccelerometer.std...Z]**                       |numeric  |        180       |  0.00 % |               
+|       | **[TimeGravityAccelerometer.mad...X]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.mad...Y]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.mad...Z]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.max...X]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.max...Y]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.max...Z]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.min...X]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.min...Y]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.min...Z]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.sma..]**                         |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.energy...X]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.energy...Y]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.energy...Z]**                    |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.iqr...X]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.iqr...Y]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.iqr...Z]**                       |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.entropy...X]**                   |numeric  |        173       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.entropy...Y]**                   |numeric  |         85       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.entropy...Z]**                   |numeric  |        148       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...X.1]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...X.2]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...X.3]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...X.4]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Y.1]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Y.2]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Y.3]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Y.4]**                 |numeric  |        180       |  0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Z.1]**                 |numeric  |        180  |0.00 % |                
+|       | **[TimeGravityAccelerometer.arCoeff...Z.2]**                 |numeric  |        180  |0.00 % |                
 |       | **[TimeGravityAccelerometer.arCoeff...Z.3]**                 |numeric|          180  |0.00 %|                
 |       | **[TimeGravityAccelerometer.arCoeff...Z.4]**                 |numeric|          180  |0.00 %|                
 |       | **[TimeGravityAccelerometer.correlation...X.Y]**             |numeric|          180  |0.00 %|                
