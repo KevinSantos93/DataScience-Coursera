@@ -579,8 +579,6 @@ The dataset examined has the following dimensions:
 |       | **[angle.Y.gravityMean.]**                                   |numeric|          180  |0.00 %|                
 |       | **[angle.Z.gravityMean.]**                                   |numeric|          180  |0.00 %|     
 
------------------------------------------------------------------------------------------------------------------
-
 
 # Variable list
 
