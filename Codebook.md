@@ -19,9 +19,9 @@ Number of variables           563
 Label   Variable                                                     Class       # unique  Missing  Description  
                                                                                    values                        
 ------- ------------------------------------------------------------ --------- ---------- --------- -------------
-        **[subjects]**                                               integer           30  0.00 %                
+        **subjects*                                               integer           30  0.00 %                
 
-        **[Activity]**                                               factor             6  0.00 %                
+        **Activity**                                               factor             6  0.00 %                
 
         **[TimeBodyAccelerometer.mean...X]**                         numeric          180  0.00 %                
 
