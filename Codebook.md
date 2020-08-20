@@ -46,26 +46,26 @@ The dataset examined has the following dimensions:
 |        **[TimeBodyAccelerometer.entropy...Z]**                      |numeric  |        180       |  0.00 % |               
 |        **[TimeBodyAccelerometer.arCoeff...X.1]**                    |numeric  |        180       |  0.00 % |               
 |        **[TimeBodyAccelerometer.arCoeff...X.2]**                    |numeric  |        180       |  0.00 % |               
-|        **[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...X.4]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Y.1]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Y.2]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Y.3]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Y.4]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Z.1]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Z.2]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Z.3]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.arCoeff...Z.4]**                    numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.correlation...X.Y]**                numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.correlation...X.Z]**                numeric          180  0.00 %                
-|        **[TimeBodyAccelerometer.correlation...Y.Z]**                numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.mean...X]**                      numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.mean...Y]**                      numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.mean...Z]**                      numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.std...X]**                       numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.std...Y]**                       numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.std...Z]**                       numeric          180  0.00 %                
-|        **[TimeGravityAccelerometer.mad...X]**                       numeric          180  0.00 %                
+|        **[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180  |0.00 %                |
+|        **[TimeBodyAccelerometer.arCoeff...X.4]**                    |numeric |         180  |0.00 %                |
+|        **[TimeBodyAccelerometer.arCoeff...Y.1]**                    |numeric |         180  |0.00 %                |
+|        **[TimeBodyAccelerometer.arCoeff...Y.2]**                    |numeric |         180  |0.00 %                |
+|        **[TimeBodyAccelerometer.arCoeff...Y.3]**                    |numeric |         180  |0.00 %               | 
+|        **[TimeBodyAccelerometer.arCoeff...Y.4]**                    |numeric |         180  |0.00 %              |  
+|        **[TimeBodyAccelerometer.arCoeff...Z.1]**                    |numeric |         180  |0.00 %             |   
+|        **[TimeBodyAccelerometer.arCoeff...Z.2]**                    |numeric |         180  |0.00 %            |    
+|        **[TimeBodyAccelerometer.arCoeff...Z.3]**                    |numeric |         180  |0.00 %           |     
+|        **[TimeBodyAccelerometer.arCoeff...Z.4]**                    |numeric |         180  |0.00 %          |      
+|        **[TimeBodyAccelerometer.correlation...X.Y]**                |numeric |         180  |0.00 %         |       
+|        **[TimeBodyAccelerometer.correlation...X.Z]**                |numeric |         180  |0.00 %        |        
+|        **[TimeBodyAccelerometer.correlation...Y.Z]**                |numeric |         180  |0.00 %       |         
+|        **[TimeGravityAccelerometer.mean...X]**                      |numeric |         180  |0.00 %      |          
+|        **[TimeGravityAccelerometer.mean...Y]**                      |numeric |         180  |0.00 %     |           
+|        **[TimeGravityAccelerometer.mean...Z]**                      |numeric |         180  |0.00 %    |            
+|        **[TimeGravityAccelerometer.std...X]**                       |numeric |         180  |0.00 %   |             
+|        **[TimeGravityAccelerometer.std...Y]**                       |numeric |         180  |0.00 %  |              
+|        **[TimeGravityAccelerometer.std...Z]**                       |numeric |         180  |0.00 % |               
+|        **[TimeGravityAccelerometer.mad...X]**                       |numeric |         180  |0.00 %|                
 |        **[TimeGravityAccelerometer.mad...Y]**                       numeric          180  0.00 %                
 |        **[TimeGravityAccelerometer.mad...Z]**                       numeric          180  0.00 %                
 |        **[TimeGravityAccelerometer.max...X]**                       numeric          180  0.00 %                
