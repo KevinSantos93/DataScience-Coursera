@@ -19,6 +19,7 @@ Number of variables           563
 Label   Variable                                                     Class       # unique  Missing  Description  
                                                                                    values                        
 ------- ------------------------------------------------------------ --------- ---------- --------- -------------
+
         **[subjects]**                                               integer           30  0.00 %                
 
         **[Activity]**                                               factor             6  0.00 %                
@@ -1145,14 +1146,11 @@ Label   Variable                                                     Class      
 
         **[angle.Z.gravityMean.]**                                   numeric          180  0.00 %                
 -----------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------
 
 
 # Variable list
+
 ## subjects
-
-\bminione
-
 -----------------------------------
 Feature                      Result
 ------------------------- ---------
@@ -1166,25 +1164,11 @@ Median                         15.5
 
 1st and 3rd quartiles         8; 23
 
-Min. and max.                 1; 30
+Min. and max.                 1;30
+
 -----------------------------------
 
-
-\emini
-\bminitwo
-
-
-\emini
-
-
-
-
-\fullline
-
 ## Activity
-
-\bminione
-
 ------------------------------------
 Feature                       Result
 ------------------------- ----------
@@ -1197,25 +1181,11 @@ Number of unique values            6
 Mode                        "LAYING"
 
 Reference category            LAYING
+
 ------------------------------------
-
-
-\emini
-\bminitwo
-
-\emini
-
-
 - Observed factor levels: \"LAYING\", \"SITTING\", \"STANDING\", \"WALKING\", \"WALKING_DOWNSTAIRS\", \"WALKING_UPSTAIRS\". 
 
-
-
-\fullline
-
 ## TimeBodyAccelerometer.mean...X
-
-\bminione
-
 --------------------------------------
 Feature                         Result
 ------------------------- ------------
@@ -1230,22 +1200,10 @@ Median                            0.28
 1st and 3rd quartiles       0.27; 0.28
 
 Min. and max.                0.22; 0.3
+
 --------------------------------------
 
-
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.mean...Y
-
-\bminione
 
 ----------------------------------------
 Feature                           Result
@@ -1261,31 +1219,10 @@ Median                             -0.02
 1st and 3rd quartiles       -0.02; -0.01
 
 Min. and max.                   -0.04; 0
+
 ----------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-4-TimeBodyAccelerometer-mean---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.045, -0.04, -0.035, 
--0.03, -0.025, -0.02, -0.015, -0.01, -0.005), xmax = c(-0.04, 
--0.035, -0.03, -0.025, -0.02, -0.015, -0.01, -0.005, 0), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 0L, 6L, 15L, 25L, 87L, 
-30L, 14L, 2L)), class = "data.frame", row.names = c(NA, -9L)), 
-    vnam = "TimeBodyAccelerometer.mean...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.mean...Z
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -1300,31 +1237,10 @@ Median                             -0.11
 1st and 3rd quartiles        -0.11; -0.1
 
 Min. and max.               -0.15; -0.08
+
 ----------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-5-TimeBodyAccelerometer-mean---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.16, -0.15, -0.14, 
--0.13, -0.12, -0.11, -0.1, -0.09, -0.08), xmax = c(-0.15, -0.14, 
--0.13, -0.12, -0.11, -0.1, -0.09, -0.08, -0.07), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 1L, 2L, 15L, 48L, 92L, 
-16L, 3L, 1L)), class = "data.frame", row.names = c(NA, -9L)), 
-    vnam = "TimeBodyAccelerometer.mean...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.std...X
-
-\bminione
-
 ---------------------------------------
 Feature                          Result
 ------------------------- -------------
@@ -1339,30 +1255,10 @@ Median                            -0.75
 1st and 3rd quartiles       -0.98; -0.2
 
 Min. and max.                  -1; 0.63
+
 ---------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-6-TimeBodyAccelerometer-std---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-0L, 8L, 37L, 20L, 16L, 7L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.std...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.std...Y
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -1377,30 +1273,10 @@ Median                             -0.51
 1st and 3rd quartiles       -0.94; -0.03
 
 Min. and max.                -0.99; 0.62
+
 ----------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-7-TimeBodyAccelerometer-std---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-1L, 0L, 10L, 43L, 24L, 10L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.std...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.std...Z
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -1415,30 +1291,10 @@ Median                             -0.65
 1st and 3rd quartiles       -0.95; -0.23
 
 Min. and max.                -0.99; 0.61
+
 ----------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-8-TimeBodyAccelerometer-std---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-1L, 15L, 42L, 20L, 10L, 1L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.std...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.mad...X
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -1453,30 +1309,10 @@ Median                             -0.77
 1st and 3rd quartiles       -0.98; -0.27
 
 Min. and max.                   -1; 0.61
+
 ----------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-9-TimeBodyAccelerometer-mad---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-1L, 16L, 34L, 22L, 11L, 5L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.mad...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.mad...Y
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -1491,6 +1327,7 @@ Median                             -0.51
 1st and 3rd quartiles       -0.94; -0.07
 
 Min. and max.                -0.99; 0.52
+
 ----------------------------------------
 
 
