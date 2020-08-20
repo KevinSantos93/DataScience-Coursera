@@ -14,570 +14,572 @@ The dataset examined has the following dimensions:
 
 # Codebook summary table
 
-|Label  | Variable                                                     |Class    |  # unique values | Missing | Description |                                                                                                           |:-----:|:-------------------------------------------------------------|:--------|:-----------------|:--------|:------------|
-|       | **[subjects]**                                               |integer  |         30       |  0.00 % |               
-|       | **[Activity]**                                               |factor   |          6       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mean...X]**                         |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mean...Y]**                         |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mean...Z]**                         |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.std...X]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.std...Y]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.std...Z]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mad...X]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mad...Y]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.mad...Z]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.max...X]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.max...Y]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.max...Z]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.min...X]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.min...Y]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.min...Z]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.sma..]**                            |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.energy...X]**                       |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.energy...Y]**                       |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.energy...Z]**                       |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.iqr...X]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.iqr...Y]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.iqr...Z]**                          |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.entropy...X]**                      |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.entropy...Y]**                      |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.entropy...Z]**                      |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.arCoeff...X.1]**                    |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.arCoeff...X.2]**                    |numeric  |        180       |  0.00 % |               
-|       | **[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...X.4]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.1]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.2]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.3]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Y.4]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.1]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.2]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.3]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.arCoeff...Z.4]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.correlation...X.Y]**                |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.correlation...X.Z]**                |numeric  |        180       |  0.00 % |                
-|       | **[TimeBodyAccelerometer.correlation...Y.Z]**                |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.mean...X]**                      |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.mean...Y]**                      |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.mean...Z]**                      |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.std...X]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.std...Y]**                       |numeric  |        180       |  0.00 % |              
-|       | **[TimeGravityAccelerometer.std...Z]**                       |numeric  |        180       |  0.00 % |               
-|       | **[TimeGravityAccelerometer.mad...X]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.mad...Y]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.mad...Z]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.max...X]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.max...Y]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.max...Z]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.min...X]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.min...Y]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.min...Z]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.sma..]**                         |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.energy...X]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.energy...Y]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.energy...Z]**                    |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.iqr...X]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.iqr...Y]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.iqr...Z]**                       |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.entropy...X]**                   |numeric  |        173       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.entropy...Y]**                   |numeric  |         85       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.entropy...Z]**                   |numeric  |        148       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...X.1]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...X.2]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...X.3]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...X.4]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.1]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.2]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.3]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Y.4]**                 |numeric  |        180       |  0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.1]**                 |numeric  |        180  |0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.2]**                 |numeric  |        180  |0.00 % |                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.3]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.arCoeff...Z.4]**                 |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.correlation...X.Y]**             |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.correlation...X.Z]**             |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometer.correlation...Y.Z]**             |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mean...X]**                     |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mean...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mean...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.std...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.std...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.std...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mad...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mad...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.mad...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.max...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.max...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.max...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.min...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.min...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.min...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.sma..]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.energy...X]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.energy...Y]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.energy...Z]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.iqr...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.iqr...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.iqr...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.entropy...X]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.entropy...Y]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.entropy...Z]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...X.1]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...X.2]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...X.3]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...X.4]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Y.1]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Y.2]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Y.3]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Y.4]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Z.1]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Z.2]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Z.3]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.arCoeff...Z.4]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.correlation...X.Y]**            |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.correlation...X.Z]**            |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerk.correlation...Y.Z]**            |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mean...X]**                             |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mean...Y]**                             |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mean...Z]**                             |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.std...X]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.std...Y]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.std...Z]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mad...X]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mad...Y]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.mad...Z]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.max...X]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.max...Y]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.max...Z]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.min...X]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.min...Y]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.min...Z]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.sma..]**                                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.energy...X]**                           |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.energy...Y]**                           |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.energy...Z]**                           |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.iqr...X]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.iqr...Y]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.iqr...Z]**                              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.entropy...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.entropy...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.entropy...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...X.1]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...X.2]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...X.3]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...X.4]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Y.1]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Y.2]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Y.3]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Y.4]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Z.1]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Z.2]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Z.3]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.arCoeff...Z.4]**                        |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.correlation...X.Y]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.correlation...X.Z]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscope.correlation...Y.Z]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mean...X]**                         |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mean...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mean...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.std...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.std...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.std...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mad...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mad...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.mad...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.max...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.max...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.max...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.min...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.min...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.min...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.sma..]**                            |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.energy...X]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.energy...Y]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.energy...Z]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.iqr...X]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.iqr...Y]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.iqr...Z]**                          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.entropy...X]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.entropy...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.entropy...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...X.1]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...X.2]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...X.3]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...X.4]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Y.1]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Y.2]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Y.3]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Y.4]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Z.1]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Z.2]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Z.3]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.arCoeff...Z.4]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.correlation...X.Y]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.correlation...X.Z]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerk.correlation...Y.Z]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.mean..]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.std..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.mad..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.max..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.min..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.sma..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.energy..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.iqr..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.entropy..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.arCoeff..1]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.arCoeff..2]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.arCoeff..3]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerMagnitude.arCoeff..4]**              |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.mean..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.std..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.mad..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.max..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.min..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.sma..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.energy..]**             |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.iqr..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.entropy..]**            |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.arCoeff..1]**           |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.arCoeff..2]**           |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.arCoeff..3]**           |numeric|          180  |0.00 %|                
-|       | **[TimeGravityAccelerometerMagnitude.arCoeff..4]**           |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.mean..]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.std..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.mad..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.max..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.min..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.sma..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.energy..]**            |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.iqr..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.entropy..]**           |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.arCoeff..1]**          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.arCoeff..2]**          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.arCoeff..3]**          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyAccelerometerJerkMagnitude.arCoeff..4]**          |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.mean..]**                      |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.std..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.mad..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.max..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.min..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.sma..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.energy..]**                    |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.iqr..]**                       |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.entropy..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.arCoeff..1]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.arCoeff..2]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.arCoeff..3]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeMagnitude.arCoeff..4]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.mean..]**                  |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.std..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.mad..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.max..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.min..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.sma..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.energy..]**                |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.iqr..]**                   |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.entropy..]**               |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.arCoeff..1]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.arCoeff..2]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.arCoeff..3]**              |numeric|          180  |0.00 %|                
-|       | **[TimeBodyGyroscopeJerkMagnitude.arCoeff..4]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mean...X]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mean...Y]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mean...Z]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.std...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.std...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.std...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mad...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mad...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.mad...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.max...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.max...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.max...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.min...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.min...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.min...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.sma..]**                       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.energy...X]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.energy...Y]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.energy...Z]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.iqr...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.iqr...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.iqr...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.entropy...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.entropy...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.entropy...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.maxInds.X]**                   |numeric|          165  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.maxInds.Y]**                   |numeric|          174  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.maxInds.Z]**                   |numeric|          171  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.meanFreq...X]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.meanFreq...Y]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.meanFreq...Z]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.skewness...X]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.kurtosis...X]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.skewness...Y]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.kurtosis...Y]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.skewness...Z]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.kurtosis...Z]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.8]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...9.16]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.24]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.32]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.40]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...41.48]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.56]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...57.64]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.16]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.32]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.48]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.64]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.24]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.48]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.8.1]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...9.16.1]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.24.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.32.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.40.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...41.48.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.56.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...57.64.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.16.1]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.32.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.48.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.64.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.24.1]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.48.1]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.8.2]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...9.16.2]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.24.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.32.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.40.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...41.48.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.56.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...57.64.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.16.2]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...17.32.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...33.48.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...49.64.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...1.24.2]**        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometer.bandsEnergy...25.48.2]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mean...X]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mean...Y]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mean...Z]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.std...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.std...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.std...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mad...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mad...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.mad...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.max...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.max...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.max...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.min...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.min...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.min...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.sma..]**                   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.energy...X]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.energy...Y]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.energy...Z]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.iqr...X]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.iqr...Y]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.iqr...Z]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.entropy...X]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.entropy...Y]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.entropy...Z]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.maxInds.X]**               |numeric|          179  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.maxInds.Y]**               |numeric|          177  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.maxInds.Z]**               |numeric|          177  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.meanFreq...X]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.meanFreq...Y]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.meanFreq...Z]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.skewness...X]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.kurtosis...X]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.skewness...Y]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.kurtosis...Y]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.skewness...Z]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.kurtosis...Z]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16]**      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16]**      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24]**      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8.1]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16.1]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16.1]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24.1]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48.1]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8.2]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16.2]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16.2]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24.2]**    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48.2]**   |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mean...X]**                        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mean...Y]**                        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mean...Z]**                        |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.std...X]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.std...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.std...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mad...X]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mad...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.mad...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.max...X]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.max...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.max...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.min...X]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.min...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.min...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.sma..]**                           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.energy...X]**                      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.energy...Y]**                      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.energy...Z]**                      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.iqr...X]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.iqr...Y]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.iqr...Z]**                         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.entropy...X]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.entropy...Y]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.entropy...Z]**                     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.maxInds.X]**                       |numeric|          178  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.maxInds.Y]**                       |numeric|          172  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.maxInds.Z]**                       |numeric|          176  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.meanFreq...X]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.meanFreq...Y]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.meanFreq...Z]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.skewness...X]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.kurtosis...X]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.skewness...Y]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.kurtosis...Y]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.skewness...Z]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.kurtosis...Z]**                    |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.8]**               |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...9.16]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.24]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.32]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.40]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...41.48]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.56]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...57.64]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.16]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.32]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.48]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.64]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.24]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.48]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.8.1]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...9.16.1]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.24.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.32.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.40.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...41.48.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.56.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...57.64.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.16.1]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.32.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.48.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.64.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.24.1]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.48.1]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.8.2]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...9.16.2]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.24.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.32.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.40.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...41.48.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.56.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...57.64.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.16.2]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...17.32.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...33.48.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...49.64.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...1.24.2]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscope.bandsEnergy...25.48.2]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.mean..]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.std..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.mad..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.max..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.min..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.sma..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.energy..]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.iqr..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.entropy..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.maxInds]**            |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.meanFreq..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.skewness..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerMagnitude.kurtosis..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.mean..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.std..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.mad..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.max..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.min..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.sma..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.energy..]**       |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.iqr..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.entropy..]**      |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.maxInds]**        |numeric|          173  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.meanFreq..]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.skewness..]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyAccelerometerJerkMagnitude.kurtosis..]**     |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.mean..]**                 |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.std..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.mad..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.max..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.min..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.sma..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.energy..]**               |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.iqr..]**                  |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.entropy..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.maxInds]**                |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.meanFreq..]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.skewness..]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeMagnitude.kurtosis..]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.mean..]**             |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.std..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.mad..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.max..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.min..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.sma..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.energy..]**           |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.iqr..]**              |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.entropy..]**          |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.maxInds]**            |numeric|          179  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.meanFreq..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.skewness..]**         |numeric|          180  |0.00 %|                
-|       | **[FrequencyBodyGyroscopeJerkMagnitude.kurtosis..]**         |numeric|          180  |0.00 %|                
-|       | **[angle.TimeBodyAccelerometerMean.gravity.]**               |numeric|          180  |0.00 %|                
-|       | **[angle.TimeBodyAccelerometerJerkMean..gravityMean.]**      |numeric|          180  |0.00 %|                
-|       | **[angle.TimeBodyGyroscopeMean.gravityMean.]**               |numeric|          180  |0.00 %|                
-|       | **[angle.TimeBodyGyroscopeJerkMean.gravityMean.]**           |numeric|          180  |0.00 %|                
-|       | **[angle.X.gravityMean.]**                                   |numeric|          180  |0.00 %|                
-|       | **[angle.Y.gravityMean.]**                                   |numeric|          180  |0.00 %|                
-|       | **[angle.Z.gravityMean.]**                                   |numeric|          180  |0.00 %|     
+|Label   | Variable                                                    |Class    |  # unique values | Missing | Description                                                                                                             
+|:------:|:------------------------------------------------------------|:-------:|:----------------:|:-------:|:------------
+|        |**[subjects]**                                               |integer  |         30       |  0.00 % |               
+|        |**[Activity]**                                               |factor   |          6       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mean...X]**                         |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mean...Y]**                         |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mean...Z]**                         |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.std...X]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.std...Y]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.std...Z]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mad...X]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mad...Y]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.mad...Z]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.max...X]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.max...Y]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.max...Z]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.min...X]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.min...Y]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.min...Z]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.sma..]**                            |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.energy...X]**                       |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.energy...Y]**                       |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.energy...Z]**                       |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.iqr...X]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.iqr...Y]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.iqr...Z]**                          |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.entropy...X]**                      |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.entropy...Y]**                      |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.entropy...Z]**                      |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.arCoeff...X.1]**                    |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.arCoeff...X.2]**                    |numeric  |        180       |  0.00 % |               
+|        |**[TimeBodyAccelerometer.arCoeff...X.3]**                    |numeric  |        180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...X.4]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Y.1]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Y.2]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Y.3]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Y.4]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Z.1]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Z.2]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Z.3]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.arCoeff...Z.4]**                    |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.correlation...X.Y]**                |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.correlation...X.Z]**                |numeric  |         180  |0.00 %|                
+|        |**[TimeBodyAccelerometer.correlation...Y.Z]**                |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.mean...X]**                      |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.mean...Y]**                      |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.mean...Z]**                      |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.std...X]**                       |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.std...Y]**                       |numeric  |         180  |0.00 %|              
+|        |**[TimeGravityAccelerometer.std...Z]**                       |numeric  |         180  |0.00 %|               
+|        |**[TimeGravityAccelerometer.mad...X]**                       |numeric  |         180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.mad...Y]**                       |numeric  |          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.mad...Z]**                       |numeric  |          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.max...X]**                       |numeric  |          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.max...Y]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.max...Z]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.min...X]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.min...Y]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.min...Z]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.sma..]**                         |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.energy...X]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.energy...Y]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.energy...Z]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.iqr...X]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.iqr...Y]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.iqr...Z]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.entropy...X]**                   |numeric|          173  |0.00 %|                
+|        |**[TimeGravityAccelerometer.entropy...Y]**                   |numeric|           85  |0.00 %|                
+|        |**[TimeGravityAccelerometer.entropy...Z]**                   |numeric|          148  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...X.1]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...X.2]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...X.3]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...X.4]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Y.1]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Y.2]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Y.3]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Y.4]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Z.1]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Z.2]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Z.3]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.arCoeff...Z.4]**                 |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.correlation...X.Y]**             |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.correlation...X.Z]**             |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometer.correlation...Y.Z]**             |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mean...X]**                     |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mean...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mean...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.std...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.std...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.std...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mad...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mad...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.mad...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.max...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.max...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.max...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.min...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.min...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.min...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.sma..]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.energy...X]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.energy...Y]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.energy...Z]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.iqr...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.iqr...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.iqr...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.entropy...X]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.entropy...Y]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.entropy...Z]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...X.1]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...X.2]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...X.3]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...X.4]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Y.1]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Y.2]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Y.3]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Y.4]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Z.1]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Z.2]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Z.3]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.arCoeff...Z.4]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.correlation...X.Y]**            |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.correlation...X.Z]**            |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerk.correlation...Y.Z]**            |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mean...X]**                             |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mean...Y]**                             |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mean...Z]**                             |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.std...X]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.std...Y]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.std...Z]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mad...X]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mad...Y]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.mad...Z]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.max...X]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.max...Y]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.max...Z]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.min...X]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.min...Y]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.min...Z]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.sma..]**                                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.energy...X]**                           |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.energy...Y]**                           |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.energy...Z]**                           |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.iqr...X]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.iqr...Y]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.iqr...Z]**                              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.entropy...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.entropy...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.entropy...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...X.1]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...X.2]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...X.3]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...X.4]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Y.1]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Y.2]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Y.3]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Y.4]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Z.1]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Z.2]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Z.3]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.arCoeff...Z.4]**                        |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.correlation...X.Y]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.correlation...X.Z]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscope.correlation...Y.Z]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mean...X]**                         |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mean...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mean...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.std...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.std...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.std...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mad...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mad...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.mad...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.max...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.max...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.max...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.min...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.min...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.min...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.sma..]**                            |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.energy...X]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.energy...Y]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.energy...Z]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.iqr...X]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.iqr...Y]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.iqr...Z]**                          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.entropy...X]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.entropy...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.entropy...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...X.1]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...X.2]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...X.3]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...X.4]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Y.1]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Y.2]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Y.3]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Y.4]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Z.1]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Z.2]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Z.3]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.arCoeff...Z.4]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.correlation...X.Y]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.correlation...X.Z]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerk.correlation...Y.Z]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.mean..]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.std..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.mad..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.max..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.min..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.sma..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.energy..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.iqr..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.entropy..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.arCoeff..1]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.arCoeff..2]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.arCoeff..3]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerMagnitude.arCoeff..4]**              |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.mean..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.std..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.mad..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.max..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.min..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.sma..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.energy..]**             |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.iqr..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.entropy..]**            |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.arCoeff..1]**           |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.arCoeff..2]**           |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.arCoeff..3]**           |numeric|          180  |0.00 %|                
+|        |**[TimeGravityAccelerometerMagnitude.arCoeff..4]**           |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.mean..]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.std..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.mad..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.max..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.min..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.sma..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.energy..]**            |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.iqr..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.entropy..]**           |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.arCoeff..1]**          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.arCoeff..2]**          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.arCoeff..3]**          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyAccelerometerJerkMagnitude.arCoeff..4]**          |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.mean..]**                      |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.std..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.mad..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.max..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.min..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.sma..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.energy..]**                    |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.iqr..]**                       |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.entropy..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.arCoeff..1]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.arCoeff..2]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.arCoeff..3]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeMagnitude.arCoeff..4]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.mean..]**                  |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.std..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.mad..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.max..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.min..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.sma..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.energy..]**                |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.iqr..]**                   |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.entropy..]**               |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.arCoeff..1]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.arCoeff..2]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.arCoeff..3]**              |numeric|          180  |0.00 %|                
+|        |**[TimeBodyGyroscopeJerkMagnitude.arCoeff..4]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mean...X]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mean...Y]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mean...Z]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.std...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.std...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.std...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mad...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mad...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.mad...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.max...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.max...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.max...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.min...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.min...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.min...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.sma..]**                       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.energy...X]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.energy...Y]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.energy...Z]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.iqr...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.iqr...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.iqr...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.entropy...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.entropy...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.entropy...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.maxInds.X]**                   |numeric|          165  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.maxInds.Y]**                   |numeric|          174  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.maxInds.Z]**                   |numeric|          171  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.meanFreq...X]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.meanFreq...Y]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.meanFreq...Z]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.skewness...X]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.kurtosis...X]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.skewness...Y]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.kurtosis...Y]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.skewness...Z]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.kurtosis...Z]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.8]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...9.16]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.24]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.32]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.40]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...41.48]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.56]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...57.64]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.16]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.32]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.48]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.64]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.24]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.48]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.8.1]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...9.16.1]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.24.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.32.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.40.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...41.48.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.56.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...57.64.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.16.1]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.32.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.48.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.64.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.24.1]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.48.1]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.8.2]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...9.16.2]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.24.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.32.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.40.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...41.48.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.56.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...57.64.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.16.2]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...17.32.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...33.48.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...49.64.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...1.24.2]**        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometer.bandsEnergy...25.48.2]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mean...X]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mean...Y]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mean...Z]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.std...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.std...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.std...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mad...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mad...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.mad...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.max...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.max...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.max...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.min...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.min...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.min...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.sma..]**                   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.energy...X]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.energy...Y]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.energy...Z]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.iqr...X]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.iqr...Y]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.iqr...Z]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.entropy...X]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.entropy...Y]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.entropy...Z]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.maxInds.X]**               |numeric|          179  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.maxInds.Y]**               |numeric|          177  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.maxInds.Z]**               |numeric|          177  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.meanFreq...X]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.meanFreq...Y]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.meanFreq...Z]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.skewness...X]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.kurtosis...X]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.skewness...Y]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.kurtosis...Y]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.skewness...Z]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.kurtosis...Z]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16]**      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16]**      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24]**      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8.1]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16.1]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16.1]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24.1]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48.1]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.8.2]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...9.16.2]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.24.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.32.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.40.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...41.48.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.56.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...57.64.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.16.2]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...17.32.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...33.48.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...49.64.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...1.24.2]**    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerk.bandsEnergy...25.48.2]**   |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mean...X]**                        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mean...Y]**                        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mean...Z]**                        |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.std...X]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.std...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.std...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mad...X]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mad...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.mad...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.max...X]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.max...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.max...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.min...X]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.min...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.min...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.sma..]**                           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.energy...X]**                      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.energy...Y]**                      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.energy...Z]**                      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.iqr...X]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.iqr...Y]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.iqr...Z]**                         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.entropy...X]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.entropy...Y]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.entropy...Z]**                     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.maxInds.X]**                       |numeric|          178  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.maxInds.Y]**                       |numeric|          172  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.maxInds.Z]**                       |numeric|          176  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.meanFreq...X]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.meanFreq...Y]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.meanFreq...Z]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.skewness...X]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.kurtosis...X]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.skewness...Y]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.kurtosis...Y]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.skewness...Z]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.kurtosis...Z]**                    |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.8]**               |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...9.16]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.24]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.32]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.40]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...41.48]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.56]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...57.64]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.16]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.32]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.48]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.64]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.24]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.48]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.8.1]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...9.16.1]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.24.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.32.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.40.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...41.48.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.56.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...57.64.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.16.1]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.32.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.48.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.64.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.24.1]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.48.1]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.8.2]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...9.16.2]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.24.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.32.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.40.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...41.48.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.56.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...57.64.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.16.2]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...17.32.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...33.48.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...49.64.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...1.24.2]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscope.bandsEnergy...25.48.2]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.mean..]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.std..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.mad..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.max..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.min..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.sma..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.energy..]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.iqr..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.entropy..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.maxInds]**            |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.meanFreq..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.skewness..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerMagnitude.kurtosis..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.mean..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.std..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.mad..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.max..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.min..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.sma..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.energy..]**       |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.iqr..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.entropy..]**      |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.maxInds]**        |numeric|          173  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.meanFreq..]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.skewness..]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyAccelerometerJerkMagnitude.kurtosis..]**     |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.mean..]**                 |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.std..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.mad..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.max..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.min..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.sma..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.energy..]**               |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.iqr..]**                  |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.entropy..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.maxInds]**                |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.meanFreq..]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.skewness..]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeMagnitude.kurtosis..]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.mean..]**             |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.std..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.mad..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.max..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.min..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.sma..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.energy..]**           |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.iqr..]**              |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.entropy..]**          |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.maxInds]**            |numeric|          179  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.meanFreq..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.skewness..]**         |numeric|          180  |0.00 %|                
+|        |**[FrequencyBodyGyroscopeJerkMagnitude.kurtosis..]**         |numeric|          180  |0.00 %|                
+|        |**[angle.TimeBodyAccelerometerMean.gravity.]**               |numeric|          180  |0.00 %|                
+|        |**[angle.TimeBodyAccelerometerJerkMean..gravityMean.]**      |numeric|          180  |0.00 %|                
+|        |**[angle.TimeBodyGyroscopeMean.gravityMean.]**               |numeric|          180  |0.00 %|                
+|        |**[angle.TimeBodyGyroscopeJerkMean.gravityMean.]**           |numeric|          180  |0.00 %|                
+|        |**[angle.X.gravityMean.]**                                   |numeric|          180  |0.00 %|                
+|        |**[angle.Y.gravityMean.]**                                   |numeric|          180  |0.00 %|                
+|        |**[angle.Z.gravityMean.]**                                   |numeric|          180  |0.00 %|                
+   
 
 
 # Variable list
