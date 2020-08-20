@@ -583,57 +583,38 @@ The dataset examined has the following dimensions:
 # Variable list
 
 ## subjects
------------------------------------
-Feature                      Result
-------------------------- ---------
-Variable type               integer
 
-Number of missing obs.      0 (0 %)
-
-Number of unique values          30
-
-Median                         15.5
-
-1st and 3rd quartiles         8; 23
-
-Min. and max.                 1;30
-
------------------------------------
+|Feature                 |    Result
+|:-----------------------|:---------
+|Variable type           |   integer
+|Number of missing obs.  |   0 (0 %)
+|Number of unique values |        30
+|Median                  |      15.5
+|1st and 3rd quartiles   |     8; 23
+|Min. and max.           |     1; 30
 
 ## Activity
-------------------------------------
-Feature                       Result
-------------------------- ----------
-Variable type                 factor
 
-Number of missing obs.       0 (0 %)
+|Feature                 |     Result
+|:-----------------------|:----------
+|Variable type           |     factor
+|Number of missing obs.  |    0 (0 %)
+|Number of unique values |          6
+|Mode                    |   "LAYING"
+|Reference category      |     LAYING
 
-Number of unique values            6
-
-Mode                        "LAYING"
-
-Reference category            LAYING
-
-------------------------------------
 - Observed factor levels: \"LAYING\", \"SITTING\", \"STANDING\", \"WALKING\", \"WALKING_DOWNSTAIRS\", \"WALKING_UPSTAIRS\". 
 
 ## TimeBodyAccelerometer.mean...X
---------------------------------------
-Feature                         Result
-------------------------- ------------
-Variable type                  numeric
 
-Number of missing obs.         0 (0 %)
-
-Number of unique values            180
-
-Median                            0.28
-
-1st and 3rd quartiles       0.27; 0.28
-
-Min. and max.                0.22; 0.3
-
---------------------------------------
+|Feature                 |      Result
+|:-----------------------|:-----------
+|Variable type           |     numeric
+|Number of missing obs.  |     0 (0 %)
+|Number of unique values |         180
+|Median                  |        0.28
+|1st and 3rd quartiles   |  0.27; 0.28
+|Min. and max.           |   0.22; 0.3
 
 ## TimeBodyAccelerometer.mean...Y
 
