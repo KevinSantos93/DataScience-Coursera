@@ -2,14 +2,14 @@
 The dataset examined has the following dimensions:
 
 
----------------------------------
-Feature                  |  Result
------------------------- --------
-Number of observations   |     180
+|-----------------------|-------- |
+|Feature                |  Result |
+|----------------------:|:-------:|
+|Number of observations |     180 |
 
-Number of variables      |    563
+|Number of variables    |    563  |
 
----------------------------------
+|-----------------------|-------- |
 
 
 
