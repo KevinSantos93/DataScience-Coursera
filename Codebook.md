@@ -845,2073 +845,654 @@ The dataset examined has the following dimensions:
 |Min. and max.           |       -1; 0.56
 
 
-
-\emini
-\bminitwo
-```{r 'Var-22-TimeBodyAccelerometer-iqr---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 
-37L, 32L, 11L, 6L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometer.iqr...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.iqr...Y
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.63
-
 |1st and 3rd quartiles   |   -0.95; -0.29
-
 |Min. and max.           |    -0.99; 0.18
 
 
-
-\emini
-\bminitwo
-```{r 'Var-23-TimeBodyAccelerometer-iqr---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999, 
-0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(84L, 
-5L, 1L, 0L, 3L, 13L, 25L, 23L, 10L, 9L, 5L, 2L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.iqr...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.iqr...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.63
-
 |1st and 3rd quartiles   |   -0.95; -0.3
-
 |Min. and max.           |   -0.99; 0.33
 
 
-
-\emini
-\bminitwo
-```{r 'Var-24-TimeBodyAccelerometer-iqr---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 21L, 45L, 
-    16L, 7L, 1L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyAccelerometer.iqr...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.entropy...X
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.06
-
 |1st and 3rd quartiles   |   -0.46; 0.34
-
 |Min. and max.           |   -0.69; 0.62
 
 
-
-\emini
-\bminitwo
-```{r 'Var-25-TimeBodyAccelerometer-entropy---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 
-0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(11L, 50L, 25L, 
-4L, 14L, 47L, 28L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometer.entropy...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.entropy...Y
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.05
-
 |1st and 3rd quartiles   |   -0.47; 0.29
-
 |Min. and max.           |   -0.69; 0.48
 
 
-
-\emini
-\bminitwo
-```{r 'Var-26-TimeBodyAccelerometer-entropy---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.6, -0.5, 
--0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(8L, 27L, 30L, 19L, 
-5L, 1L, 0L, 0L, 12L, 40L, 33L, 5L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.entropy...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.entropy...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.16
-
 |1st and 3rd quartiles   |   -0.43; 0.17
-
 |Min. and max.           |   -0.59; 0.46
 
 
-
-\emini
-\bminitwo
-```{r 'Var-27-TimeBodyAccelerometer-entropy---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0), ymax = c(21L, 35L, 25L, 9L, 0L, 4L, 23L, 
-26L, 26L, 9L, 2L)), class = "data.frame", row.names = c(NA, -11L
-)), vnam = "TimeBodyAccelerometer.entropy...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...X.1
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.21
-
 |1st and 3rd quartiles   |   -0.37; 0.09
-
 |Min. and max.           |   -0.52; 0.32
 
 
-
-\emini
-\bminitwo
-```{r 'Var-28-TimeBodyAccelerometer-arCoeff---X-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2, 0.3), xmax = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 
-0, 0), ymax = c(6L, 25L, 41L, 19L, 4L, 14L, 28L, 26L, 15L, 2L
-)), class = "data.frame", row.names = c(NA, -10L)), vnam = "TimeBodyAccelerometer.arCoeff...X.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...X.2
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.11
-
 |1st and 3rd quartiles   |   -0.03; 0.28
-
 |Min. and max.           |   -0.15; 0.44
 
 
-
-\emini
-\bminitwo
-```{r 'Var-29-TimeBodyAccelerometer-arCoeff---X-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4), xmax = c(-0.1, 
--0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(9L, 
-    28L, 29L, 12L, 11L, 5L, 10L, 19L, 23L, 19L, 11L, 4L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.arCoeff...X.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...X.3
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.02
-
 |1st and 3rd quartiles   |   -0.15; 0.06
-
 |Min. and max.           |   -0.46; 0.17
 
 
-
-\emini
-\bminitwo
-```{r 'Var-30-TimeBodyAccelerometer-arCoeff---X-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35, 
--0.3, -0.25, -0.2, -0.15, -0.1, -0.05, 0, 0.0499999999999999, 
-0.1, 0.15), xmax = c(-0.45, -0.4, -0.35, -0.3, -0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.0499999999999999, 0.1, 0.15, 0.2), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 0L, 1L, 
-2L, 10L, 10L, 20L, 16L, 17L, 21L, 35L, 31L, 15L, 1L)), class = "data.frame", row.names = c(NA, 
--14L)), vnam = "TimeBodyAccelerometer.arCoeff...X.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...X.4
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.11
-
 |1st and 3rd quartiles   |    0.05; 0.21
-
 |Min. and max.           |   -0.16; 0.64
 
 
-
-\emini
-\bminitwo
-```{r 'Var-31-TimeBodyAccelerometer-arCoeff---X-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1, 
-0.2, 0.3, 0.4, 0.5, 0.6), xmax = c(-0.1, 0, 0.1, 0.2, 0.3, 0.4, 
-0.5, 0.6, 0.7), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 
-22L, 57L, 52L, 26L, 17L, 2L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.arCoeff...X.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Y.1
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.04
-
 |1st and 3rd quartiles   |    -0.2; 0.12
-
 |Min. and max.           |   -0.36; 0.36
 
 
-
-\emini
-\bminitwo
-```{r 'Var-32-TimeBodyAccelerometer-arCoeff---Y-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(9L, 37L, 34L, 
-23L, 30L, 32L, 12L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometer.arCoeff...Y.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Y.2
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.04
-
 |1st and 3rd quartiles   |   -0.08; 0.16
-
 |Min. and max.           |   -0.18; 0.33
 
 
-
-\emini
-\bminitwo
-```{r 'Var-33-TimeBodyAccelerometer-arCoeff---Y-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), xmax = c(-0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), ymin = c(0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(9L, 24L, 37L, 11L, 12L, 9L, 
-23L, 25L, 23L, 6L, 1L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyAccelerometer.arCoeff...Y.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Y.3
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.17
-
 |1st and 3rd quartiles   |    0.09; 0.21
-
 |Min. and max.           |   -0.13; 0.34
 
 
-
-\emini
-\bminitwo
-```{r 'Var-34-TimeBodyAccelerometer-arCoeff---Y-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), xmax = c(-0.1, -0.05, 0, 
-0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(1L, 3L, 8L, 11L, 23L, 30L, 53L, 38L, 
-9L, 4L)), class = "data.frame", row.names = c(NA, -10L)), vnam = "TimeBodyAccelerometer.arCoeff...Y.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Y.4
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.01
-
 |1st and 3rd quartiles   |   -0.08; 0.05
-
 |Min. and max.           |    -0.27; 0.3
 
 
-
-\emini
-\bminitwo
-```{r 'Var-35-TimeBodyAccelerometer-arCoeff---Y-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.3, -0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25), xmax = c(-0.25, 
--0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 
-    8L, 6L, 14L, 33L, 40L, 33L, 27L, 9L, 6L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.arCoeff...Y.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Z.1
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.03
-
 |1st and 3rd quartiles   |   -0.18; 0.16
-
 |Min. and max.           |   -0.47; 0.36
 
 
-
-\emini
-\bminitwo
-```{r 'Var-36-TimeBodyAccelerometer-arCoeff---Z-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3), xmax = c(-0.4, -0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 
-13L, 26L, 22L, 15L, 32L, 39L, 21L, 8L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometer.arCoeff...Z.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Z.2
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.02
-
 |1st and 3rd quartiles   |   -0.08; 0.16
-
 |Min. and max.           |   -0.16; 0.36
 
 
-
-\emini
-\bminitwo
-```{r 'Var-37-TimeBodyAccelerometer-arCoeff---Z-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), xmax = c(-0.15, -0.1, 
--0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 24L, 42L, 19L, 
-7L, 13L, 20L, 20L, 15L, 13L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.arCoeff...Z.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Z.3
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.05
-
 |1st and 3rd quartiles   |    -0.05; 0.1
-
 |Min. and max.           |   -0.26; 0.21
 
 
-
-\emini
-\bminitwo
-```{r 'Var-38-TimeBodyAccelerometer-arCoeff---Z-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.3, -0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2), xmax = c(-0.25, -0.2, 
--0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 4L, 7L, 13L, 19L, 
-14L, 30L, 44L, 36L, 9L, 3L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyAccelerometer.arCoeff...Z.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.arCoeff...Z.4
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.08
-
 |1st and 3rd quartiles   |   -0.16; -0.01
-
 |Min. and max.           |    -0.31; 0.29
 
 
-
-\emini
-\bminitwo
-```{r 'Var-39-TimeBodyAccelerometer-arCoeff---Z-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.35, -0.3, -0.25, 
--0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25), xmax = c(-0.3, 
--0.25, -0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-10L, 17L, 22L, 32L, 32L, 22L, 17L, 12L, 7L, 3L, 3L, 2L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyAccelerometer.arCoeff...Z.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.correlation...X.Y
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.14
-
 |1st and 3rd quartiles   |   -0.31; 0.01
-
 |Min. and max.           |   -0.74; 0.56
 
 
-
-\emini
-\bminitwo
-```{r 'Var-40-TimeBodyAccelerometer-correlation---X-Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6), ymin = c(0, 
-0, 0, 0, 0, 0, 0), ymax = c(3L, 28L, 45L, 54L, 35L, 11L, 4L)), class = "data.frame", row.names = c(NA, 
--7L)), vnam = "TimeBodyAccelerometer.correlation...X.Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.correlation...X.Z
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |           -0.2
-
 |1st and 3rd quartiles   |   -0.33; -0.05
-
 |Min. and max.           |    -0.77; 0.39
 
 
-
-\emini
-\bminitwo
-```{r 'Var-41-TimeBodyAccelerometer-correlation---X-Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5, 
--0.4, -0.3, -0.2, -0.0999999999999999, 0, 0.1, 0.2, 0.3), xmax = c(-0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.0999999999999999, 0, 0.1, 0.2, 
-0.3, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-6L, 7L, 15L, 29L, 30L, 35L, 28L, 18L, 6L, 3L, 2L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometer.correlation...X.Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometer.correlation...Y.Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.15
-
 |1st and 3rd quartiles   |   -0.04; 0.29
-
 |Min. and max.           |    -0.63; 0.6
 
 
-
-\emini
-\bminitwo
-```{r 'Var-42-TimeBodyAccelerometer-correlation---Y-Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6), xmax = c(-0.6, 
--0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 
-0.7), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-1L, 5L, 6L, 5L, 16L, 22L, 19L, 31L, 30L, 31L, 11L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--14L)), vnam = "TimeBodyAccelerometer.correlation...Y.Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mean...X
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.92
-
 |1st and 3rd quartiles   |    0.84; 0.94
-
 |Min. and max.           |   -0.68; 0.97
 
 
-
-\emini
-\bminitwo
-```{r 'Var-43-TimeGravityAccelerometer-mean---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 
-13L, 9L, 6L, 0L, 0L, 1L, 6L, 143L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.mean...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mean...Y
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.13
-
 |1st and 3rd quartiles   |   -0.23; 0.09
-
 |Min. and max.           |   -0.48; 0.96
 
 
-
-\emini
-\bminitwo
-```{r 'Var-44-TimeGravityAccelerometer-mean---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 66L, 61L, 
-14L, 11L, 5L, 10L, 10L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.mean...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mean...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.02
-
 |1st and 3rd quartiles   |   -0.12; 0.15
-
 |Min. and max.           |    -0.5; 0.96
 
 
-
-\emini
-\bminitwo
-```{r 'Var-45-TimeGravityAccelerometer-mean---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 18L, 60L, 
-63L, 13L, 7L, 10L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.mean...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.std...X
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.97
-
 |1st and 3rd quartiles   |   -0.98; -0.95
-
 |Min. and max.           |      -1; -0.83
 
-
-
-\emini
-\bminitwo
-```{r 'Var-46-TimeGravityAccelerometer-std---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94, 
--0.92, -0.9, -0.88, -0.86, -0.84), xmax = c(-0.98, -0.96, -0.94, 
--0.92, -0.9, -0.88, -0.86, -0.84, -0.82), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0), ymax = c(55L, 52L, 52L, 12L, 4L, 3L, 1L, 0L, 
-1L)), class = "data.frame", row.names = c(NA, -9L)), vnam = "TimeGravityAccelerometer.std...X")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.std...Y
 
-\bminione
-
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.96
-
 |1st and 3rd quartiles   |   -0.97; -0.94
-
 |Min. and max.           |   -0.99; -0.64
 
-
-
-\emini
-\bminitwo
-```{r 'Var-47-TimeGravityAccelerometer-std---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65), xmax = c(-0.95, -0.9, -0.85, -0.8, 
--0.75, -0.7, -0.65, -0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(107L, 72L, 0L, 0L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.std...Y")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.std...Z
 
-\bminione
-
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.95
-
 |1st and 3rd quartiles   |   -0.96; -0.92
-
 |Min. and max.           |   -0.99; -0.61
 
 
-
-\emini
-\bminitwo
-```{r 'Var-48-TimeGravityAccelerometer-std---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65), xmax = c(-0.95, -0.9, -0.85, -0.8, 
--0.75, -0.7, -0.65, -0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(79L, 76L, 23L, 1L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.std...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mad...X
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.97
-
 |1st and 3rd quartiles   |   -0.98; -0.95
-
 |Min. and max.           |      -1; -0.83
 
 
-
-\emini
-\bminitwo
-```{r 'Var-49-TimeGravityAccelerometer-mad---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94, 
--0.92, -0.9, -0.88, -0.86, -0.84), xmax = c(-0.98, -0.96, -0.94, 
--0.92, -0.9, -0.88, -0.86, -0.84, -0.82), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0), ymax = c(62L, 50L, 47L, 13L, 4L, 2L, 1L, 0L, 
-1L)), class = "data.frame", row.names = c(NA, -9L)), vnam = "TimeGravityAccelerometer.mad...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mad...Y
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.96
-
 |1st and 3rd quartiles   |   -0.97; -0.94
-
 |Min. and max.           |   -0.99; -0.65
 
 
-
-\emini
-\bminitwo
-```{r 'Var-50-TimeGravityAccelerometer-mad---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65), xmax = c(-0.95, -0.9, -0.85, -0.8, 
--0.75, -0.7, -0.65, -0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(109L, 70L, 0L, 0L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.mad...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.mad...Z
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.95
-
 |1st and 3rd quartiles   |   -0.96; -0.92
-
 |Min. and max.           |   -0.99; -0.62
 
 
-
-\emini
-\bminitwo
-```{r 'Var-51-TimeGravityAccelerometer-mad---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65), xmax = c(-0.95, -0.9, -0.85, -0.8, 
--0.75, -0.7, -0.65, -0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(81L, 77L, 20L, 1L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.mad...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.max...X
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.86
-
 |1st and 3rd quartiles   |    0.77; 0.88
-
 |Min. and max.           |   -0.73; 0.91
 
 
-
-\emini
-\bminitwo
-```{r 'Var-52-TimeGravityAccelerometer-max---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 
-17L, 8L, 2L, 0L, 0L, 1L, 21L, 128L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.max...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.max...Y
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.14
-
 |1st and 3rd quartiles   |   -0.24; 0.07
-
 |Min. and max.           |   -0.47; 0.91
 
 
-
-\emini
-\bminitwo
-```{r 'Var-53-TimeGravityAccelerometer-max---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 68L, 60L, 
-20L, 4L, 6L, 13L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.max...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.max...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.03
-
 |1st and 3rd quartiles   |   -0.11; 0.16
-
 |Min. and max.           |   -0.47; 0.95
 
 
-
-\emini
-\bminitwo
-```{r 'Var-54-TimeGravityAccelerometer-max---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 17L, 58L, 
-68L, 12L, 7L, 10L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.max...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.min...X
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.93
-
 |1st and 3rd quartiles   |    0.84; 0.95
-
 |Min. and max.           |   -0.64; 0.99
 
 
-
-\emini
-\bminitwo
-```{r 'Var-55-TimeGravityAccelerometer-min---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-11L, 10L, 8L, 0L, 0L, 1L, 5L, 144L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.min...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.min...Y
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.12
-
 |1st and 3rd quartiles   |    -0.22; 0.1
-
 |Min. and max.           |   -0.47; 0.96
 
 
-
-\emini
-\bminitwo
-```{r 'Var-56-TimeGravityAccelerometer-min---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 60L, 65L, 
-16L, 10L, 6L, 10L, 10L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.min...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.min...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.01
-
 |1st and 3rd quartiles   |   -0.13; 0.14
-
 |Min. and max.           |   -0.52; 0.95
 
 
-
-\emini
-\bminitwo
-```{r 'Var-57-TimeGravityAccelerometer-min---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 20L, 61L, 
-61L, 11L, 7L, 10L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.min...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.sma..
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |         -0.17
-
 |1st and 3rd quartiles   |   -0.34; 0.15
-
 |Min. and max.           |   -0.81; 0.63
 
 
-
-\emini
-\bminitwo
-```{r 'Var-58-TimeGravityAccelerometer-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-7L, 29L, 44L, 38L, 24L, 27L, 8L, 2L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.energy...X
 
-\bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
-
 |Number of missing obs.  |      0 (0 %)
-
 |Number of unique values |          180
-
 |Median                  |         0.79
-
 |1st and 3rd quartiles   |   0.59; 0.85
-
 |Min. and max.           |     -1; 0.93
---------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-59-TimeGravityAccelerometer-energy---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 
-0), ymax = c(30L, 0L, 0L, 0L, 0L, 1L, 1L, 15L, 47L, 86L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeGravityAccelerometer.energy...X")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.energy...Y
 
-\bminione
-
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.91
-
 |1st and 3rd quartiles   |   -0.96; -0.79
-
 |Min. and max.           |       -1; 0.84
 
 
-
-\emini
-\bminitwo
-```{r 'Var-60-TimeGravityAccelerometer-energy---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 
-0), ymax = c(132L, 21L, 3L, 2L, 4L, 7L, 4L, 2L, 3L, 2L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeGravityAccelerometer.energy...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.energy...Z
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.94
-
 |1st and 3rd quartiles   |   -0.98; -0.83
-
 |Min. and max.           |       -1; 0.79
 
 
-
-\emini
-\bminitwo
-```{r 'Var-61-TimeGravityAccelerometer-energy---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(138L, 
-15L, 5L, 5L, 6L, 3L, 3L, 1L, 4L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.energy...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.iqr...X
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.97
-
 |1st and 3rd quartiles   |   -0.98; -0.96
-
 |Min. and max.           |      -1; -0.84
 
 
-
-\emini
-\bminitwo
-```{r 'Var-62-TimeGravityAccelerometer-iqr---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94, 
--0.92, -0.9, -0.88, -0.86), xmax = c(-0.98, -0.96, -0.94, -0.92, 
--0.9, -0.88, -0.86, -0.84), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(66L, 58L, 37L, 13L, 3L, 1L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.iqr...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.iqr...Y
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.96
-
 |1st and 3rd quartiles   |   -0.97; -0.94
-
 |Min. and max.           |   -0.99; -0.67
 
 
-
-\emini
-\bminitwo
-```{r 'Var-63-TimeGravityAccelerometer-iqr---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7), xmax = c(-0.95, -0.9, -0.85, -0.8, -0.75, 
--0.7, -0.65), ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(118L, 61L, 
-0L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--7L)), vnam = "TimeGravityAccelerometer.iqr...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.iqr...Z
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.95
-
 |1st and 3rd quartiles   |   -0.96; -0.92
-
 |Min. and max.           |   -0.99; -0.64
 
 
-
-\emini
-\bminitwo
-```{r 'Var-64-TimeGravityAccelerometer-iqr---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65), xmax = c(-0.95, -0.9, -0.85, -0.8, 
--0.75, -0.7, -0.65, -0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(93L, 69L, 16L, 1L, 0L, 0L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometer.iqr...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.entropy...X
-
-\bminione
 
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            173
-
 |Median                  |           -0.7
-
 |1st and 3rd quartiles   |   -0.88; -0.44
-
 |Min. and max.           |      -1; -0.02
 
 
-
-\emini
-\bminitwo
-```{r 'Var-65-TimeGravityAccelerometer-entropy---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1), xmax = c(-0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(41L, 24L, 25L, 24L, 17L, 11L, 16L, 
-11L, 9L, 2L)), class = "data.frame", row.names = c(NA, -10L)), 
-    vnam = "TimeGravityAccelerometer.entropy...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.entropy...Y
 
-\bminione
 
--------------------------------------
-|Feature                        Result
-------------------------- -----------
+|Feature                 |      Result
+|:-----------------------|:-----------
 |Variable type           |     numeric
-
 |Number of missing obs.  |     0 (0 %)
-
 |Number of unique values |          85
-
 |Median                  |          -1
-
 |1st and 3rd quartiles   |   -1; -0.74
-
 |Min. and max.           |   -1; -0.18
--------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-66-TimeGravityAccelerometer-entropy---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2), xmax = c(-0.9, -0.8, -0.7, -0.6, 
--0.5, -0.4, -0.3, -0.2, -0.1), ymin = c(0, 0, 0, 0, 0, 0, 0, 
-0, 0), ymax = c(107L, 14L, 23L, 15L, 15L, 4L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.entropy...Y")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.entropy...Z
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           148
-
 |Median                  |         -0.69
-
 |1st and 3rd quartiles   |   -0.9; -0.52
-
 |Min. and max.           |      -1; 0.06
 
 
-
-\emini
-\bminitwo
-```{r 'Var-67-TimeGravityAccelerometer-entropy---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(46L, 11L, 30L, 25L, 26L, 
-12L, 9L, 9L, 7L, 2L, 3L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeGravityAccelerometer.entropy...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...X.1
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.51
-
 |1st and 3rd quartiles   |   -0.62; -0.41
-
 |Min. and max.           |   -0.79; -0.23
 
 
-
-\emini
-\bminitwo
-```{r 'Var-68-TimeGravityAccelerometer-arCoeff---X-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.75, -0.7, -0.65, 
--0.6, -0.55, -0.5, -0.45, -0.4, -0.35, -0.3, -0.25), xmax = c(-0.75, 
--0.7, -0.65, -0.6, -0.55, -0.5, -0.45, -0.4, -0.35, -0.3, -0.25, 
--0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 
-9L, 12L, 30L, 27L, 14L, 19L, 23L, 16L, 18L, 4L, 5L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeGravityAccelerometer.arCoeff...X.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...X.2
 
-\bminione
-
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+|Feature                 |       Result
+|:-----------------------|:------------
 |Variable type           |      numeric
-
 |Number of missing obs.  |      0 (0 %)
-
 |Number of unique values |          180
-
 |Median                  |         0.56
-
 |1st and 3rd quartiles   |   0.45; 0.66
-
 |Min. and max.           |   0.27; 0.81
---------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-69-TimeGravityAccelerometer-arCoeff---X-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(0.25, 0.3, 0.35, 0.4, 
-0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8), xmax = c(0.3, 0.35, 
-0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(5L, 6L, 20L, 16L, 
-24L, 16L, 18L, 25L, 20L, 23L, 6L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeGravityAccelerometer.arCoeff...X.2")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.arCoeff...X.3
 
-\bminione
-
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |           -0.6
-
 |1st and 3rd quartiles   |   -0.71; -0.48
-
 |Min. and max.           |   -0.84; -0.31
 
 
-
-\emini
-\bminitwo
-```{r 'Var-70-TimeGravityAccelerometer-arCoeff---X-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.85, -0.8, -0.75, 
--0.7, -0.65, -0.6, -0.55, -0.5, -0.45, -0.4, -0.35), xmax = c(-0.8, 
--0.75, -0.7, -0.65, -0.6, -0.55, -0.5, -0.45, -0.4, -0.35, -0.3
-), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 21L, 
-24L, 20L, 21L, 18L, 18L, 21L, 17L, 10L, 6L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeGravityAccelerometer.arCoeff...X.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...X.4
 
-\bminione
-
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+|Feature                 |       Result
+|:-----------------------|:------------
 |Variable type           |      numeric
-
 |Number of missing obs.  |      0 (0 %)
-
 |Number of unique values |          180
-
 |Median                  |         0.63
-
 |1st and 3rd quartiles   |   0.51; 0.75
-
 |Min. and max.           |   0.34; 0.91
---------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-71-TimeGravityAccelerometer-arCoeff---X-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(0.3, 0.35, 0.4, 0.45, 
-0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9), xmax = c(0.35, 
-0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95
-), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 
-8L, 14L, 15L, 16L, 18L, 23L, 15L, 22L, 19L, 21L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeGravityAccelerometer.arCoeff...X.4")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeGravityAccelerometer.arCoeff...Y.1
 
-\bminione
-
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.38
-
 |1st and 3rd quartiles   |   -0.48; -0.21
-
 |Min. and max.           |    -0.69; 0.16
 
 
-
-\emini
-\bminitwo
-```{r 'Var-72-TimeGravityAccelerometer-arCoeff---Y-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1), xmax = c(-0.6, -0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(10L, 
-29L, 40L, 36L, 23L, 19L, 13L, 8L, 2L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.arCoeff...Y.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...Y.2
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.35
-
 |1st and 3rd quartiles   |    0.21; 0.47
-
 |Min. and max.           |   -0.19; 0.69
 
 
-
-\emini
-\bminitwo
-```{r 'Var-73-TimeGravityAccelerometer-arCoeff---Y-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1, 
-0.2, 0.3, 0.4, 0.5, 0.6), xmax = c(-0.1, 0, 0.1, 0.2, 0.3, 0.4, 
-0.5, 0.6, 0.7), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 
-8L, 11L, 22L, 26L, 37L, 41L, 23L, 9L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.arCoeff...Y.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...Y.3
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.38
-
 |1st and 3rd quartiles   |   -0.48; -0.26
-
 |Min. and max.           |    -0.71; 0.14
 
 
-
-\emini
-\bminitwo
-```{r 'Var-74-TimeGravityAccelerometer-arCoeff---Y-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5, 
--0.4, -0.3, -0.2, -0.1, 0, 0.1), xmax = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1, 0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 
-0, 0, 0), ymax = c(1L, 13L, 25L, 43L, 41L, 25L, 15L, 12L, 3L, 
-2L)), class = "data.frame", row.names = c(NA, -10L)), vnam = "TimeGravityAccelerometer.arCoeff...Y.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...Y.4
 
-\bminione
-
-
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
-
 |Number of missing obs.  |       0 (0 %)
-
 |Number of unique values |           180
-
 |Median                  |          0.44
-
 |1st and 3rd quartiles   |    0.33; 0.52
-
 |Min. and max.           |   -0.07; 0.74
 
 
-
-\emini
-\bminitwo
-```{r 'Var-75-TimeGravityAccelerometer-arCoeff---Y-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3, 
-0.4, 0.5, 0.6, 0.7), xmax = c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 
-0.7, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 
-4L, 15L, 17L, 38L, 49L, 32L, 19L, 4L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometer.arCoeff...Y.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometer.arCoeff...Z.1
-
-\bminione
-
 
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
-
 |Number of missing obs.  |        0 (0 %)
-
 |Number of unique values |            180
-
 |Median                  |          -0.44
-
 |1st and 3rd quartiles   |   -0.54; -0.29
-
 |Min. and max.           |     -0.8; 0.01
 
 
@@ -2937,9 +1518,9 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -2951,7 +1532,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 |1st and 3rd quartiles   |   0.35; 0.56
 
 |Min. and max.           |   0.01; 0.81
---------------------------------------
+
 
 
 \emini
@@ -3013,9 +1594,9 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -3027,7 +1608,7 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 |1st and 3rd quartiles   |    0.4; 0.59
 
 |Min. and max.           |   0.04; 0.84
---------------------------------------
+
 
 
 \emini
@@ -3052,8 +1633,8 @@ ggAggHist(data = structure(list(xmin = c(0, 0.1, 0.2, 0.3, 0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3090,8 +1671,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3128,8 +1709,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3165,9 +1746,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -3179,7 +1760,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   0.07; 0.08
 
 |Min. and max.           |   0.04; 0.13
---------------------------------------
+
 
 
 \emini
@@ -3204,8 +1785,8 @@ ggAggHist(data = structure(list(xmin = c(0.04, 0.05, 0.06, 0.07,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3243,8 +1824,8 @@ ggAggHist(data = structure(list(xmin = c(-0.04, -0.03, -0.02,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3397,8 +1978,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3512,8 +2093,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3628,8 +2209,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3666,8 +2247,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3705,8 +2286,8 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -3780,7 +2361,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -3794,7 +2375,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.69
 
 |Min. and max.           |    -1; 0.21
--------------------------------------
+
 
 
 \emini
@@ -3819,7 +2400,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -3833,7 +2414,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.62
 
 |Min. and max.           |   -1; -0.06
--------------------------------------
+
 
 
 \emini
@@ -3858,7 +2439,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -3872,7 +2453,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.87
 
 |Min. and max.           |   -1; -0.43
--------------------------------------
+
 
 
 \emini
@@ -4012,9 +2593,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -4026,7 +2607,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -0.66; 0.6
 
 |Min. and max.           |   -0.84; 0.8
---------------------------------------
+
 
 
 \emini
@@ -4051,8 +2632,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4089,8 +2670,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4127,8 +2708,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4165,8 +2746,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4203,8 +2784,8 @@ ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4242,9 +2823,9 @@ ggAggHist(data = structure(list(xmin = c(-0.35, -0.3, -0.25,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -4256,7 +2837,7 @@ ggAggHist(data = structure(list(xmin = c(-0.35, -0.3, -0.25,
 |1st and 3rd quartiles   |   0.03; 0.22
 
 |Min. and max.           |   -0.23; 0.3
---------------------------------------
+
 
 
 \emini
@@ -4282,8 +2863,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4320,8 +2901,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4359,8 +2940,8 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4397,9 +2978,9 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -4411,7 +2992,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 |1st and 3rd quartiles   |   0.25; 0.38
 
 |Min. and max.           |   0.05; 0.54
---------------------------------------
+
 
 
 \emini
@@ -4436,8 +3017,8 @@ ggAggHist(data = structure(list(xmin = c(0.05, 0.1, 0.15, 0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4473,9 +3054,9 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -4487,7 +3068,7 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |1st and 3rd quartiles   |   0.03; 0.16
 
 |Min. and max.           |   -0.1; 0.31
---------------------------------------
+
 
 
 \emini
@@ -4512,8 +3093,8 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4551,8 +3132,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.35, -0.3, -0.25,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4628,8 +3209,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4667,8 +3248,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -4784,8 +3365,8 @@ ggAggHist(data = structure(list(xmin = c(-0.22, -0.2, -0.18,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5168,8 +3749,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5207,8 +3788,8 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5244,9 +3825,9 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -5258,7 +3839,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 |1st and 3rd quartiles   |    0.28; 0.8
 
 |Min. and max.           |   -0.4; 0.84
---------------------------------------
+
 
 
 \emini
@@ -5321,7 +3902,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -5335,7 +3916,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |    -1; -0.8
 
 |Min. and max.           |   -1; -0.14
--------------------------------------
+
 
 
 \emini
@@ -5359,7 +3940,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -5373,7 +3954,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.82
 
 |Min. and max.           |     -1; 0.1
--------------------------------------
+
 
 
 \emini
@@ -5553,8 +4134,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5592,8 +4173,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.7, -0.6, -0.5,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5630,8 +4211,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5707,8 +4288,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5745,8 +4326,8 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5784,8 +4365,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5822,8 +4403,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5860,8 +4441,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5899,8 +4480,8 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5936,8 +4517,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -5974,8 +4555,8 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6013,8 +4594,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6051,8 +4632,8 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6088,9 +4669,9 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -6102,7 +4683,7 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |1st and 3rd quartiles   |   0.05; 0.24
 
 |Min. and max.           |   -0.18; 0.7
---------------------------------------
+
 
 
 \emini
@@ -6127,8 +4708,8 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6164,8 +4745,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6203,8 +4784,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6511,8 +5092,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -6704,9 +5285,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -6718,7 +5299,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   0.53; 0.98
 
 |Min. and max.           |     -0.07; 1
---------------------------------------
+
 
 
 \emini
@@ -6742,9 +5323,9 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -6756,7 +5337,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 |1st and 3rd quartiles   |   0.69; 0.98
 
 |Min. and max.           |     -0.06; 1
---------------------------------------
+
 
 
 \emini
@@ -6780,9 +5361,9 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -6794,7 +5375,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 |1st and 3rd quartiles   |   0.59; 0.99
 
 |Min. and max.           |      -0.1; 1
---------------------------------------
+
 
 
 \emini
@@ -6858,7 +5439,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -6872,7 +5453,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.27
--------------------------------------
+
 
 
 \emini
@@ -6896,7 +5477,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -6910,7 +5491,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.14
--------------------------------------
+
 
 
 \emini
@@ -6934,7 +5515,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -6948,7 +5529,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.86
 
 |Min. and max.           |   -1; -0.26
--------------------------------------
+
 
 
 \emini
@@ -7051,8 +5632,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7090,8 +5671,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7128,8 +5709,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7166,8 +5747,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7204,8 +5785,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7242,8 +5823,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7280,9 +5861,9 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -7294,7 +5875,7 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 |1st and 3rd quartiles   |   0.08; 0.23
 
 |Min. and max.           |   -0.1; 0.38
---------------------------------------
+
 
 
 \emini
@@ -7319,8 +5900,8 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7395,9 +5976,9 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -7409,7 +5990,7 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 |1st and 3rd quartiles   |   0.14; 0.27
 
 |Min. and max.           |      0; 0.43
---------------------------------------
+
 
 
 \emini
@@ -7434,8 +6015,8 @@ ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7473,8 +6054,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7511,8 +6092,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7550,8 +6131,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7589,8 +6170,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7627,8 +6208,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7665,8 +6246,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7704,8 +6285,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -7741,9 +6322,9 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -7755,7 +6336,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |1st and 3rd quartiles   |     -0.23; 0
 
 |Min. and max.           |   -0.5; 0.29
---------------------------------------
+
 
 
 \emini
@@ -7856,8 +6437,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8008,7 +6589,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -8022,7 +6603,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.57
 
 |Min. and max.           |     -1; 0.4
--------------------------------------
+
 
 
 \emini
@@ -8086,8 +6667,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8124,8 +6705,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8162,8 +6743,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8200,8 +6781,8 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8239,8 +6820,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8353,8 +6934,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8505,7 +7086,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -8519,7 +7100,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.57
 
 |Min. and max.           |     -1; 0.4
--------------------------------------
+
 
 
 \emini
@@ -8583,8 +7164,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8621,8 +7202,8 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8659,8 +7240,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8697,8 +7278,8 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8736,8 +7317,8 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -8888,8 +7469,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9001,7 +7582,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -9015,7 +7596,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.69
 
 |Min. and max.           |    -1; 0.09
--------------------------------------
+
 
 
 \emini
@@ -9080,8 +7661,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9118,8 +7699,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9156,8 +7737,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9234,8 +7815,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9501,7 +8082,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -9515,7 +8096,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.68
 
 |Min. and max.           |     -1; 0.1
--------------------------------------
+
 
 
 \emini
@@ -9579,8 +8160,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9617,8 +8198,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9656,8 +8237,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9695,8 +8276,8 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9733,8 +8314,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -9888,8 +8469,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10004,7 +8585,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -10018,7 +8599,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.35
--------------------------------------
+
 
 
 \emini
@@ -10081,8 +8662,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10119,8 +8700,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10195,8 +8776,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10234,8 +8815,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10386,8 +8967,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -10882,7 +9463,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -10896,7 +9477,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.67
 
 |Min. and max.           |    -1; 0.34
--------------------------------------
+
 
 
 \emini
@@ -10958,7 +9539,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -10972,7 +9553,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.69
 
 |Min. and max.           |    -1; 0.31
--------------------------------------
+
 
 
 \emini
@@ -11113,8 +9694,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11151,8 +9732,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11189,8 +9770,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11380,8 +9961,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11418,8 +9999,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11457,8 +10038,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11612,8 +10193,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -11686,7 +10267,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11700,7 +10281,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.65
 
 |Min. and max.           |    -1; 0.37
--------------------------------------
+
 
 
 \emini
@@ -11724,7 +10305,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11738,7 +10319,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.78
 
 |Min. and max.           |       -1; 0
--------------------------------------
+
 
 
 \emini
@@ -11763,7 +10344,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11777,7 +10358,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.73
 
 |Min. and max.           |    -1; 0.08
--------------------------------------
+
 
 
 \emini
@@ -11802,7 +10383,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11816,7 +10397,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |   -1; -0.18
--------------------------------------
+
 
 
 \emini
@@ -11840,7 +10421,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11854,7 +10435,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.37
--------------------------------------
+
 
 
 \emini
@@ -11880,7 +10461,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11894,7 +10475,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.23
--------------------------------------
+
 
 
 \emini
@@ -11918,7 +10499,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11932,7 +10513,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.9
 
 |Min. and max.           |   -1; -0.53
--------------------------------------
+
 
 
 \emini
@@ -11957,7 +10538,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -11971,7 +10552,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.92
 
 |Min. and max.           |   -1; -0.67
--------------------------------------
+
 
 
 \emini
@@ -11995,7 +10576,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12009,7 +10590,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.66
 
 |Min. and max.           |    -1; 0.39
--------------------------------------
+
 
 
 \emini
@@ -12033,7 +10614,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12047,7 +10628,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.71
 
 |Min. and max.           |    -1; 0.17
--------------------------------------
+
 
 
 \emini
@@ -12072,7 +10653,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12086,7 +10667,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.32
--------------------------------------
+
 
 
 \emini
@@ -12110,7 +10691,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12124,7 +10705,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.58
--------------------------------------
+
 
 
 \emini
@@ -12148,7 +10729,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12162,7 +10743,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.67
 
 |Min. and max.           |    -1; 0.35
--------------------------------------
+
 
 
 \emini
@@ -12263,7 +10844,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12277,7 +10858,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.73
 
 |Min. and max.           |    -1; 0.07
--------------------------------------
+
 
 
 \emini
@@ -12302,7 +10883,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12316,7 +10897,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.73
 
 |Min. and max.           |   -1; -0.26
--------------------------------------
+
 
 
 \emini
@@ -12340,7 +10921,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12354,7 +10935,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.82
 
 |Min. and max.           |   -1; -0.08
--------------------------------------
+
 
 
 \emini
@@ -12379,7 +10960,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12393,7 +10974,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.8
 
 |Min. and max.           |   -1; -0.11
--------------------------------------
+
 
 
 \emini
@@ -12417,7 +10998,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12431,7 +11012,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.76
 
 |Min. and max.           |   -1; -0.33
--------------------------------------
+
 
 
 \emini
@@ -12455,7 +11036,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12469,7 +11050,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.8
 
 |Min. and max.           |   -1; -0.47
--------------------------------------
+
 
 
 \emini
@@ -12494,7 +11075,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12508,7 +11089,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.67
--------------------------------------
+
 
 
 \emini
@@ -12570,7 +11151,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12584,7 +11165,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.67
 
 |Min. and max.           |   -1; -0.06
--------------------------------------
+
 
 
 \emini
@@ -12609,7 +11190,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12623,7 +11204,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.76
 
 |Min. and max.           |   -1; -0.17
--------------------------------------
+
 
 
 \emini
@@ -12647,7 +11228,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12661,7 +11242,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.54
--------------------------------------
+
 
 
 \emini
@@ -12724,7 +11305,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12738,7 +11319,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.79
 
 |Min. and max.           |   -1; -0.06
--------------------------------------
+
 
 
 \emini
@@ -12801,7 +11382,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12815,7 +11396,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |   -1; -0.17
--------------------------------------
+
 
 
 \emini
@@ -12839,7 +11420,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12853,7 +11434,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.14
--------------------------------------
+
 
 
 \emini
@@ -12877,7 +11458,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12891,7 +11472,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -12915,7 +11496,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12929,7 +11510,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.94
 
 |Min. and max.           |   -1; -0.63
--------------------------------------
+
 
 
 \emini
@@ -12953,7 +11534,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -12967,7 +11548,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.89
 
 |Min. and max.           |   -1; -0.46
--------------------------------------
+
 
 
 \emini
@@ -12992,7 +11573,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13006,7 +11587,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.89
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -13030,7 +11611,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13044,7 +11625,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.92
 
 |Min. and max.           |   -1; -0.76
--------------------------------------
+
 
 
 \emini
@@ -13070,7 +11651,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13084,7 +11665,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 |1st and 3rd quartiles   |   -1; -0.73
 
 |Min. and max.           |    -1; 0.34
--------------------------------------
+
 
 
 \emini
@@ -13108,7 +11689,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13122,7 +11703,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.89
 
 |Min. and max.           |   -1; -0.39
--------------------------------------
+
 
 
 \emini
@@ -13148,7 +11729,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13162,7 +11743,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.92
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -13186,7 +11767,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13200,7 +11781,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |    -1; -0.9
 
 |Min. and max.           |   -1; -0.62
--------------------------------------
+
 
 
 \emini
@@ -13262,7 +11843,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13276,7 +11857,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -13339,8 +11920,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -13722,8 +12303,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -13914,7 +12495,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13928,7 +12509,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.69
 
 |Min. and max.           |    -1; 0.22
--------------------------------------
+
 
 
 \emini
@@ -13953,7 +12534,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -13967,7 +12548,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.62
 
 |Min. and max.           |   -1; -0.06
--------------------------------------
+
 
 
 \emini
@@ -13992,7 +12573,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14006,7 +12587,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.87
 
 |Min. and max.           |   -1; -0.43
--------------------------------------
+
 
 
 \emini
@@ -14147,8 +12728,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14185,8 +12766,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14223,8 +12804,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14375,8 +12956,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14413,8 +12994,8 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14451,8 +13032,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -14718,7 +13299,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14732,7 +13313,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.78
 
 |Min. and max.           |    -1; 0.29
--------------------------------------
+
 
 
 \emini
@@ -14756,7 +13337,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14770,7 +13351,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.77
 
 |Min. and max.           |   -1; -0.08
--------------------------------------
+
 
 
 \emini
@@ -14794,7 +13375,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14808,7 +13389,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.77
 
 |Min. and max.           |    -1; 0.03
--------------------------------------
+
 
 
 \emini
@@ -14833,7 +13414,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14847,7 +13428,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |   -1; -0.17
--------------------------------------
+
 
 
 \emini
@@ -14871,7 +13452,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14885,7 +13466,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.86
 
 |Min. and max.           |    -1; -0.4
--------------------------------------
+
 
 
 \emini
@@ -14910,7 +13491,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14924,7 +13505,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.82
 
 |Min. and max.           |   -1; -0.08
--------------------------------------
+
 
 
 \emini
@@ -14949,7 +13530,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -14963,7 +13544,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.9
 
 |Min. and max.           |   -1; -0.44
--------------------------------------
+
 
 
 \emini
@@ -14988,7 +13569,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15002,7 +13583,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.97
 
 |Min. and max.           |    -1; -0.8
--------------------------------------
+
 
 
 \emini
@@ -15027,7 +13608,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15041,7 +13622,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 |1st and 3rd quartiles   |   -1; -0.75
 
 |Min. and max.           |    -1; 0.17
--------------------------------------
+
 
 
 \emini
@@ -15066,7 +13647,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15080,7 +13661,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.74
 
 |Min. and max.           |    -1; 0.18
--------------------------------------
+
 
 
 \emini
@@ -15105,7 +13686,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15119,7 +13700,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.22
--------------------------------------
+
 
 
 \emini
@@ -15143,7 +13724,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15157,7 +13738,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.89
 
 |Min. and max.           |   -1; -0.43
--------------------------------------
+
 
 
 \emini
@@ -15182,7 +13763,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15196,7 +13777,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.68
 
 |Min. and max.           |    -1; 0.24
--------------------------------------
+
 
 
 \emini
@@ -15221,7 +13802,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15235,7 +13816,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.76
 
 |Min. and max.           |    -1; 0.13
--------------------------------------
+
 
 
 \emini
@@ -15260,7 +13841,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15274,7 +13855,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.65
 
 |Min. and max.           |     -1; 0.2
--------------------------------------
+
 
 
 \emini
@@ -15299,7 +13880,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15313,7 +13894,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.77
 
 |Min. and max.           |   -1; -0.05
--------------------------------------
+
 
 
 \emini
@@ -15337,7 +13918,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15351,7 +13932,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.68
 
 |Min. and max.           |   -1; -0.11
--------------------------------------
+
 
 
 \emini
@@ -15375,7 +13956,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15389,7 +13970,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.83
 
 |Min. and max.           |   -1; -0.08
--------------------------------------
+
 
 
 \emini
@@ -15414,7 +13995,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15428,7 +14009,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.22
--------------------------------------
+
 
 
 \emini
@@ -15452,7 +14033,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15466,7 +14047,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.75
 
 |Min. and max.           |   -1; -0.22
--------------------------------------
+
 
 
 \emini
@@ -15490,7 +14071,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15504,7 +14085,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.58
--------------------------------------
+
 
 
 \emini
@@ -15528,7 +14109,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15542,7 +14123,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.82
--------------------------------------
+
 
 
 \emini
@@ -15567,7 +14148,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15581,7 +14162,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 |1st and 3rd quartiles   |   -1; -0.72
 
 |Min. and max.           |   -1; -0.04
--------------------------------------
+
 
 
 \emini
@@ -15605,7 +14186,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15619,7 +14200,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.67
 
 |Min. and max.           |    -1; 0.08
--------------------------------------
+
 
 
 \emini
@@ -15644,7 +14225,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15658,7 +14239,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.75
 
 |Min. and max.           |   -1; -0.14
--------------------------------------
+
 
 
 \emini
@@ -15682,7 +14263,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15696,7 +14277,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.86
 
 |Min. and max.           |   -1; -0.61
--------------------------------------
+
 
 
 \emini
@@ -15720,7 +14301,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15734,7 +14315,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.62
 
 |Min. and max.           |    -1; 0.05
--------------------------------------
+
 
 
 \emini
@@ -15759,7 +14340,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15773,7 +14354,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.8
 
 |Min. and max.           |   -1; -0.09
--------------------------------------
+
 
 
 \emini
@@ -15798,7 +14379,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15812,7 +14393,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.83
 
 |Min. and max.           |   -1; -0.02
--------------------------------------
+
 
 
 \emini
@@ -15837,7 +14418,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15851,7 +14432,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |   -1; -0.16
--------------------------------------
+
 
 
 \emini
@@ -15875,7 +14456,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15889,7 +14470,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.31
--------------------------------------
+
 
 
 \emini
@@ -15913,7 +14494,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15927,7 +14508,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.94
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -15951,7 +14532,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -15965,7 +14546,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.64
--------------------------------------
+
 
 
 \emini
@@ -15989,7 +14570,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16003,7 +14584,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |    -1; -0.9
 
 |Min. and max.           |   -1; -0.46
--------------------------------------
+
 
 
 \emini
@@ -16028,7 +14609,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16042,7 +14623,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.43
--------------------------------------
+
 
 
 \emini
@@ -16067,7 +14648,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16081,7 +14662,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.66
--------------------------------------
+
 
 
 \emini
@@ -16105,7 +14686,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16119,7 +14700,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.77
 
 |Min. and max.           |   -1; -0.08
--------------------------------------
+
 
 
 \emini
@@ -16144,7 +14725,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16158,7 +14739,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.47
--------------------------------------
+
 
 
 \emini
@@ -16183,7 +14764,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16197,7 +14778,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -16221,7 +14802,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16235,7 +14816,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.43
--------------------------------------
+
 
 
 \emini
@@ -16260,7 +14841,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16274,7 +14855,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |   -1; -0.17
--------------------------------------
+
 
 
 \emini
@@ -16298,7 +14879,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16312,7 +14893,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -16909,8 +15490,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -16946,7 +15527,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16960,7 +15541,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.83
 
 |Min. and max.           |   -1; -0.16
--------------------------------------
+
 
 
 \emini
@@ -16984,7 +15565,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -16998,7 +15579,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.82
 
 |Min. and max.           |     -1; 0.1
--------------------------------------
+
 
 
 \emini
@@ -17023,7 +15604,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17037,7 +15618,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.76
 
 |Min. and max.           |    -1; 0.25
--------------------------------------
+
 
 
 \emini
@@ -17177,8 +15758,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17215,8 +15796,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17253,8 +15834,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17331,8 +15912,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17408,9 +15989,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -17422,7 +16003,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |     -0.21; 0
 
 |Min. and max.           |   -0.4; 0.25
---------------------------------------
+
 
 
 \emini
@@ -17484,8 +16065,8 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17674,8 +16255,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -17751,7 +16332,7 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17765,7 +16346,7 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.26
--------------------------------------
+
 
 
 \emini
@@ -17789,7 +16370,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17803,7 +16384,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.31
--------------------------------------
+
 
 
 \emini
@@ -17827,7 +16408,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17841,7 +16422,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.85
 
 |Min. and max.           |   -1; -0.28
--------------------------------------
+
 
 
 \emini
@@ -17865,7 +16446,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17879,7 +16460,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.63
--------------------------------------
+
 
 
 \emini
@@ -17903,7 +16484,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17917,7 +16498,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.47
--------------------------------------
+
 
 
 \emini
@@ -17942,7 +16523,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17956,7 +16537,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.48
--------------------------------------
+
 
 
 \emini
@@ -17981,7 +16562,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -17995,7 +16576,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.61
--------------------------------------
+
 
 
 \emini
@@ -18019,7 +16600,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18033,7 +16614,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.77
--------------------------------------
+
 
 
 \emini
@@ -18058,7 +16639,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18072,7 +16653,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |    -1; -0.2
--------------------------------------
+
 
 
 \emini
@@ -18096,7 +16677,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18110,7 +16691,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.86
 
 |Min. and max.           |   -1; -0.27
--------------------------------------
+
 
 
 \emini
@@ -18134,7 +16715,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18148,7 +16729,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |    -1; -0.9
 
 |Min. and max.           |   -1; -0.44
--------------------------------------
+
 
 
 \emini
@@ -18173,7 +16754,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18187,7 +16768,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.94
 
 |Min. and max.           |   -1; -0.68
--------------------------------------
+
 
 
 \emini
@@ -18211,7 +16792,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18225,7 +16806,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |   -1; -0.18
--------------------------------------
+
 
 
 \emini
@@ -18249,7 +16830,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18263,7 +16844,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.92
 
 |Min. and max.           |   -1; -0.57
--------------------------------------
+
 
 
 \emini
@@ -18287,7 +16868,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18301,7 +16882,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.83
 
 |Min. and max.           |    -1; 0.55
--------------------------------------
+
 
 
 \emini
@@ -18325,7 +16906,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18339,7 +16920,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.94
 
 |Min. and max.           |   -1; -0.45
--------------------------------------
+
 
 
 \emini
@@ -18364,7 +16945,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18378,7 +16959,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |    -1; 0.04
--------------------------------------
+
 
 
 \emini
@@ -18403,7 +16984,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18417,7 +16998,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.96
 
 |Min. and max.           |   -1; -0.46
--------------------------------------
+
 
 
 \emini
@@ -18442,7 +17023,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18456,7 +17037,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.96
 
 |Min. and max.           |   -1; -0.61
--------------------------------------
+
 
 
 \emini
@@ -18480,7 +17061,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18494,7 +17075,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.44
--------------------------------------
+
 
 
 \emini
@@ -18519,7 +17100,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18533,7 +17114,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.48
--------------------------------------
+
 
 
 \emini
@@ -18558,7 +17139,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18572,7 +17153,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.96
 
 |Min. and max.           |   -1; -0.81
--------------------------------------
+
 
 
 \emini
@@ -18597,7 +17178,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18611,7 +17192,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 |1st and 3rd quartiles   |   -1; -0.84
 
 |Min. and max.           |    -1; 0.26
--------------------------------------
+
 
 
 \emini
@@ -18636,7 +17217,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18650,7 +17231,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.94
 
 |Min. and max.           |    -1; 0.04
--------------------------------------
+
 
 
 \emini
@@ -18675,7 +17256,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18689,7 +17270,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.96
 
 |Min. and max.           |   -1; -0.57
--------------------------------------
+
 
 
 \emini
@@ -18713,7 +17294,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18727,7 +17308,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.56
--------------------------------------
+
 
 
 \emini
@@ -18751,7 +17332,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18765,7 +17346,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.82
 
 |Min. and max.           |    -1; 0.22
--------------------------------------
+
 
 
 \emini
@@ -18790,7 +17371,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18804,7 +17385,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.46
--------------------------------------
+
 
 
 \emini
@@ -18829,7 +17410,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18843,7 +17424,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.81
 
 |Min. and max.           |    -1; 0.19
--------------------------------------
+
 
 
 \emini
@@ -18868,7 +17449,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18882,7 +17463,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.89
 
 |Min. and max.           |    -1; 0.09
--------------------------------------
+
 
 
 \emini
@@ -18907,7 +17488,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18921,7 +17502,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.88
 
 |Min. and max.           |   -1; -0.09
--------------------------------------
+
 
 
 \emini
@@ -18945,7 +17526,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18959,7 +17540,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.55
--------------------------------------
+
 
 
 \emini
@@ -18983,7 +17564,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -18997,7 +17578,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.69
--------------------------------------
+
 
 
 \emini
@@ -19021,7 +17602,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19035,7 +17616,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.93
 
 |Min. and max.           |   -1; -0.58
--------------------------------------
+
 
 
 \emini
@@ -19059,7 +17640,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19073,7 +17654,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.61
--------------------------------------
+
 
 
 \emini
@@ -19097,7 +17678,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19111,7 +17692,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.63
--------------------------------------
+
 
 
 \emini
@@ -19135,7 +17716,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19149,7 +17730,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.78
 
 |Min. and max.           |    -1; 0.24
--------------------------------------
+
 
 
 \emini
@@ -19174,7 +17755,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19188,7 +17769,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.86
 
 |Min. and max.           |    -1; 0.02
--------------------------------------
+
 
 
 \emini
@@ -19213,7 +17794,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19227,7 +17808,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.66
--------------------------------------
+
 
 
 \emini
@@ -19251,7 +17832,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19265,7 +17846,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.92
 
 |Min. and max.           |   -1; -0.63
--------------------------------------
+
 
 
 \emini
@@ -19289,7 +17870,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19303,7 +17884,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |1st and 3rd quartiles   |   -1; -0.76
 
 |Min. and max.           |    -1; 0.24
--------------------------------------
+
 
 
 \emini
@@ -19328,7 +17909,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -19342,7 +17923,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.95
 
 |Min. and max.           |   -1; -0.58
--------------------------------------
+
 
 
 \emini
@@ -19675,8 +18256,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -19751,8 +18332,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -20094,7 +18675,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -20108,7 +18689,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -1; -0.68
 
 |Min. and max.           |    -1; 0.08
--------------------------------------
+
 
 
 \emini
@@ -20171,9 +18752,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
---------------------------------------
-|Feature                         Result
-------------------------- ------------
+
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |      numeric
 
 |Number of missing obs.  |      0 (0 %)
@@ -20185,7 +18766,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -0.93; 0.4
 
 |Min. and max.           |     -1; 0.79
---------------------------------------
+
 
 
 \emini
@@ -20248,8 +18829,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -20597,7 +19178,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -20611,7 +19192,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.79
 
 |Min. and max.           |   -1; -0.14
--------------------------------------
+
 
 
 \emini
@@ -20675,8 +19256,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -20752,8 +19333,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21096,7 +19677,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
--------------------------------------
+
 |Feature                        Result
 ------------------------- -----------
 |Variable type           |     numeric
@@ -21110,7 +19691,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |1st and 3rd quartiles   |   -1; -0.91
 
 |Min. and max.           |   -1; -0.19
--------------------------------------
+
 
 
 \emini
@@ -21174,8 +19755,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21252,8 +19833,8 @@ ggAggHist(data = structure(list(xmin = c(-0.98, -0.96, -0.94,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21369,8 +19950,8 @@ ggAggHist(data = structure(list(xmin = c(-0.9, -0.8, -0.7, -0.6,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21406,8 +19987,8 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21444,8 +20025,8 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21482,8 +20063,8 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21558,8 +20139,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
@@ -21596,8 +20177,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 \bminione
 
 
-|Feature                          Result
-------------------------- -------------
+|Feature                 |        Result
+|:-----------------------|:-------------
 |Variable type           |       numeric
 
 |Number of missing obs.  |       0 (0 %)
