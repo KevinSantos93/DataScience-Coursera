@@ -14,11 +14,9 @@ The dataset examined has the following dimensions:
 
 # Codebook summary table
 
------------------------------------------------------------------------------------------------------------------
-Label   Variable                                                     Class       # unique  Missing  Description  
-                                                                                   values                        
-------- ------------------------------------------------------------ --------- ---------- --------- -------------
 
+|Label | Variable                                                    |Class    |  # unique|values  |Missing  |Description                                                                                                             
+|-----:|:-----------------------------------------------------------:|:-------:|:--------:|:------:|:-------:|:----
         **[subjects]**                                               integer           30  0.00 %                
 
         **[Activity]**                                               factor             6  0.00 %                
