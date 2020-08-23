@@ -2484,7 +2484,9 @@ The dataset examined has the following dimensions:
 
 ## TimeBodyGyroscope.arCoeff...Z.4
 
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.12
@@ -2672,30 +2674,11 @@ The dataset examined has the following dimensions:
 |Min. and max.           |    -0.99; 0.23
 
 
-
-\emini
-\bminitwo
-```{r 'Var-174-TimeBodyGyroscopeJerk-max---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-0L, 7L, 15L, 19L, 18L, 16L, 7L, 1L, 3L, 2L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeJerk.max...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.min...X
 
-\bminione
-
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.85
@@ -2703,29 +2686,13 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |     -0.07; 1
 
 
-
-\emini
-\bminitwo
-```{r 'Var-175-TimeBodyGyroscopeJerk-min---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3, 
-0.4, 0.5, 0.6, 0.7, 0.8, 0.9), xmax = c(0, 0.1, 0.2, 0.3, 0.4, 
-0.5, 0.6, 0.7, 0.8, 0.9, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 
-0, 0, 0), ymax = c(2L, 0L, 4L, 5L, 11L, 15L, 28L, 15L, 8L, 3L, 
-89L)), class = "data.frame", row.names = c(NA, -11L)), vnam = "TimeBodyGyroscopeJerk.min...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.min...Y
 
 \bminione
 
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.92
@@ -2733,29 +2700,11 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 |Min. and max.           |     -0.06; 1
 
 
-
-\emini
-\bminitwo
-```{r 'Var-176-TimeBodyGyroscopeJerk-min---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3, 
-0.4, 0.5, 0.6, 0.7, 0.8, 0.9), xmax = c(0, 0.1, 0.2, 0.3, 0.4, 
-0.5, 0.6, 0.7, 0.8, 0.9, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 
-0, 0, 0), ymax = c(1L, 1L, 1L, 3L, 3L, 7L, 13L, 21L, 23L, 17L, 
-90L)), class = "data.frame", row.names = c(NA, -11L)), vnam = "TimeBodyGyroscopeJerk.min...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.min...Z
 
-\bminione
-
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.91
@@ -2763,28 +2712,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, 0, 0.1, 0.2, 0.3,
 |Min. and max.           |      -0.1; 1
 
 
-
-\emini
-\bminitwo
-```{r 'Var-177-TimeBodyGyroscopeJerk-min---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1, 
-0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9), xmax = c(-0.1, 0, 0.1, 
-0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1), ymin = c(0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 0L, 1L, 2L, 3L, 3L, 
-17L, 19L, 23L, 17L, 4L, 90L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeJerk.min...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.sma..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -2796,28 +2724,7 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.1, 0, 0.1,
 |Min. and max.           |       -1; 0.07
 
 
-
-\emini
-\bminitwo
-```{r 'Var-178-TimeBodyGyroscopeJerk-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 7L, 20L, 24L, 
-18L, 12L, 3L, 3L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyGyroscopeJerk.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.energy...X
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -2829,27 +2736,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -1; -0.27
 
 
-
-\emini
-\bminitwo
-```{r 'Var-179-TimeBodyGyroscopeJerk-energy---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3), xmax = c(-0.9, -0.8, -0.7, -0.6, -0.5, 
--0.4, -0.3, -0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(109L, 
-42L, 17L, 9L, 0L, 2L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.energy...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.energy...Y
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -2861,27 +2748,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -1; -0.14
 
 
-
-\emini
-\bminitwo
-```{r 'Var-180-TimeBodyGyroscopeJerk-energy---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2), xmax = c(-0.9, -0.8, -0.7, -0.6, 
--0.5, -0.4, -0.3, -0.2, -0.1), ymin = c(0, 0, 0, 0, 0, 0, 0, 
-0, 0), ymax = c(139L, 25L, 7L, 5L, 1L, 0L, 2L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyGyroscopeJerk.energy...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.energy...Z
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -2893,27 +2760,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -1; -0.26
 
 
-
-\emini
-\bminitwo
-```{r 'Var-181-TimeBodyGyroscopeJerk-energy---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3), xmax = c(-0.9, -0.8, -0.7, -0.6, -0.5, 
--0.4, -0.3, -0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(113L, 
-36L, 18L, 8L, 1L, 1L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.energy...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.iqr...X
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -2925,28 +2772,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |       -1; 0.23
 
 
-
-\emini
-\bminitwo
-```{r 'Var-182-TimeBodyGyroscopeJerk-iqr---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-0L, 4L, 12L, 19L, 23L, 17L, 6L, 5L, 2L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeJerk.iqr...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.iqr...Y
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -2958,28 +2784,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |      -1; -0.01
 
 
-
-\emini
-\bminitwo
-```{r 'Var-183-TimeBodyGyroscopeJerk-iqr---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1), xmax = c(-0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(90L, 8L, 19L, 24L, 16L, 11L, 7L, 
-1L, 2L, 2L)), class = "data.frame", row.names = c(NA, -10L)), 
-    vnam = "TimeBodyGyroscopeJerk.iqr...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.iqr...Z
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -2991,28 +2796,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |      -1; 0.17
 
 
-
-\emini
-\bminitwo
-```{r 'Var-184-TimeBodyGyroscopeJerk-iqr---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999, 
-0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-0L, 4L, 19L, 23L, 21L, 15L, 4L, 1L, 2L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeJerk.iqr...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.entropy...X
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3024,27 +2808,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -0.77; 0.68
 
 
-
-\emini
-\bminitwo
-```{r 'Var-185-TimeBodyGyroscopeJerk-entropy---X', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 
-0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(26L, 39L, 16L, 
-9L, 0L, 2L, 63L, 25L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.entropy...X")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.entropy...Y
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3056,27 +2820,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 |Min. and max.           |   -0.77; 0.71
 
 
-
-\emini
-\bminitwo
-```{r 'Var-186-TimeBodyGyroscopeJerk-entropy---Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 
-0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(14L, 41L, 25L, 
-10L, 0L, 2L, 59L, 29L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.entropy...Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.entropy...Z
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3088,27 +2832,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 |Min. and max.           |   -0.72; 0.79
 
 
-
-\emini
-\bminitwo
-```{r 'Var-187-TimeBodyGyroscopeJerk-entropy---Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 
-0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(27L, 44L, 18L, 
-1L, 0L, 0L, 49L, 41L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.entropy...Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...X.1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3120,27 +2844,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 |Min. and max.           |   -0.43; 0.35
 
 
-
-\emini
-\bminitwo
-```{r 'Var-188-TimeBodyGyroscopeJerk-arCoeff---X-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3), xmax = c(-0.4, -0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 
-14L, 31L, 46L, 28L, 26L, 20L, 11L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...X.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...X.2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3152,30 +2856,11 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |Min. and max.           |   -0.19; 0.35
 
 
-
-\emini
-\bminitwo
-```{r 'Var-189-TimeBodyGyroscopeJerk-arCoeff---X-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), xmax = c(-0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), ymin = c(0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(6L, 9L, 23L, 22L, 29L, 24L, 
-36L, 19L, 7L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...X.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...X.3
 
-\bminione
-
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.16
@@ -3183,27 +2868,7 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 |Min. and max.           |   -0.1; 0.38
 
 
-
-\emini
-\bminitwo
-```{r 'Var-190-TimeBodyGyroscopeJerk-arCoeff---X-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05, 
-0.1, 0.15, 0.2, 0.25, 0.3, 0.35), xmax = c(-0.05, 0, 0.05, 0.1, 
-0.15, 0.2, 0.25, 0.3, 0.35, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 
-0, 0, 0, 0), ymax = c(2L, 8L, 15L, 30L, 28L, 35L, 27L, 22L, 7L, 
-6L)), class = "data.frame", row.names = c(NA, -10L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...X.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...X.4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3215,28 +2880,7 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.05, 0, 0.05,
 |Min. and max.           |   -0.17; 0.42
 
 
-
-\emini
-\bminitwo
-```{r 'Var-191-TimeBodyGyroscopeJerk-arCoeff---X-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05, 
-0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4), xmax = c(-0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45
-), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-0L, 2L, 8L, 11L, 24L, 25L, 44L, 30L, 21L, 11L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...X.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Y.1
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3248,29 +2892,11 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 |Min. and max.           |    -0.56; 0.17
 
 
-
-\emini
-\bminitwo
-```{r 'Var-192-TimeBodyGyroscopeJerk-arCoeff---Y-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1), xmax = c(-0.5, -0.4, -0.3, -0.2, -0.1, 0, 
-0.1, 0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 6L, 
-24L, 40L, 50L, 38L, 13L, 7L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Y.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Y.2
 
-\bminione
-
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |         0.21
@@ -3278,27 +2904,7 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 |Min. and max.           |      0; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-193-TimeBodyGyroscopeJerk-arCoeff---Y-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1, 
-0.15, 0.2, 0.25, 0.3, 0.35, 0.4), xmax = c(0, 0.05, 0.1, 0.15, 
-0.2, 0.25, 0.3, 0.35, 0.4, 0.45), ymin = c(0, 0, 0, 0, 0, 0, 
-0, 0, 0, 0), ymax = c(1L, 7L, 19L, 28L, 30L, 31L, 39L, 18L, 6L, 
-1L)), class = "data.frame", row.names = c(NA, -10L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Y.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Y.3
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3310,28 +2916,7 @@ ggAggHist(data = structure(list(xmin = c(-0.05, 0, 0.05, 0.1,
 |Min. and max.           |   -0.21; 0.35
 
 
-
-\emini
-\bminitwo
-```{r 'Var-194-TimeBodyGyroscopeJerk-arCoeff---Y-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), xmax = c(-0.2, 
--0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-    2L, 3L, 6L, 16L, 36L, 37L, 43L, 17L, 14L, 1L, 4L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Y.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Y.4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3343,27 +2928,7 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 |Min. and max.           |   -0.34; 0.44
 
 
-
-\emini
-\bminitwo
-```{r 'Var-195-TimeBodyGyroscopeJerk-arCoeff---Y-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3, 0.4, 0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-3L, 7L, 27L, 65L, 48L, 23L, 5L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Y.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Z.1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3375,28 +2940,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.61; 0.44
 
 
-
-\emini
-\bminitwo
-```{r 'Var-196-TimeBodyGyroscopeJerk-arCoeff---Z-1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.6, -0.5, 
--0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 3L, 14L, 22L, 
-30L, 10L, 16L, 18L, 24L, 21L, 17L, 3L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Z.1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Z.2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3408,28 +2952,7 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 |Min. and max.           |    -0.2; 0.38
 
 
-
-\emini
-\bminitwo
-```{r 'Var-197-TimeBodyGyroscopeJerk-arCoeff---Z-2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35), xmax = c(-0.2, 
--0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-5L, 30L, 28L, 14L, 9L, 10L, 13L, 23L, 24L, 13L, 8L, 2L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Z.2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Z.3
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3441,27 +2964,7 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 |Min. and max.           |   -0.34; 0.38
 
 
-
-\emini
-\bminitwo
-```{r 'Var-198-TimeBodyGyroscopeJerk-arCoeff---Z-3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 5L, 14L, 
-32L, 35L, 60L, 27L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Z.3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.arCoeff...Z.4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3473,27 +2976,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.42; 0.36
 
 
-
-\emini
-\bminitwo
-```{r 'Var-199-TimeBodyGyroscopeJerk-arCoeff---Z-4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3), xmax = c(-0.4, -0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-1L, 9L, 21L, 39L, 51L, 42L, 14L, 2L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyGyroscopeJerk.arCoeff...Z.4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.correlation...X.Y
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3505,28 +2988,7 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |Min. and max.           |   -0.37; 0.61
 
 
-
-\emini
-\bminitwo
-```{r 'Var-200-TimeBodyGyroscopeJerk-correlation---X-Y', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6), xmax = c(-0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7), ymin = c(0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(4L, 9L, 34L, 29L, 49L, 20L, 16L, 
-13L, 3L, 2L, 1L)), class = "data.frame", row.names = c(NA, -11L
-)), vnam = "TimeBodyGyroscopeJerk.correlation...X.Y")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.correlation...X.Z
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3538,29 +3000,11 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.35; 0.52
 
 
-
-\emini
-\bminitwo
-```{r 'Var-201-TimeBodyGyroscopeJerk-correlation---X-Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4, 0.5), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 
-0.2, 0.3, 0.4, 0.5, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 
-0), ymax = c(6L, 7L, 15L, 41L, 47L, 33L, 15L, 10L, 3L, 3L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeBodyGyroscopeJerk.correlation...X.Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerk.correlation...Y.Z
 
-\bminione
-
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |        -0.11
@@ -3568,27 +3012,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.5; 0.29
 
 
-
-\emini
-\bminitwo
-```{r 'Var-202-TimeBodyGyroscopeJerk-correlation---Y-Z', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2), xmax = c(-0.4, -0.3, -0.2, -0.1, 0, 0.1, 
-0.2, 0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 21L, 
-29L, 42L, 38L, 31L, 8L, 8L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeJerk.correlation...Y.Z")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.mean..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3599,29 +3023,9 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |1st and 3rd quartiles   |   -0.96; -0.09
 |Min. and max.           |    -0.99; 0.64
 
-
-
-\emini
-\bminitwo
-```{r 'Var-203-TimeBodyAccelerometerMagnitude-mean--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometerMagnitude.mean..")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeBodyAccelerometerMagnitude.std..
 
-\bminione
-
 |Feature                 |         Result
 |------------------------|:--------------
 |Variable type           |        numeric
@@ -3631,29 +3035,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |1st and 3rd quartiles   |   -0.94; -0.21
 |Min. and max.           |    -0.99; 0.43
 
-
-
-\emini
-\bminitwo
-```{r 'Var-204-TimeBodyAccelerometerMagnitude-std--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(88L, 2L, 
-12L, 34L, 21L, 13L, 8L, 2L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerMagnitude.std..")
-```
-
-\emini
-
-
-
-
-\fullline
 
 ## TimeBodyAccelerometerMagnitude.mad..
 
-\bminione
-
 |Feature                 |        Result
 |:-----------------------|:-------------
 |Variable type           |       numeric
@@ -3664,27 +3048,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.99; 0.27
 
 
-
-\emini
-\bminitwo
-```{r 'Var-205-TimeBodyAccelerometerMagnitude-mad--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 2L, 27L, 31L, 
-    19L, 8L, 4L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyAccelerometerMagnitude.mad..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.max..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3696,27 +3060,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -0.98; 0.5
 
 
-
-\emini
-\bminitwo
-```{r 'Var-206-TimeBodyAccelerometerMagnitude-max--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-5L, 28L, 24L, 22L, 9L, 2L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerMagnitude.max..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.min..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3728,28 +3072,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; -0.5
 
 
-
-\emini
-\bminitwo
-```{r 'Var-207-TimeBodyAccelerometerMagnitude-min--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65, -0.6, -0.55), xmax = c(-0.95, -0.9, 
--0.85, -0.8, -0.75, -0.7, -0.65, -0.6, -0.55, -0.5), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(88L, 1L, 0L, 0L, 9L, 20L, 
-24L, 18L, 18L, 2L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeBodyAccelerometerMagnitude.min..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.sma..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3761,27 +3084,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |Min. and max.           |    -0.99; 0.64
 
 
-
-\emini
-\bminitwo
-```{r 'Var-208-TimeBodyAccelerometerMagnitude-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometerMagnitude.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.energy..
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -3793,27 +3096,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -1; 0.4
 
 
-
-\emini
-\bminitwo
-```{r 'Var-209-TimeBodyAccelerometerMagnitude-energy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(91L, 36L, 29L, 15L, 
-    8L, 0L, 1L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyAccelerometerMagnitude.energy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.iqr..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -3825,28 +3108,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; 0.12
 
 
-
-\emini
-\bminitwo
-```{r 'Var-210-TimeBodyAccelerometerMagnitude-iqr--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999, 
-0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(85L, 
-4L, 0L, 7L, 20L, 22L, 20L, 7L, 8L, 5L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyAccelerometerMagnitude.iqr..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.entropy..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3858,27 +3120,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -0.75; 0.91
 
 
-
-\emini
-\bminitwo
-```{r 'Var-211-TimeBodyAccelerometerMagnitude-entropy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(12L, 
-40L, 31L, 6L, 1L, 0L, 0L, 36L, 54L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometerMagnitude.entropy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.arCoeff..1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3890,27 +3132,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 |Min. and max.           |   -0.57; 0.28
 
 
-
-\emini
-\bminitwo
-```{r 'Var-212-TimeBodyAccelerometerMagnitude-arCoeff--1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.5, -0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(5L, 
-13L, 17L, 14L, 20L, 42L, 35L, 25L, 9L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometerMagnitude.arCoeff..1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.arCoeff..2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3922,27 +3144,7 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 |Min. and max.           |   -0.24; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-213-TimeBodyAccelerometerMagnitude-arCoeff--2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), xmax = c(-0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 
-0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 34L, 49L, 
-36L, 24L, 19L, 11L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerMagnitude.arCoeff..2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.arCoeff..3
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3954,28 +3156,7 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 |Min. and max.           |   -0.24; 0.28
 
 
-
-\emini
-\bminitwo
-```{r 'Var-214-TimeBodyAccelerometerMagnitude-arCoeff--3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25), xmax = c(-0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(6L, 10L, 14L, 16L, 17L, 
-15L, 26L, 29L, 28L, 17L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyAccelerometerMagnitude.arCoeff..3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerMagnitude.arCoeff..4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -3987,27 +3168,7 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 |Min. and max.           |    -0.36; 0.3
 
 
-
-\emini
-\bminitwo
-```{r 'Var-215-TimeBodyAccelerometerMagnitude-arCoeff--4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 24L, 49L, 
-43L, 24L, 31L, 5L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerMagnitude.arCoeff..4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.mean..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4019,27 +3180,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |    -0.99; 0.64
 
 
-
-\emini
-\bminitwo
-```{r 'Var-216-TimeGravityAccelerometerMagnitude-mean--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometerMagnitude.mean..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.std..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4051,27 +3192,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-217-TimeGravityAccelerometerMagnitude-std--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(88L, 2L, 
-12L, 34L, 21L, 13L, 8L, 2L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometerMagnitude.std..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.mad..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4083,27 +3204,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.99; 0.27
 
 
-
-\emini
-\bminitwo
-```{r 'Var-218-TimeGravityAccelerometerMagnitude-mad--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 2L, 27L, 31L, 
-    19L, 8L, 4L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeGravityAccelerometerMagnitude.mad..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.max..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4115,27 +3216,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -0.98; 0.5
 
 
-
-\emini
-\bminitwo
-```{r 'Var-219-TimeGravityAccelerometerMagnitude-max--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-5L, 28L, 24L, 22L, 9L, 2L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometerMagnitude.max..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.min..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4147,28 +3228,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; -0.5
 
 
-
-\emini
-\bminitwo
-```{r 'Var-220-TimeGravityAccelerometerMagnitude-min--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85, 
--0.8, -0.75, -0.7, -0.65, -0.6, -0.55), xmax = c(-0.95, -0.9, 
--0.85, -0.8, -0.75, -0.7, -0.65, -0.6, -0.55, -0.5), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(88L, 1L, 0L, 0L, 9L, 20L, 
-24L, 18L, 18L, 2L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeGravityAccelerometerMagnitude.min..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.sma..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4180,27 +3240,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 |Min. and max.           |    -0.99; 0.64
 
 
-
-\emini
-\bminitwo
-```{r 'Var-221-TimeGravityAccelerometerMagnitude-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometerMagnitude.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.energy..
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -4212,27 +3252,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -1; 0.4
 
 
-
-\emini
-\bminitwo
-```{r 'Var-222-TimeGravityAccelerometerMagnitude-energy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(91L, 36L, 29L, 15L, 
-    8L, 0L, 1L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeGravityAccelerometerMagnitude.energy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.iqr..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4244,28 +3264,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; 0.12
 
 
-
-\emini
-\bminitwo
-```{r 'Var-223-TimeGravityAccelerometerMagnitude-iqr--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999, 
-0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(85L, 
-4L, 0L, 7L, 20L, 22L, 20L, 7L, 8L, 5L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeGravityAccelerometerMagnitude.iqr..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.entropy..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4277,27 +3276,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -0.75; 0.91
 
 
-
-\emini
-\bminitwo
-```{r 'Var-224-TimeGravityAccelerometerMagnitude-entropy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(12L, 
-40L, 31L, 6L, 1L, 0L, 0L, 36L, 54L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometerMagnitude.entropy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.arCoeff..1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4309,27 +3288,7 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 |Min. and max.           |   -0.57; 0.28
 
 
-
-\emini
-\bminitwo
-```{r 'Var-225-TimeGravityAccelerometerMagnitude-arCoeff--1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.5, -0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(5L, 
-13L, 17L, 14L, 20L, 42L, 35L, 25L, 9L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeGravityAccelerometerMagnitude.arCoeff..1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.arCoeff..2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4341,27 +3300,7 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 |Min. and max.           |   -0.24; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-226-TimeGravityAccelerometerMagnitude-arCoeff--2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), xmax = c(-0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 
-0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 34L, 49L, 
-36L, 24L, 19L, 11L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometerMagnitude.arCoeff..2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.arCoeff..3
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4373,28 +3312,7 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 |Min. and max.           |   -0.24; 0.28
 
 
-
-\emini
-\bminitwo
-```{r 'Var-227-TimeGravityAccelerometerMagnitude-arCoeff--3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25), xmax = c(-0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(6L, 10L, 14L, 16L, 17L, 
-15L, 26L, 29L, 28L, 17L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeGravityAccelerometerMagnitude.arCoeff..3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeGravityAccelerometerMagnitude.arCoeff..4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4406,27 +3324,7 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 |Min. and max.           |    -0.36; 0.3
 
 
-
-\emini
-\bminitwo
-```{r 'Var-228-TimeGravityAccelerometerMagnitude-arCoeff--4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 24L, 49L, 
-43L, 24L, 31L, 5L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeGravityAccelerometerMagnitude.arCoeff..4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.mean..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4438,27 +3336,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |    -0.99; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-229-TimeBodyAccelerometerJerkMagnitude-mean--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 
-17L, 33L, 29L, 7L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.mean..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.std..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4470,27 +3348,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.99; 0.45
 
 
-
-\emini
-\bminitwo
-```{r 'Var-230-TimeBodyAccelerometerJerkMagnitude-std--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 
-20L, 26L, 26L, 12L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.std..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.mad..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4502,27 +3360,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -0.99; 0.4
 
 
-
-\emini
-\bminitwo
-```{r 'Var-231-TimeBodyAccelerometerJerkMagnitude-mad--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 
-23L, 24L, 27L, 11L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.mad..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.max..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4534,27 +3372,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.99; 0.35
 
 
-
-\emini
-\bminitwo
-```{r 'Var-232-TimeBodyAccelerometerJerkMagnitude-max--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 22L, 23L, 
-    30L, 12L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyAccelerometerJerkMagnitude.max..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.min..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4566,27 +3384,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.99; -0.15
 
 
-
-\emini
-\bminitwo
-```{r 'Var-233-TimeBodyAccelerometerJerkMagnitude-min--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2), xmax = c(-0.9, -0.8, -0.7, -0.6, 
--0.5, -0.4, -0.3, -0.2, -0.1), ymin = c(0, 0, 0, 0, 0, 0, 0, 
-0, 0), ymax = c(90L, 0L, 6L, 27L, 33L, 17L, 4L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyAccelerometerJerkMagnitude.min..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.sma..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4598,27 +3396,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |    -0.99; 0.43
 
 
-
-\emini
-\bminitwo
-```{r 'Var-234-TimeBodyAccelerometerJerkMagnitude-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 
-17L, 33L, 29L, 7L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.energy..
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -4630,28 +3408,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -1; 0.09
 
 
-
-\emini
-\bminitwo
-```{r 'Var-235-TimeBodyAccelerometerJerkMagnitude-energy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(93L, 18L, 20L, 20L, 18L, 
-4L, 4L, 1L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyAccelerometerJerkMagnitude.energy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.iqr..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4663,28 +3420,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |    -0.99; 0.24
 
 
-
-\emini
-\bminitwo
-```{r 'Var-236-TimeBodyAccelerometerJerkMagnitude-iqr--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-0L, 1L, 6L, 14L, 18L, 15L, 13L, 13L, 7L, 2L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyAccelerometerJerkMagnitude.iqr..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.entropy..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4696,27 +3432,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |    -0.88; 0.9
 
 
-
-\emini
-\bminitwo
-```{r 'Var-237-TimeBodyAccelerometerJerkMagnitude-entropy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 
-0), ymax = c(17L, 57L, 16L, 0L, 0L, 0L, 1L, 9L, 66L, 14L)), class = "data.frame", row.names = c(NA, 
--10L)), vnam = "TimeBodyAccelerometerJerkMagnitude.entropy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.arCoeff..1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4728,27 +3444,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.37; 0.34
 
 
-
-\emini
-\bminitwo
-```{r 'Var-238-TimeBodyAccelerometerJerkMagnitude-arCoeff--1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(4L, 9L, 28L, 
-33L, 16L, 31L, 55L, 4L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.arCoeff..1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.arCoeff..2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4760,27 +3456,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.29; 0.42
 
 
-
-\emini
-\bminitwo
-```{r 'Var-239-TimeBodyAccelerometerJerkMagnitude-arCoeff--2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0, 
-0.1, 0.2, 0.3, 0.4), xmax = c(-0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 
-0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(20L, 56L, 25L, 
-28L, 23L, 22L, 5L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.arCoeff..2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.arCoeff..3
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4792,29 +3468,7 @@ ggAggHist(data = structure(list(xmin = c(-0.3, -0.2, -0.1, 0,
 |Min. and max.           |    -0.49; 0.14
 
 
-
-\emini
-\bminitwo
-```{r 'Var-240-TimeBodyAccelerometerJerkMagnitude-arCoeff--3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35, 
--0.3, -0.25, -0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1), xmax = c(-0.45, 
--0.4, -0.35, -0.3, -0.25, -0.2, -0.15, -0.1, -0.05, 0, 0.05, 
-0.1, 0.15), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), 
-    ymax = c(1L, 0L, 2L, 1L, 3L, 15L, 18L, 35L, 46L, 37L, 13L, 
-    4L, 5L)), class = "data.frame", row.names = c(NA, -13L)), 
-    vnam = "TimeBodyAccelerometerJerkMagnitude.arCoeff..3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyAccelerometerJerkMagnitude.arCoeff..4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -4826,27 +3480,7 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.45, -0.4, -0.35,
 |Min. and max.           |   -0.39; 0.38
 
 
-
-\emini
-\bminitwo
-```{r 'Var-241-TimeBodyAccelerometerJerkMagnitude-arCoeff--4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 4L, 50L, 
-64L, 35L, 18L, 4L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyAccelerometerJerkMagnitude.arCoeff..4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.mean..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4858,27 +3492,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |    -0.98; 0.42
 
 
-
-\emini
-\bminitwo
-```{r 'Var-242-TimeBodyGyroscopeMagnitude-mean--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 
-7L, 42L, 28L, 11L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeMagnitude.mean..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.std..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4890,27 +3504,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -0.98; 0.3
 
 
-
-\emini
-\bminitwo
-```{r 'Var-243-TimeBodyGyroscopeMagnitude-std--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 32L, 38L, 
-    14L, 2L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyGyroscopeMagnitude.std..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.mad..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4922,27 +3516,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.98; 0.38
 
 
-
-\emini
-\bminitwo
-```{r 'Var-244-TimeBodyGyroscopeMagnitude-mad--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 21L, 36L, 
-    22L, 8L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyGyroscopeMagnitude.mad..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.max..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4954,28 +3528,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |    -0.98; 0.22
 
 
-
-\emini
-\bminitwo
-```{r 'Var-245-TimeBodyGyroscopeMagnitude-max--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(85L, 
-5L, 0L, 4L, 21L, 22L, 22L, 10L, 4L, 3L, 1L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeMagnitude.max..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.min..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -4987,28 +3540,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |   -0.99; -0.03
 
 
-
-\emini
-\bminitwo
-```{r 'Var-246-TimeBodyGyroscopeMagnitude-min--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1), xmax = c(-0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(86L, 3L, 1L, 14L, 20L, 25L, 25L, 
-2L, 2L, 2L)), class = "data.frame", row.names = c(NA, -10L)), 
-    vnam = "TimeBodyGyroscopeMagnitude.min..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.sma..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -5020,27 +3552,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |    -0.98; 0.42
 
 
-
-\emini
-\bminitwo
-```{r 'Var-247-TimeBodyGyroscopeMagnitude-sma--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 
-7L, 42L, 28L, 11L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeMagnitude.sma..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.energy..
-
-\bminione
 
 |Feature                 |      Result
 |:-----------------------|:-----------
@@ -5052,28 +3564,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |     -1; 0.1
 
 
-
-\emini
-\bminitwo
-```{r 'Var-248-TimeBodyGyroscopeMagnitude-energy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 10L, 28L, 22L, 15L, 
-5L, 7L, 1L, 0L, 0L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyGyroscopeMagnitude.energy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.iqr..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -5085,27 +3576,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |    -0.98; 0.35
 
 
-
-\emini
-\bminitwo
-```{r 'Var-249-TimeBodyGyroscopeMagnitude-iqr--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 25L, 43L, 
-    18L, 1L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "TimeBodyGyroscopeMagnitude.iqr..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.entropy..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -5117,27 +3588,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 |Min. and max.           |   -0.51; 0.91
 
 
-
-\emini
-\bminitwo
-```{r 'Var-250-TimeBodyGyroscopeMagnitude-entropy--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 18L, 31L, 
-40L, 20L, 24L, 31L, 15L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeMagnitude.entropy..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.arCoeff..1
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -5149,28 +3600,7 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 |Min. and max.           |   -0.62; 0.44
 
 
-
-\emini
-\bminitwo
-```{r 'Var-251-TimeBodyGyroscopeMagnitude-arCoeff--1', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.6, -0.5, 
--0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 1L, 4L, 5L, 14L, 
-37L, 40L, 37L, 15L, 19L, 5L, 2L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeMagnitude.arCoeff..1")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.arCoeff..2
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -5182,28 +3612,7 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 |Min. and max.           |   -0.45; 0.52
 
 
-
-\emini
-\bminitwo
-```{r 'Var-252-TimeBodyGyroscopeMagnitude-arCoeff--2', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), xmax = c(-0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 13L, 20L, 43L, 46L, 37L, 10L, 
-6L, 3L, 0L, 1L)), class = "data.frame", row.names = c(NA, -11L
-)), vnam = "TimeBodyGyroscopeMagnitude.arCoeff..2")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.arCoeff..3
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -5215,27 +3624,7 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 |Min. and max.           |   -0.34; 0.42
 
 
-
-\emini
-\bminitwo
-```{r 'Var-253-TimeBodyGyroscopeMagnitude-arCoeff--3', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3, 0.4, 0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-2L, 7L, 19L, 48L, 68L, 25L, 9L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "TimeBodyGyroscopeMagnitude.arCoeff..3")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeMagnitude.arCoeff..4
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -5247,27 +3636,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |   -0.36; 0.32
 
 
-
-\emini
-\bminitwo
-```{r 'Var-254-TimeBodyGyroscopeMagnitude-arCoeff--4', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 
-0.4), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 15L, 41L, 
-72L, 33L, 13L, 2L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "TimeBodyGyroscopeMagnitude.arCoeff..4")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerkMagnitude.mean..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -5279,28 +3648,7 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 |Min. and max.           |       -1; 0.09
 
 
-
-\emini
-\bminitwo
-```{r 'Var-255-TimeBodyGyroscopeJerkMagnitude-mean--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 6L, 19L, 26L, 
-16L, 12L, 4L, 3L, 2L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "TimeBodyGyroscopeJerkMagnitude.mean..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerkMagnitude.std..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -5312,28 +3660,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |       -1; 0.25
 
 
-
-\emini
-\bminitwo
-```{r 'Var-256-TimeBodyGyroscopeJerkMagnitude-std--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-3L, 15L, 20L, 21L, 14L, 5L, 5L, 3L, 2L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "TimeBodyGyroscopeJerkMagnitude.std..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerkMagnitude.mad..
-
-\bminione
 
 |Feature                 |         Result
 |------------------------|:--------------
@@ -5345,28 +3672,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 |Min. and max.           |       -1; 0.11
 
 
-
-\emini
-\bminitwo
-```{r 'Var-257-TimeBodyGyroscopeJerkMagnitude-mad--', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.0999999999999999, 
-0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 
-4L, 17L, 22L, 22L, 10L, 7L, 4L, 1L, 2L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--12L)), vnam = "TimeBodyGyroscopeJerkMagnitude.mad..")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## TimeBodyGyroscopeJerkMagnitude.max..
-
-\bminione
 
 |Feature                 |        Result
 |:-----------------------|:-------------
@@ -11711,7 +10017,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 \bminione
 
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |        -0.12
@@ -14040,7 +12348,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 \bminione
 
-|Feature                 |        Result|:-----------------------|:-------------|Variable type           |      numeric
+|Feature                 |       Result
+|:-----------------------|:------------
+|Variable type           |      numeric
 |Number of missing obs.  |      0 (0 %)
 |Number of unique values |          180
 |Median                  |        -0.42
