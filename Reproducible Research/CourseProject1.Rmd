@@ -2,7 +2,9 @@
 title: "Activity Monitoring"
 author: "Kevin Serrano"
 date: "8/10/2020"
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ### Loading and preprocessing the data
